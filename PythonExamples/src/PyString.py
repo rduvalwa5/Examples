@@ -34,6 +34,9 @@ class py_string:
     
     def stringJoin(self,itr,seq): #list
         return itr.join(seq)
+    
+    def stringReplace(self,text,original,replacement,maxreplace=1):
+        return text.replace(original,replacement,maxreplace)
 
 '''
 s = "This is a string of words. It has punctuation! Does't it? But \"not this\"."
@@ -89,5 +92,6 @@ if __name__ == '__main__':
     seq = ("one","two","three","four")
     print("Join ", s2.stringJoin(separator,seq))
     
-    
-        
+    stringR = "one two three four five two.  Six seven eight two?"
+    print(s2.stringReplace(stringR,"two","twelve"))
+    print(s2.stringReplace(stringR,"two","twelve",2))        
