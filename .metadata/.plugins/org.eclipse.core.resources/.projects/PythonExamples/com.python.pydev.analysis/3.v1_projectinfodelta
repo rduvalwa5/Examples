@@ -1,0 +1,10 @@
+INSTUPtest_arr_array
+/Users/rduvalwa2/DevTools/eclipse-luna/workspace/OReilly_Python/Examples/PythonExamples/src/test_arr_array.py
+INFOS:&&1|1|2|0&&2|3|2|1&&2|4|2|1&&2|5|2|1&&2|6|2|1&&2|7|2|1
+test_number_of_elements=7
+TestArray=1
+_index=5
+test_zeroes=3
+test_key_validity=6
+test_arr_array=2
+test_identity=4

@@ -1,0 +1,35 @@
+'''
+Created on Mar 24, 2015
+@author: rduvalwa2
+https://docs.python.org/3/library/string.html?highlight=string#module-string
+https://docs.python.org/3/library/stdtypes.html#string-methods
+'''
+def reverse(text):
+    if len(text) <= 1:
+        return text
+    return reverse(text[1:]) + text[0]    
+
+
+s = "This is a string of words. It has punctuation! Does't it? But \"not this\"."
+s1 = "1234567890ABcdefG{};:"
+print(s)
+print(s[0])
+print(s[3:15])
+
+for a in s:
+    if a in {".","?","!","'","\""}:
+            print(a)
+
+print(s.upper())
+print(s.lower())
+print(s.capitalize())
+print(s.count("i"))
+print(s.count("i",20,-1))
+print(s + s1)
+'''
+This is how to reverse a string
+http://stackoverflow.com/questions/18686860/reverse-a-string-in-python-without-using-reversed-or-1
+'''
+print("s[::-1]" ,s[::-1])
+    
+print("reverse(s)",reverse(s))
