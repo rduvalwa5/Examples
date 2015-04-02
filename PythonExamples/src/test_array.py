@@ -54,16 +54,16 @@ class test_arrays(unittest.TestCase):
         print("Array is ",theArray)
         for member in theArray:
             self.assertTrue(isinstance(member, int))  
-                     
+                        
     def test_array_UnsignedLong(self):
         aType = 'L'
-        l_List = (1000000000001,200000000000001,3000000000000001,40000000000000001,5000000000000000001)
+        l_List = (1,5000000000000000001)
         aa = arrayTypes()
         theArray = aa.createFreeArray(aType,l_List)
         print("Array is ",theArray)
         for member in theArray:
             self.assertTrue(isinstance(member, int)) 
- 
+    
     def test_array_Float(self):
         aType = 'f'
         l_List = (0.1000000000001,0.200000000000001)
