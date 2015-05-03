@@ -1,0 +1,34 @@
+
+
+
+
+From OReilly Beginning Python 
+
+#!/usr/local/bin/python3
+"""Number manipulation presentation."""
+
+def commafy(val):
+   if len(val) < 4:  #length does not require a comma
+       return val
+   out = []             # note that nothing else is done unless required saves on memory and processing
+   while  val:
+       out.append(val[:-3]) #break value up into 3 character chunks starting from the back to front
+       val = val[:-3] # move pointer to next three characctes
+   return ",".join(reversed(out)) #insert the coma
+   
+# val = input("Number: ")
+# print(commafy(val))
+def commareal(val):
+	  if "." in val:
+	        before, after = val.split(".", 1)
+	  else:
+	      before, after = val, "0"
+	  return "{0}.{1}".format(commafy(before), after)
+	  
+#Testing code only... this treats the module as a main and then executes
+if __name__ == "__main__": # two under scores
+	   for i in [.01, .1, 0, 1, 12, 123, 1234, 12345, 123456, 1234567, 12345678, 123456789, 1234567890]:
+	       print(i, ":", commafy(str(i)), ":" , commareal("{0:2f}".format(i/1000)))
+	       
+""" Summary this lesson code was to demonstrate how to build test into code """	
+
