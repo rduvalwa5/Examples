@@ -1,0 +1,101 @@
+Py_Array_Notes.txt
+class array.array(typecode[, initializer])
+A new array whose items are restricted by typecode, and initialized from the optional initializer value, 
+which must be a list, a bytes-like object, or iterable over elements of the appropriate type.
+
+If given a list or string, the initializer is passed to the new array’s fromlist(), frombytes(), or 
+fromunicode() method (see below) to add initial items to the array. Otherwise, the iterable initializer 
+is passed to the extend() method.
+
+Array.append()***********
+	>>> ar = [1,2,3]
+	>>> ar
+	[1, 2, 3]
+	>>> br = [4,5,6]
+	>>> br 
+	[4, 5, 6]
+	>>> ar.append(10)
+	>>> ar
+	[1, 2, 3, 10]
+	>>> ar.append(br)
+	>>> ar
+	[1, 2, 3, 10, [4, 5, 6]]
+	>>> for i in br:
+	...    ar.append(i)
+	... 
+	>>> ar
+	[1, 2, 3, 10, [4, 5, 6], 4, 5, 6]
+
+Array.remove()**************
+	>>> ar
+	[1, 2, 3, 10, [4, 5, 6], 4, 5, 6]
+	>>> ar.remove(br)
+	>>> ar
+	[1, 2, 3, 10, 4, 5, 6]
+	>>> ar.append({3.4})
+	>>> ar
+	[1, 2, 3, 10, 4, 5, 6, {3.4}]
+	>>> ar.remove(3)
+	>>> ar
+	[1, 2, 10, 4, 5, 6, {3.4}]
+	>>> ar.append(3)
+	>>> ar.append(3)
+	>>> ar.append(3)
+	>>> ar
+	[1, 2, 10, 4, 5, 6, {3.4}, 3, 3, 3]
+	>>> ar.remove(3)
+	>>> ar
+	[1, 2, 10, 4, 5, 6, {3.4}, 3, 3] 
+
+
+array.pop()********************
+	>>> ar
+	[1, 2, 10, 4, 5, 6, {3.4}, 3, 3]
+	>>> ar.pop(6)
+	{3.4}
+	>>> ar
+	[1, 2, 10, 4, 5, 6, 3, 3]
+	>>> 
+
+array.insert(index,item)**********
+	>>> ar
+	[1, 2, 10, 4, 5, 6, 3, 3]
+	>>> ar.insert(-1,'a')
+	>>> ar
+	[1, 2, 10, 4, 5, 6, 3, 'a', 3]
+	>>> ar.insert(1,'b')
+	>>> ar
+	[1, 'b', 2, 10, 4, 5, 6, 3, 'a', 3]
+	>>> ar.insert(0,'c')
+	>>> ar
+	['c', 1, 'b', 2, 10, 4, 5, 6, 3, 'a', 3]
+	>>> ar.insert(-0,'d')
+	>>> ar
+	['d', 'c', 1, 'b', 2, 10, 4, 5, 6, 3, 'a', 3]
+
+array.fromlist(list)******************	
+	>>> lst = ['z','x','y']
+	>>> my_ar = array('u',[])
+	>>> my_ar
+	array('u')
+	>>> my_ar.fromlist(lst)
+	>>> my_ar
+	array('u', 'zxy')
+	>>> st = 'abcde'
+	>>> my_ar.fromstring(st)
+	Traceback (most recent call last):
+	File "<stdin>", line 1, in <module>
+	ValueError: string length not a multiple of item size
+	
+array.fromunicode()*******************	
+	>>> my_ar.fromunicode(st)
+	>>> my_ar
+	array('u', 'zxyabcde')
+	>>> my_ar.append("lmnop")
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	TypeError: array item must be unicode character
+	>>> my_ar.append("l")
+	>>> my_ar
+	array('u', 'zxyabcdel')
+	

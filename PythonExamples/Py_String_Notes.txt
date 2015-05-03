@@ -1,0 +1,172 @@
+Python API
+https://docs.python.org/3/library/
+https://docs.python.org/3/library/stdtypes.html#string-methods
+
+Strings 
+	A) Reverse a String is simple, string[::-1] is all it takes.
+	>>> forward = "my string"
+	>>> reverse = forward[::-1]
+	>>> print(forward , reverse)
+	my string gnirts ym
+	
+	B) Method examples
+capitalize()************	
+	>>> print(forward.capitalize())
+		My string
+casefold()**************	
+	>>> print("My String".casefold())
+	my string
+
+center()****************
+	>>> 'one'.center(10,'^')
+	'^^^one^^^^'
+
+count()*****************
+	>>> 'two tweets will bring tweedy'.count('tw')
+	3
+	>>> 'two tweets will bring tweedy'.count('tw',4)
+	2
+	>>> 'two tweets will bring tweedy'.count('tw',3,8)
+	1
+
+encode()*****************
+	str.encode(encoding="utf-8", errors="strict")
+	https://docs.python.org/3/library/codecs.html#standard-encodings
+
+parttion()**************
+	>>> 'one two three four'.partition('two')
+	('one ', 'two', ' three four')
+	>>> 'one two three four'.partition('tw')
+	('one ', 'tw', 'o three four')
+
+replace()***************
+	>>> 'one two three four'.replace('e','x')
+	'onx two thrxx four'
+	>>> 'one two three four'.replace('e','x',1)
+	'onx two three four'
+	>>> 'one two three four'.replace('z','x')
+	'one two three four'
+
+rindex()****************
+	>>> 'one two three four'.rindex('th')
+	8
+	>>> 'one two three four'.rindex(' th')
+	7
+	>>> 'one two three four'.rindex(' x')
+	Traceback (most recent call last):
+  	File "<stdin>", line 1, in <module>
+	ValueError: substring not found
+
+rfind()*****************
+	>>> 'one two three four'.rfind(' th')
+	7
+	>>> 'one two three four'.rfind(' xx')
+	-1
+	>>> 'one two three four'.rfind(' xx',5)
+	-1
+	>>> 'one two three four'.rfind('th',5)
+	8
+	>>> 'one two three four'.rfind('th',9)
+	-1
+
+rjust()*****************
+	>>> '1234.5'.rjust(10)
+	'    1234.5'
+	>>> 'one'.rjust(10)
+	'       one'
+	
+rpartition() ***********
+	>>> 'one two three four'.rpartition(' ')
+	('one two three', ' ', 'four')
+	>>> 'one two three four'.rpartition('x')
+	('', '', 'one two three four')
+	>>> 'one two three four'.rpartition('two')
+	('one ', 'two', ' three four')
+	>>> 'one two three four'.rpartition('t')
+	('one two ', 't', 'hree four')
+	>>> 'one two three four'.rpartition('o')
+	('one two three f', 'o', 'ur')
+	>>> 'one two three four'.rpartition('n')
+	('o', 'n', 'e two three four')
+rsplit()****************	
+	>>> 'one two three four'.rsplit()
+	['one', 'two', 'three', 'four']
+	>>> 'one two three four'.rsplit(' ')
+	['one', 'two', 'three', 'four']
+	>>> 'one two three four'.rsplit('e')
+	['on', ' two thr', '', ' four']
+	>>> 'one two three four'.rsplit('e',2)
+	['one two thr', '', ' four']
+	>>> 'one two three four'.rsplit('e',-1)
+	['on', ' two thr', '', ' four']
+	>>> 'one two three four'.rsplit('e',0)
+	['one two three four']
+	>>> 'one two three four'.rsplit('e',1)
+	['one two thre', ' four']
+rstrip()*****************	
+	>>> '  one two three four   '.rstrip()
+	'  one two three four'
+	>>> '  one two three four'.rstrip('our')
+	'  one two three f'
+split()******************	
+	>>> 'one two three four'.split()
+	['one', 'two', 'three', 'four']
+	>>> 'one,two,three.four'.split(',')
+	['one', 'two', 'three.four']
+	>>> 'one,two,three.four'.split('.')
+	['one,two,three', 'four']
+splitlines()*************	
+	>>> 'One Two\nThree 4'.splitlines()
+	['One Two', 'Three 4']
+startswith()*************
+	>>> 'my string'.startswith('m')
+	True
+	>>> 'my string'.startswith('z')
+	False
+	>>> 'my string'.startswith(('m','z'))
+	True
+	>>> 'my string'.startswith('s',3)
+	True
+	>>> 'my string'.startswith('s',4)
+	False
+	>>> 'my string'.startswith('str',4)
+	False
+	>>> 'my string'.startswith('str',3,6)
+	True
+	>>> 'my string'.startswith('str',3,7)
+	True
+	>>> 'my string'.startswith('y str',2)
+	False
+	>>> 'my string'.startswith('y str',1)
+	True
+	>>> 'my string'.startswith('y str',1,7)
+	True
+	>>> 'my string'.startswith('y str',1,8)
+	True
+
+
+
+
+	>>> '   spacious   '.strip()
+	'spacious'
+	>>> 'www.example.com'.strip('cmowz.')
+	'example'
+	
+	>>> print("War Of Words".swapcase())
+	wAR oF wORDS
+
+	>>> print("War of words".title())
+	War Of Words
+
+****str.translate(map)
+  	
+	>>> print("my string".upper())
+	MY STRING
+
+
+
+
+	>>> print("+100".zfill(10))
+	+000000100
+	>>> print("100".zfill(10))
+	0000000100
