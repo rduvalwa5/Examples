@@ -1,0 +1,12 @@
+Python API
+https://docs.python.org/3/library/
+
+Strings 
+	A) Reverse a String is simple, string[::-1] is all it takes.
+	>>> forward = "my string"
+	>>> reverse = forward[::-1]
+	>>> print(forward , reverse)
+	my string gnirts ym
+	
+	
+

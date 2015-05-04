@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Python_UnitTEst&apos; to &apos;Python_UnitTest&apos;" description="Rename resource &apos;Python_UnitTEst&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Python_UnitTEst" name="Python_UnitTest" stamp="1430639097712" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;testgit&apos;" deleteContents="true" description="Delete resource &apos;testgit&apos;" element1="/testgit" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1430676841124"/>
+</session>

@@ -1,13 +1,83 @@
 -- VERSION_4
 -- START DISKCACHE
 /Users/rduvalwa2/DevTools/eclipse-luna/workspace/OReilly_Python/Examples/.metadata/.plugins/org.eclipse.core.resources/.projects/PythonExamples/com.python.pydev.analysis/v2_indexcache
+PyString|1430628115000|/Users/rduvalwa2/DevTools/eclipse-luna/workspace/OReilly_Python/Examples/PythonExamples/src/PyString.py
+array_examples|1427997355000|/Users/rduvalwa2/DevTools/eclipse-luna/workspace/OReilly_Python/Examples/PythonExamples/src/array_examples.py
+list_examples|1428129172000|/Users/rduvalwa2/DevTools/eclipse-luna/workspace/OReilly_Python/Examples/PythonExamples/src/list_examples.py
+test_array|1427997702000|/Users/rduvalwa2/DevTools/eclipse-luna/workspace/OReilly_Python/Examples/PythonExamples/src/test_array.py
+arr_array|1427422513000|/Users/rduvalwa2/DevTools/eclipse-luna/workspace/OReilly_Python/Examples/PythonExamples/src/arr_array.py
+test_arr_array|1427422513000|/Users/rduvalwa2/DevTools/eclipse-luna/workspace/OReilly_Python/Examples/PythonExamples/src/test_arr_array.py
+test_PyString|1427440955000|/Users/rduvalwa2/DevTools/eclipse-luna/workspace/OReilly_Python/Examples/PythonExamples/src/test_PyString.py
 -- END DISKCACHE
 -- START DICTIONARY
-0
+16
+13=arrayTypes
+3=list_examples
+9=py_string
+5=test_array
+6=test_arr_array
+7=test_PyString
+4=PyString
+2=array_examples
+10=array.__init__
+14=listExample
+12=TestArray
+8=array
+15=Test_PyrString
+16=test_arrays
+1=arr_array
+11=py_string.__init__
 -- END DICTIONARY
 -- START TREE 1
-0
+4
+arr|2|array!9@arrayTypes!17@
+lis|1|listExample!25@
+py_|1|py_string!33@
+tes|3|test_arrays!41@TestArray!49@Test_PyrString!57@
 -- END TREE
 -- START TREE 2
-0
+43
+__g|1|__getitem__!8&10@
+__i|2|__init__!8&10@__init__!9&34@
+__s|1|__setitem__!8&10@
+_co|1|_cols!10&11@
+_da|1|_data!10&11@
+_de|1|_depth!10&11@
+_in|2|_inString!11&35@_index!12&50@
+_ro|1|_rows!10&11@
+_va|1|_validate_key!8&10@
+a|1|a!8&11@
+aa|1|aa!13&19@
+act|1|actual_total_elements!8&11@
+app|1|appendToList!14&26@
+ara|1|aray!13&19@
+ars|1|arSeq!14&27@
+ase|1|aSeq!14&27@
+cap|1|capString!9&35@
+ch|1|ch!13&19@
+col|1|columns!8&11@
+cre|3|createArray!13&18@createFreeArray!13&18@createList!14&26@
+dep|1|depth!8&11@
+exp|1|expected_total_elements!8&11@
+ext|1|extendList!14&26@
+for|1|forward!14&27@
+ins|1|insertIntoList!14&26@
+mak|3|makeLower!9&34@makeUpper!9&34@makeCaps!9&34@
+mya|1|myArray!14&27@
+myl|3|myListInstance!14&27@myList!13&19@myListResult!14&27@
+mys|1|myString!9&35@
+myt|1|myType!13&19@
+new|1|newString!9&35@
+nex|1|nextList!14&27@
+rem|1|removeItem!14&26@
+rev|3|reverseSimple!9&34@reverseMylist!14&26@reverse!9&34@
+row|1|rows!8&11@
+s1|1|s1!9&35@
+s2|1|s2!9&35@
+sep|1|separator!9&35@
+seq|1|seq!9&35@
+spl|2|splitString!9&35@splitString!9&34@
+str|3|stringReplace!9&34@stringR!9&35@stringJoin!9&34@
+tes|23|testMakeLower!15&58@test_array_UnsignedShort!16&42@test_key_validity!12&50@test_number_of_elements!12&50@test_array_UnsignedLongOverflowError!16&42@test_array_Short!16&42@test_array_int!16&42@test_array_UnsignedLong!16&42@testSplitString!15&58@test_array_Float!16&42@testMakeUpper!15&58@testStrngJoin!15&58@testStringReplace!15&58@test_array_DoubleFloat!16&42@testReverseSimple!15&58@test_array_signedLong!16&42@testReverse!15&58@testMakeCaps!15&58@test_zeroes!12&50@test_array_TypeError!16&42@test_identity!12&50@testString!9&35@test_array_unicode!16&42@
+uni|1|uniquechar!9&34@
 -- END TREE

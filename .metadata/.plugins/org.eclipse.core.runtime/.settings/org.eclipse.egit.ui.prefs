@@ -1,2 +1,4 @@
-commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\n<messages>\n<message>init com</message>\n<message>initial commit</message>\n</messages>
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\n<messages>\n<message>commit pythonexamples</message>\n<message>commit unittest</message>\n<message>commit interview questions&apos;</message>\n<message>commit list examples&\#x0A;</message>\n<message>com notes</message>\n<message>add test array examples</message>\n<message>add test</message>\n<message>init com</message>\n<message>initial commit</message>\n</messages>
 eclipse.preferences.version=1
+resourcehistory_graph_split=500,500
+resourcehistory_rev_split=700,300

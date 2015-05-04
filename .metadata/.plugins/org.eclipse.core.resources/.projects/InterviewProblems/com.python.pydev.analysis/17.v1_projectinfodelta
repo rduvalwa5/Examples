@@ -1,0 +1,11 @@
+INSTUPtestReverseString
+/Users/rduvalwa2/DevTools/eclipse-luna/workspace/OReilly_Python/Examples/InterviewProblems/src/testReverseString.py
+INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&1|5|2|0&&2|6|2|5&&2|7|2|5&&2|8|2|5
+testRevervseAsList=8
+Test=5
+testRecursiveRevervse=6
+testReverseString=2
+expected=3
+testSimpeRevervse=7
+testString=1
+s1=4

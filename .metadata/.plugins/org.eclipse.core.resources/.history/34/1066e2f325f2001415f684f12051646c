@@ -1,0 +1,37 @@
+'''
+Created on May 3, 2015
+
+@author: rduvalwa2
+'''
+import unittest
+from Find1stUniqueChar import returnUnique
+
+'''
+    global class variable
+'''
+s1 = returnUnique()
+
+class Test(unittest.TestCase):
+
+    def testOneUnique(self):
+        testString = "abcdefabcde"
+        self.assertEqual('f',s1.uniquechar(testString)) 
+
+    def testMultipleUniqueValues(self):
+        testString = "abcdxefabcdeg"
+        self.assertEqual('x',s1.uniquechar(testString))
+
+    def testNoUniqueValues(self):
+        testString = "abcdeabcdeabce"
+        self.assertEqual("no unique character",s1.uniquechar(testString))
+        
+    def testIntegerUnique(self):
+        testString = "12345623456"
+        self.assertEqual('1',s1.uniquechar(testString))
+        
+    
+
+        
+if __name__ == "__main__":
+    #import sys;sys.argv = ['', 'Test.testName']
+    unittest.main()
