@@ -13,7 +13,7 @@ http://docs.python-guide.org/en/latest/writing/tests/
 class returnUnique:
 
     def uniquechar(self,seq):
-        returnVal = "no unique chararcter"
+        returnVal = "no unique character"
         for i in seq:
             ch = i
             chCount = seq.count(ch)
