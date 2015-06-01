@@ -53,7 +53,15 @@ class py_string:
                 msg = ch
                 break
         return msg
-                
+    
+    def _manage_string(self, expression):
+        try:
+            return str(eval(expression))
+        except SyntaxError:
+            raise StringError('Invalid expression.')
+
+class StringError(Exception):
+        pass
 """
 Following are simple out put but I need to write test for them
 """

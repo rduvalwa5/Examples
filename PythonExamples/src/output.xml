@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20150531 22:43:18.053" generator="Robot 2.8.7 (Python 2.7.9 on darwin)">
+<suite source="/Users/rduvalwa2/DevTools/eclipse-luna/workspace/OReilly_Python/Examples/PythonExamples/src/py_string_test_data_driven.txt" id="s1" name="Py String Test Data Driven">
+<test id="s1-t1" name="Happy Path">
+<kw type="kw" name="Convert To Uppercase">
+<doc></doc>
+<arguments>
+<arg>abc</arg>
+<arg>ABC</arg>
+</arguments>
+<kw type="kw" name="${actual result} = PyStringLibrary.Make Upper">
+<doc>Takes string in and returns upper case </doc>
+<arguments>
+<arg>${text}</arg>
+</arguments>
+<msg timestamp="20150531 22:43:18.081" level="INFO">${actual result} = ABC</msg>
+<status status="PASS" endtime="20150531 22:43:18.081" starttime="20150531 22:43:18.081"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${actual result}</arg>
+</arguments>
+<msg timestamp="20150531 22:43:18.081" level="INFO">ABC</msg>
+<status status="PASS" endtime="20150531 22:43:18.081" starttime="20150531 22:43:18.081"></status>
+</kw>
+<kw type="kw" name="PyStringLibrary.Result Should Be">
+<doc>Verifies that the current result is `expected`.</doc>
+<arguments>
+<arg>${expected}</arg>
+</arguments>
+<status status="PASS" endtime="20150531 22:43:18.082" starttime="20150531 22:43:18.082"></status>
+</kw>
+<status status="PASS" endtime="20150531 22:43:18.082" starttime="20150531 22:43:18.080"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20150531 22:43:18.082" critical="yes" starttime="20150531 22:43:18.080"></status>
+</test>
+<test id="s1-t2" name="Not So Happy">
+<kw type="kw" name="Convert To Uppercase">
+<doc></doc>
+<arguments>
+<arg>123</arg>
+<arg>123</arg>
+</arguments>
+<kw type="kw" name="${actual result} = PyStringLibrary.Make Upper">
+<doc>Takes string in and returns upper case </doc>
+<arguments>
+<arg>${text}</arg>
+</arguments>
+<msg timestamp="20150531 22:43:18.083" level="INFO">${actual result} = 123</msg>
+<status status="PASS" endtime="20150531 22:43:18.083" starttime="20150531 22:43:18.083"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${actual result}</arg>
+</arguments>
+<msg timestamp="20150531 22:43:18.084" level="INFO">123</msg>
+<status status="PASS" endtime="20150531 22:43:18.084" starttime="20150531 22:43:18.084"></status>
+</kw>
+<kw type="kw" name="PyStringLibrary.Result Should Be">
+<doc>Verifies that the current result is `expected`.</doc>
+<arguments>
+<arg>${expected}</arg>
+</arguments>
+<status status="PASS" endtime="20150531 22:43:18.084" starttime="20150531 22:43:18.084"></status>
+</kw>
+<status status="PASS" endtime="20150531 22:43:18.084" starttime="20150531 22:43:18.083"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20150531 22:43:18.084" critical="yes" starttime="20150531 22:43:18.082"></status>
+</test>
+<test id="s1-t3" name="Complicated">
+<kw type="kw" name="Convert To Uppercase">
+<doc></doc>
+<arguments>
+<arg>I don't like this.</arg>
+<arg>I DON'T LIKE THIS.</arg>
+</arguments>
+<kw type="kw" name="${actual result} = PyStringLibrary.Make Upper">
+<doc>Takes string in and returns upper case </doc>
+<arguments>
+<arg>${text}</arg>
+</arguments>
+<msg timestamp="20150531 22:43:18.086" level="INFO">${actual result} = I DON'T LIKE THIS.</msg>
+<status status="PASS" endtime="20150531 22:43:18.086" starttime="20150531 22:43:18.086"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${actual result}</arg>
+</arguments>
+<msg timestamp="20150531 22:43:18.086" level="INFO">I DON'T LIKE THIS.</msg>
+<status status="PASS" endtime="20150531 22:43:18.086" starttime="20150531 22:43:18.086"></status>
+</kw>
+<kw type="kw" name="PyStringLibrary.Result Should Be">
+<doc>Verifies that the current result is `expected`.</doc>
+<arguments>
+<arg>${expected}</arg>
+</arguments>
+<status status="PASS" endtime="20150531 22:43:18.087" starttime="20150531 22:43:18.086"></status>
+</kw>
+<status status="PASS" endtime="20150531 22:43:18.087" starttime="20150531 22:43:18.085"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20150531 22:43:18.087" critical="yes" starttime="20150531 22:43:18.085"></status>
+</test>
+<test id="s1-t4" name="Already Caps">
+<kw type="kw" name="Convert To Uppercase">
+<doc></doc>
+<arguments>
+<arg>ABCDEFG</arg>
+<arg>ABCDEFG</arg>
+</arguments>
+<kw type="kw" name="${actual result} = PyStringLibrary.Make Upper">
+<doc>Takes string in and returns upper case </doc>
+<arguments>
+<arg>${text}</arg>
+</arguments>
+<msg timestamp="20150531 22:43:18.088" level="INFO">${actual result} = ABCDEFG</msg>
+<status status="PASS" endtime="20150531 22:43:18.088" starttime="20150531 22:43:18.088"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${actual result}</arg>
+</arguments>
+<msg timestamp="20150531 22:43:18.089" level="INFO">ABCDEFG</msg>
+<status status="PASS" endtime="20150531 22:43:18.089" starttime="20150531 22:43:18.089"></status>
+</kw>
+<kw type="kw" name="PyStringLibrary.Result Should Be">
+<doc>Verifies that the current result is `expected`.</doc>
+<arguments>
+<arg>${expected}</arg>
+</arguments>
+<status status="PASS" endtime="20150531 22:43:18.089" starttime="20150531 22:43:18.089"></status>
+</kw>
+<status status="PASS" endtime="20150531 22:43:18.089" starttime="20150531 22:43:18.088"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20150531 22:43:18.089" critical="yes" starttime="20150531 22:43:18.087"></status>
+</test>
+<test id="s1-t5" name="Expected Failure">
+<kw type="kw" name="Convert To Uppercase">
+<doc></doc>
+<arguments>
+<arg>abcd</arg>
+<arg>abcd</arg>
+</arguments>
+<kw type="kw" name="${actual result} = PyStringLibrary.Make Upper">
+<doc>Takes string in and returns upper case </doc>
+<arguments>
+<arg>${text}</arg>
+</arguments>
+<msg timestamp="20150531 22:43:18.091" level="INFO">${actual result} = ABCD</msg>
+<status status="PASS" endtime="20150531 22:43:18.091" starttime="20150531 22:43:18.090"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${actual result}</arg>
+</arguments>
+<msg timestamp="20150531 22:43:18.091" level="INFO">ABCD</msg>
+<status status="PASS" endtime="20150531 22:43:18.091" starttime="20150531 22:43:18.091"></status>
+</kw>
+<kw type="kw" name="PyStringLibrary.Result Should Be">
+<doc>Verifies that the current result is `expected`.</doc>
+<arguments>
+<arg>${expected}</arg>
+</arguments>
+<msg timestamp="20150531 22:43:18.091" level="FAIL">ABCD != abcd</msg>
+<status status="FAIL" endtime="20150531 22:43:18.092" starttime="20150531 22:43:18.091"></status>
+</kw>
+<status status="FAIL" endtime="20150531 22:43:18.092" starttime="20150531 22:43:18.090"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" endtime="20150531 22:43:18.092" critical="yes" starttime="20150531 22:43:18.090">ABCD != abcd</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150531 22:43:18.092" starttime="20150531 22:43:18.053"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="4">Critical Tests</stat>
+<stat fail="1" pass="4">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" pass="4" id="s1" name="Py String Test Data Driven">Py String Test Data Driven</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
