@@ -12,10 +12,9 @@ class py_string:
     def __init__(self,strng = "NoString"):
         self._inString = strng
         
-    def reverse(self, text = "NoString"):
+    def reverse(self,text = "Not a string"):
         if len(text) <= 1:
             return text
-        print("text is ", text[1:] + text[0])
         return self.reverse(text[1:]) + text[0]   
     
     def reverseSimple(self, text): 
@@ -36,48 +35,43 @@ class py_string:
     def stringJoin(self,itr,seq): #list
         return itr.join(seq)
     
-    """
-    String.Replace(original string,replacement,max number of replacements 
-    """
     def stringReplace(self,text,original,replacement,maxreplace=1):
         return text.replace(original,replacement,maxreplace)
-    """
-    This method can be used to find the first unique character in a string
-    """
-    def uniquechar(self,seq):
-        msg = "no unique chararcter"
-        for i in seq:
-            ch = i
-            chCount = seq.count(ch)
-            if chCount == 1:
-                msg = ch
-                break
-        return msg
-    
-    def _manage_string(self, expression):
-        try:
-            return str(eval(expression))
-        except SyntaxError:
-            raise StringError('Invalid expression.')
 
-class StringError(Exception):
-        pass
-"""
-Following are simple out put but I need to write test for them
-"""
+'''
+s = "This is a string of words. It has punctuation! Does't it? But \"not this\"."
+s1 = "1234567890ABcdefG{};:"
+print(s)
+print(s[0])
+print(s[3:15])
+
+for a in s:
+    if a in {".","?","!","'","\""}:
+            print(a)
+
+print("upper " ,s.upper())
+print("lower ", s.lower())
+print("capitalize ",s.capitalize())
+print(s.count("i"))
+print(s.count("i",20,-1))
+s = s + s1
+print(s)
+
+print("s[::-1]" ,s[::-1])
+    
+print("reverse(s)",reverse(s))
+ '''
     
 if __name__ == '__main__':
-    
     myString = "New string with punctuation! What do you think? No way."
     
     s1 = py_string()
-    
     print(s1._inString)
-    print("reverse ", s1.reverse("abcdefg"))
-    print("reverse simple  " ,s1.reverseSimple(s1._inString))
+    print(s1.reverse())
+    print(s1.reverseSimple(s1._inString))
     
     s2 = py_string(myString)
-    print("s2 in string ", s2._inString)
+    print(s2._inString)
     print(s2.reverse(myString + "0987654321"))
     print(s2.reverse())
     
@@ -100,11 +94,4 @@ if __name__ == '__main__':
     
     stringR = "one two three four five two.  Six seven eight two?"
     print(s2.stringReplace(stringR,"two","twelve"))
-    print(s2.stringReplace(stringR,"two","twelve",2))
-    
-    testString = "abcdefabcde"
-    print("Expect \"f\" Return value is ",s1.uniquechar(testString))        
-    testString = "abcdefabcdef"
-    print("Return value is ",s1.uniquechar(testString))
-    testString = "abcdefabef"
-    print("Expect \"c\" Return value is ",s1.uniquechar(testString))
+    print(s2.stringReplace(stringR,"two","twelve",2))        
