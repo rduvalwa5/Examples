@@ -1,0 +1,42 @@
+From Chapter 4 Programming Python Fourth Edition
+
+C1246895-Air:src rduvalwa2$ python3.4
+Python 3.4.3 (v3.4.3:9b73f1c3e601, Feb 23 2015, 02:52:03) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> file = open('data.txt','w')
+>>> file.write('Hello again sweet heart!\n')
+25
+>>> file.close()
+>>> file = open('data.txt','r').read()
+>>> file
+'Hello again sweet heart!\n'
+>>> 
+>>> open('data.txt', 'w').write("G'day Bruce\n")
+12
+>>> file = open('data.txt','r').read()
+>>> file
+"G'day Bruce\n"
+>>> open('data.txt', 'w').write("G'day Bruce\nHello sweetheart\nLet my heart go\n")
+45
+>>> file
+"G'day Bruce\n"
+>>> open('data.txt','r').read()
+"G'day Bruce\nHello sweetheart\nLet my heart go\n"
+>>> open('data.txt','r').readlines(1)
+["G'day Bruce\n"]
+>>> open('data.txt','r').readlines(2)
+["G'day Bruce\n"]
+>>> file = open('data.txt')
+>>> file
+<_io.TextIOWrapper name='data.txt' mode='r' encoding='UTF-8'>
+>>> lines = file.readlines()
+>>> lines
+["G'day Bruce\n", 'Hello sweetheart\n', 'Let my heart go\n']
+>>> for line in lines:
+...     print(line,end='')
+... 
+G'day Bruce
+Hello sweetheart
+Let my heart go
+>>> 
