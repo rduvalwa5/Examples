@@ -4,27 +4,70 @@ Created on Nov 25, 2015
 '''
 import glob
 import os
-
+# import os
+from os.path import join, getsize
+    
 def os_env():
     """
         Get local environment and return it
     """
     env = os.environ
 #    print("env \n" , env)
-    return(env)
+    return env
 
+def get_os_name():
+    return os.name
+
+def get_cpu_count():
+    cpus = os.cpu_count()
+    return cpus
+
+def get_cur_dir():
+    current_dir =  os.curdir
+    return  current_dir
+
+def number_of_bytes_in_directories():
+#    import os
+#    from os.path import join, getsize
+    for root, dirs, files in os.walk('../'):
+        print (root, "consumes")
+        print (sum(getsize(join(root, name)) for name in files))
+        print ("bytes in", len(files), "non-directory files")
+        if 'CVS' in dirs:
+            dirs.remove('CVS')  # don't visit CVS directories
+
+def list_files_in_directories():
+    # http://www.tutorialspoint.com/python/os_stat.htm
+    for root, dirs, files in os.walk('../'):
+        print (root)
+        for name in files:
+            file_info = os.stat(join(root, name))
+            file_mode = file_info.st_mode
+            file_size = file_info.st_size
+            device =    file_info.st_dev
+            file_userid = file_info.st_uid
+            file_group = file_info.st_gid
+            file_access_time = file_info.st_atime
+            file_last_mod = file_info.st_mtime
+            file_meta_chg = file_info.st_ctime
+            print("\t", name, ":",":",file_mode,":",file_size,":",device,":",file_userid,":",file_group,":",file_access_time,":",file_last_mod)
 
 if __name__ == "__main__":
-#    import os_env
+
     thisEnv =  os_env()
     print(thisEnv,'\n')
     print(thisEnv['PWD'])
     print(thisEnv['_'])
     print(thisEnv['HOME'])
     print(thisEnv['JAVA_HOME'])
-    print(thisEnv['LOGNAME'])
+    print(thisEnv['LOGNAME']) 
+    print("Should be posix ", get_os_name())
+    print("CPU count ", get_cpu_count())
+    print("Current directory", get_cur_dir(), "\n")
     
-    
+    number_of_bytes_in_directories()
+    print("list_files_in_directories \n")
+    list_files_in_directories()
     
 '''
 C1246895-Air:src rduvalwa2$ python3.5 Os_examples.py
