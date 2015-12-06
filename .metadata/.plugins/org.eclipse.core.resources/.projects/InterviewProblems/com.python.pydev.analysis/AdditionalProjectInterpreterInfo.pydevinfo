@@ -1,10 +1,10 @@
 -- VERSION_4
 -- START DISKCACHE
 /Users/rduvalwa2/DevTools/eclipse-luna/workspace/OReilly_Python/Examples/.metadata/.plugins/org.eclipse.core.resources/.projects/InterviewProblems/com.python.pydev.analysis/v2_indexcache
-reverseString|1430719463000|/Users/rduvalwa2/DevTools/eclipse-luna/workspace/OReilly_Python/Examples/InterviewProblems/src/reverseString.py
-TestFindUnique|1430720485000|/Users/rduvalwa2/DevTools/eclipse-luna/workspace/OReilly_Python/Examples/InterviewProblems/src/TestFindUnique.py
-testReverseString|1430720364000|/Users/rduvalwa2/DevTools/eclipse-luna/workspace/OReilly_Python/Examples/InterviewProblems/src/testReverseString.py
-Find1stUniqueChar|1430705771000|/Users/rduvalwa2/DevTools/eclipse-luna/workspace/OReilly_Python/Examples/InterviewProblems/src/Find1stUniqueChar.py
+reverseString|1430805358000|/Users/rduvalwa2/DevTools/eclipse-luna/workspace/OReilly_Python/Examples/InterviewProblems/src/reverseString.py
+TestFindUnique|1430805358000|/Users/rduvalwa2/DevTools/eclipse-luna/workspace/OReilly_Python/Examples/InterviewProblems/src/TestFindUnique.py
+testReverseString|1430805358000|/Users/rduvalwa2/DevTools/eclipse-luna/workspace/OReilly_Python/Examples/InterviewProblems/src/testReverseString.py
+Find1stUniqueChar|1430805358000|/Users/rduvalwa2/DevTools/eclipse-luna/workspace/OReilly_Python/Examples/InterviewProblems/src/Find1stUniqueChar.py
 -- END DISKCACHE
 -- START DICTIONARY
 8
@@ -18,23 +18,20 @@ Find1stUniqueChar|1430705771000|/Users/rduvalwa2/DevTools/eclipse-luna/workspace
 3=Find1stUniqueChar
 -- END DICTIONARY
 -- START TREE 1
-6
+5
 exp|1|expected!11@
-mys|0|
 py_|1|py_string!17@
 ret|1|returnUnique!25@
 s1|2|s1!11@s1!35@
 tes|3|Test!9@Test!33@testString!11@
 -- END TREE
 -- START TREE 2
-9
-!<m|0|
+7
 __i|1|__init__!5&18@
 _in|1|_inString!6&19@
-exp|0|
 mys|1|myString!5&19@
 rev|3|reverseSimple!5&18@reverseList!5&18@reverse!5&18@
 s1|2|s1!5&19@s1!7&27@
-tes|9|testRevervseAsList!8&10@testSimpeRevervse!8&10@testIntegerUnique!8&34@testString!5&19@testNoUniqueValues!8&34@testString!7&27@testRecursiveRevervse!8&10@testOneUnique!8&34@testMultipleUniqueValues!8&34@
+tes|9|testRevervseAsList!8&10@testSimpeRevervse!8&10@testIntegerUnique!8&34@testString!5&19@testNoUniqueValues!8&34@testString!7&27@testOneUnique!8&34@testRecursiveRevervse!8&10@testMultipleUniqueValues!8&34@
 uni|1|uniquechar!7&26@
 -- END TREE
