@@ -1,0 +1,4 @@
+Examples work locations:
+1) OSX
+2) AIR
+3) J
