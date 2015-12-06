@@ -1,4 +1,5 @@
 Examples work locations:
 1) OSX  /Users/rduvalwa2/DevTools/eclipse-luna/workspace/OReilly_Python/Examples/
 2) AIR	/Users/rduvalwa2/git/Examples/PythonExamples
+   - Centos
 3) J
