@@ -1,0 +1,63 @@
+These are notes on Java and Python Singletons:
+
+1)  Singleton
+	Python:
+	http://python-3-patterns-idioms-test.readthedocs.org/en/latest/Singleton.html
+	http://code.activestate.com/recipes/66531-singleton-we-dont-need-no-stinkin-singleton-the-bo/
+	
+	Java:
+	http://www.javaworld.com/article/2073352/core-java/simply-singleton.html
+	
+	a) have exactly one instance of a class:
+		Examples 
+		- window managers
+		- print spoolers
+		- filesystems
+	b)	objects—known as singletons
+		- accessed by disparate objects throughout a software system
+		- require a global point of access
+		- need more than one instance
+
+	c)	Singleton design pattern you can:
+		- Ensure that only one instance of a class is created
+		- Provide a global point of access to the object
+		- Allow multiple instances without affecting a singleton class's clients
+	d) figure below—is one of the simplest design patterns
+		- it presents a number of pitfalls for the unwary
+
+			Singleton
+			|--------------------------|
+			|Instance
+			|--------------------------|
+			|Singleton getinstance()   |----- if(instance == null)
+			|operations                |        instance = new Singleton();
+			|getter and setter methods |      return instance;
+			|--------------------------|
+			
+			Example 1. The classic singleton
+            public class ClassicSingleton {
+               private static ClassicSingleton instance = null;
+               protected ClassicSingleton() {
+               // Exists only to defeat instantiation.
+               }
+            public static ClassicSingleton getInstance() {
+              if(instance == null) {
+                 instance = new ClassicSingleton();
+                 }
+                return instance;
+              }
+     e)  points concerning the ClassicSingleton class
+         1)  ClassicSingleton employs a technique lazy instantiation to create the singleton
+             - result the singleton instance is not created until the getInstance() method is called for the first time
+             - ensures that singleton instances are created only when needed
+         2)  ClassicSingleton implements a protected constructor
+             - clients cannot instantiate ClassicSingleton instances
+             - discover that the following code is perfectly legal
+             public class SingletonInstantiator { 
+               public SingletonInstantiator() { 
+                ClassicSingleton instance = ClassicSingleton.getInstance();
+             ClassicSingleton anotherInstance = new ClassicSingleton();
+             ... 
+              } 
+             }
+             
