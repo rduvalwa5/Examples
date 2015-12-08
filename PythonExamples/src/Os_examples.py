@@ -36,10 +36,11 @@ def number_of_bytes_in_directories():
         if 'CVS' in dirs:
             dirs.remove('CVS')  # don't visit CVS directories
 
-def list_files_in_directories():
+def list_files_in_directories(path = '../'):
     # http://www.tutorialspoint.com/python/os_stat.htm
-    for root, dirs, files in os.walk('../'):
+    for root, dirs, files in os.walk(path):
         print (root)
+        print("\t","File",":",":","Mode",":","Size",":","Device",":","Userid",":","Group",":","Access_time",":","last_modtifiction")
         for name in files:
             file_info = os.stat(join(root, name))
             file_mode = file_info.st_mode
