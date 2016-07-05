@@ -1,0 +1,33 @@
+[Documentation]     Test pystring with Robot Framework
+...	 data driven example
+...  pybot py_string_test_data_driven.txt
+...
+
+*** Settings ***              
+Library			PyStringLibrary
+Test Template	Convert To Uppercase
+
+*** Variables ***
+${actual result}	no result
+${input}	a
+${expected}	d
+
+*** Keywords ***
+Convert To Uppercase
+    [Arguments]    ${text}    ${expected}
+	${actual result}	Make upper	${text}
+	Log	${actual result}
+    Result should be    ${expected}
+
+*** Test Cases ***	
+Happy Path		abc		ABC
+
+Not So Happy	123		123
+
+Complicated		I don't like this.	I DON'T LIKE THIS.
+
+Already Caps	ABCDEFG		ABCDEFG
+
+Expected Failure	abcd	abcd
+
+

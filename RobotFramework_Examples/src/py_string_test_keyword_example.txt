@@ -1,0 +1,19 @@
+[Documentation]     Test pystring with Robot Framework
+...	 keyword driven example
+...  pybot py_string_test_keyword_example.txt
+...
+
+*** Settings ***              
+Library		PyStringLibrary
+	
+*** Variables ***
+${actual result}	no result
+${input}	a
+${expected}	d
+
+*** Test Cases ***
+make upper case keyword example
+	${input}	set variable	abcdefg
+	${expected}	set variable	ABCDEFG
+	${actual result}    Make upper	${input} 
+	Result should be    ${expected}

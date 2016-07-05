@@ -1,0 +1,203 @@
+*** RobotFrameWork Notes:
+
+*************************************************************************************
+Robot Framework Tutorial – A complete example
+*************************************************************************************
+https://blog.codecentric.de/en/2012/04/robot-framework-tutorial-a-complete-example/
+
+
+
+
+
+
+
+
+*************************************************************************************
+Robot IDE (RIDE)
+*************************************************************************************
+http://blog.codecentric.de/en/2012/01/robot-framework-ide-ride-overview/
+
+*** Code ***
+https://github.com/robotframework/RIDE
+
+DownLoad Zip
+https://github.com/robotframework/RIDE/archive/master.zip
+
+Location:
+MacOsx  /Users/rduvalwa2/Downloads/RIDE-master
+
+
+*************************************************************************************
+*** RobotFrameWork Selenium Notes
+*************************************************************************************
+https://code.google.com/p/robotframework-seleniumlibrary/wiki/Demo
+
+** selenium2library
+Selenium2Library is a web testing library for Robot Framework that leverages the Selenium 2 (WebDriver) libraries from the Selenium project.
+It is modeled after (and forked from) the SeleniumLibrary library, but re-implemented to use Selenium 2 and WebDriver technologies.
+More information about this library can be found on the Wiki( https://github.com/rtomac/robotframework-selenium2library/wiki)
+ and in the Keyword Documentation. (http://rtomac.github.com/robotframework-selenium2library/doc/Selenium2Library.html )
+Installation information is found in the INSTALL.rst file. (https://github.com/rtomac/robotframework-selenium2library/blob/master/INSTALL.rst)
+Developer information is found in BUILD.rst file. (https://github.com/rtomac/robotframework-selenium2library/blob/master/BUILD.rst)
+
+https://github.com/rtomac/robotframework-selenium2library#readme 
+
+
+*************************************************************************************
+Robot Framework Installation
+*************************************************************************************
+https://github.com/robotframework/robotframework/blob/master/README.rst
+
+1) pip does not work
+	download: https://pypi.python.org/packages/source/r/robotframework/robotframework-2.9a1.tar.gz
+
+
+
+
+RobotFramwork Notes
+
+*** Introduction
+Robot Framework is a generic open source test automation framework for acceptance testing and acceptance test-driven development (ATDD). 
+It has easy-to-use tabular test data syntax and it utilizes the keyword-driven testing approach. Its testing capabilities can be extended
+by test libraries implemented either with Python or Java, and users can create new higher-level keywords from existing ones using the same
+syntax that is used for creating test cases.
+
+Robot Framework is operating system and application independent. The core framework is implemented using Python and runs also on Jython (JVM) and IronPython (.NET). 
+The framework has a rich ecosystem around it consisting of various generic test libraries and tools that are developed as separate projects. For more information about 
+Robot Framework and the ecosystem, see http://robotframework.org.
+
+Robot Framework project is hosted on GitHub where you can find source code, an issue tracker, and some further documentation. 
+Downloads are hosted at PyPI, except for the standalone JAR distribution that is in Maven central.
+
+*** Links:
+RobotFramework: http:
+//robotframework.org
+http://robotframework.org/#introduction
+https://github.com/robotframework/robotframework
+
+*** Eclipse IDE plugin:  https://github.com/NitorCreations/RobotFramework-EclipseIDE/wiki/Installation   
+Eclipse Install:
+Installing using update site
+
+1) Start Eclipse, then select Help > Install New Software.
+2) Click Add, in the top-right corner. In the Add Repository dialog that appears, enter "RobotFramework-EclipseIDE" 
+3) for the Name and the following URL for the Location: http://sourceforge.net/projects/robotide/files/stable/
+4) Click OK.
+5) In the Available Software dialog, select the checkbox next to Robot Framework Eclipse IDE and click Next.
+6) In the next window, you'll see a list of the tools to be downloaded. Click Next.
+	Read and accept the license agreements, then click Finish.
+7) When the installation completes, restart Eclipse.
+	
+See usage for more information about configuring and using the plugin.
+
+************************************************************************************************************
+*** Quick Start
+https://code.google.com/p/robotframework/wiki/QuickStartGuide
+
+************************************
+Install on Mac OSX
+************************************
+*** PyPi
+https://pypi.python.org/pypi/robotframework
+
+	a) Download from PyPi: https://pypi.python.org/packages/source/r/robotframework/robotframework-2.9a1.tar.gz
+	b) cd /Users/rduvalwa2/downloads
+	c) gzip -d robotframework-2.9a1.tar.gz 
+	d) tar xvf robotframework-2.9a1.tar 
+	e) cd robotframework-2.9a1
+	f) less README.rst 
+	g) less setup.py 
+	h) sudo python setup.py install
+		running install
+		running build
+		running build_py
+		running build_scripts
+		running install_lib
+		creating /Library/Python/2.7/site-packages/robot
+		copying build/lib/robot/__init__.py -> /Library/Python/2.7/site-packages/robot
+		creating /Library/Python/2.7/site-packages/robot/api
+		copying build/lib/robot/api/__init__.py -> /Library/Python/2.7/site-packages/robot/api
+		copying build/lib/robot/api/deco.py -> /Library/Python/2.7/site-packages/robot/api
+		copying build/lib/robot/api/logger.py -> /Library/Python/2.7/site-packages/robot/api
+		creating /Library/Python/2.7/site-packages/robot/conf
+		copying build/lib/robot/conf/__init__.py -> /Library/Python/2.7/site-packages/robot/conf
+		copying build/lib/robot/conf/gatherfailed.py -> /Library/Python/2.7/site-packages/robot/conf
+		..
+		byte-compiling /Library/Python/2.7/site-packages/robot/writer/htmlformatter.py to htmlformatter.pyc
+		byte-compiling /Library/Python/2.7/site-packages/robot/writer/htmltemplate.py to htmltemplate.pyc
+		byte-compiling /Library/Python/2.7/site-packages/robot/writer/rowsplitter.py to rowsplitter.pyc
+		running install_scripts
+		copying build/scripts-2.7/pybot -> /usr/local/bin
+		copying build/scripts-2.7/rebot -> /usr/local/bin
+		changing mode of /usr/local/bin/pybot to 755
+		changing mode of /usr/local/bin/rebot to 755
+		running install_egg_info
+		Writing /Library/Python/2.7/site-packages/robotframework-2.9a1-py2.7.egg-info
+
+   C1246895-osx:site-packages rduvalwa2$ pwd
+   /Library/Python/2.7/site-packages
+   C1246895-osx:site-packages rduvalwa2$ ls -l
+   total 16
+   -rw-r--r--   1 root  wheel   119 Sep  9  2014 README
+   drwxr-xr-x  36 root  wheel  1224 May  5 14:25 robot
+   -rw-r--r--   1 root  wheel  6603 May  5 14:25 robotframework-2.9a1-py2.7.egg-info
+   
+
+
+
+*******************************
+Running Examples
+*******************************
+
+http://robotframework.org/
+https://bitbucket.org/robotframework/robotdemo/wiki/Home
+	https://bitbucket.org/robotframework/robotdemo/wiki/Home#rst-header-downloading-demo-package
+
+
+
+
+*******************************
+Add Selenium to Python
+*******************************
+
+
+
+
+*******************************
+Process that has worked so far:
+*******************************
+
+1) Everything that I have read indicates that RobotFramework does not support Python 3
+  Command python setup.py egg_info failed with error code 1 in /private/tmp/pip_build_root/robotframework-ride
+  Storing debug log for failure in /Users/rduvalwa2/.pip/pip.log
+2) I installed Python 2.79
+  a) Download and install python-2.7.9-macosx10.6.pkg
+  
+  b) Downlaod robotframework-2.9a1.tar.gzip
+  	cd /Users/rduvalwa2/Downloads/robotframework-2.9a1
+  	sudo python setup.py install
+	Password:
+	running install
+	running build
+	running build_py
+	running build_scripts
+	running install_lib
+	running install_scripts
+	changing mode of /usr/local/bin/pybot to 755
+	changing mode of /usr/local/bin/rebot to 755
+	running install_egg_info
+	Removing /Library/Python/2.7/site-packages/robotframework-2.9a1-py2.7.egg-info <- previous install
+	Writing /Library/Python/2.7/site-packages/robotframework-2.9a1-py2.7.egg-info
+  
+  Download robotframework-selenium2library-master.tar.gzip
+  Download wxwidgets2.8_2.8.12.1.orig.tar.gzip
+  	- On OS X you can try wxPython 2.9 because it supports OS X better than 2.8 releases. 
+  	On latest OS X versions you should have suitable wxPython version installed by default, 
+  	but unfortunately all RIDE features do not yet work on that platform.
+  
+  1) cd /Library/Frameworks/Python.framework/Versions/2.7  <--32 bit
+  2) cd bin
+  (Now this command works)
+  3) pip install robotframework-ride
+  4) pip install robotframework-selenium2library
+
