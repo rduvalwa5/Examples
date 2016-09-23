@@ -1,0 +1,30 @@
+https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior
+
+C1246895-osx:src rduvalwa2$ python3.5
+Python 3.5.0 (v3.5.0:374f501f4567, Sep 12 2015, 11:00:19) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> datetime.datetime.now().strftime("%d")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'datetime' is not defined
+>>> import datetime
+>>> datetime.datetime.now().strftime("%d")
+'22'
+>>> datetime.datetime.now().strftime()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: Required argument 'format' (pos 1) not found
+>>> datetime.datetime.now().strftime("%m-%d-%Y %H:%M:%S")
+'09-22-2016 23:29:48'
+>>> datetime.datetime.today().strftime("%m-%d-%Y")
+'09-22-2016'
+>>> datetime.datetime.today().strftime("%m-%d-%Y")
+'09-23-2016'
+>>> datetime.datetime.now().strftime("%m-%d-%Y %H:%M:%S")
+'09-23-2016 00:02:52'
+>>> datetime.datetime.today().strftime("%B-%A-%Y %I:%M %p")
+'September-Friday-2016 12:09 AM'
+>>> datetime.datetime.today().strftime("%B-%A(%d)-%Y %I:%M %p")
+'September-Friday(23)-2016 12:10 AM'
+>>> 
