@@ -1,3 +1,25 @@
+pytz Install:
+https://pypi.python.org/pypi/pytz?
+https://pypi.python.org/pypi/pytz?#downloads
+
+C1246895-osx:3.5 rduvalwa2$ cd bin
+C1246895-osx:bin rduvalwa2$ ls
+2to3			idle3			pip3.5			python3			python3.5		python3.5m		pyvenv-3.5
+2to3-3.5		idle3.5			pydoc3			python3-32		python3.5-32		python3.5m-config
+easy_install-3.5	pip3			pydoc3.5		python3-config		python3.5-config	pyvenv
+C1246895-osx:bin rduvalwa2$ sudo easy_install-3.5  ~/Downloads/pytz-2016.6.1-py3.5.egg
+Processing pytz-2016.6.1-py3.5.egg
+Copying pytz-2016.6.1-py3.5.egg to /Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages
+Adding pytz 2016.6.1 to easy-install.pth file
+
+Installed /Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pytz-2016.6.1-py3.5.egg
+Processing dependencies for pytz==2016.6.1
+Finished processing dependencies for pytz==2016.6.1
+C1246895-osx:bin rduvalwa2$ 
+
+
+
+
 https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior
 
 C1246895-osx:src rduvalwa2$ python3.5
@@ -28,3 +50,43 @@ TypeError: Required argument 'format' (pos 1) not found
 >>> datetime.datetime.today().strftime("%B-%A(%d)-%Y %I:%M %p")
 'September-Friday(23)-2016 12:10 AM'
 >>> 
+
+
+C1246895-osx:src rduvalwa2$ python3.5
+Python 3.5.0 (v3.5.0:374f501f4567, Sep 12 2015, 11:00:19) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import datetime
+>>> datetime.datetime.today().strftime("%B-%A(%d)-%Y %I:%M %p")
+'September-Friday(23)-2016 07:07 PM'
+>>> month = datetime.datetime.today().strftime("%B")
+>>> print( month)
+September
+>>> day = datetime.datetime.today().strftime("%A")
+>>> print(day)
+Friday
+>>> time = datetime.datetime.today().strftime("%I:%M %p")
+>>> print(time)
+07:10 PM
+>>> year  = datetime.datetime.today().strftime("%Y or %y")
+>>> print(year)
+2016 or 16
+
+>>> x = datetime.date(1951,6,12)
+>>> x
+datetime.date(1951, 6, 12)
+>>> print(x)
+1951-06-12
+>>> x.weekday()
+1
+>>> x
+datetime.date(1951, 6, 12)
+>>> x.strftime('%Y')
+'1951'
+>>> x.strftime('%M-%d-%Y')
+'00-12-1951'
+>>> x.strftime('%m-%d-%Y')
+'06-12-1951'
+
+
+
