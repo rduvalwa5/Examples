@@ -47,62 +47,57 @@ class localtime(object):
     def get_utc_zone(self):
         return  self.utc.zone
     
-    def set_regionTimeZone(self):
-        self.setRegion = timezone(self.region)
-#        return  self.setRegion.zone
-        return  self.setRegion
+    def create_tzinfo(self):
+        self.this_tzinfo = timezone(self.region)
+#        return  self.this_tzinfo.zone
+        return  self.this_tzinfo
         
-    def get_regionTimeZone(self):
-        return self.set_regionTimeZone()
+    def get_regionTimeZone_tzinfo(self):
+        return self.create_tzinfo()
     
-    def get_local(self):
-        local_datetime = self.set_regionTimeZone().localize(datetime(self.year,self.month,self.day,self.hour,self.min,self.sec))
+    def display_local_timezone(self):
+        local_datetime = self.create_tzinfo().localize(datetime(self.year,self.month,self.day,self.hour,self.min,self.sec))
 #        print(local_datetime.strftime(self.fmt))
         return local_datetime.strftime(self.fmt)
         
-    def alt_timezone(self):
-        '''
-        >> loc_dt = eastern.localize(datetime(2002, 10, 27, 6, 0, 0))
-        >>> print(loc_dt.strftime(fmt))
-            2002-10-27 06:00:00 EST-0500
-        The second way of building a localized time is by converting an existing localized time using the standard astimezone() method:
-        >>> ams_dt = loc_dt.astimezone(amsterdam)
-        >>> ams_dt.strftime(fmt)
-        '2002-10-27 12:00:00 CET+0100'
-        '''
+    def display_local_timezone1(self):
         name = timezone(self.region)
         loc_dt = name.localize(datetime(self.year,self.month,self.day,self.hour,self.min,self.sec))
         res = loc_dt.astimezone(name)
-        return "alt: " + res.strftime(self.fmt)
+        return  res.strftime(self.fmt)
+    
+    def display_local_timezone2(self):
+        return datetime(self.year,self.month,self.day,self.hour,self.min,self.sec, tzinfo = self.create_tzinfo() ).strftime(self.fmt)
     
 if __name__ == '__main__':
     eastLocal = localtime(2016,12,31,23,59,59,'US','Eastern')
     print(eastLocal.get_utc())
-    print(eastLocal.get_regionTimeZone())
+    print(eastLocal.get_regionTimeZone_tzinfo())
 
     centralLocal = localtime(2016,12,31,23,59,59,'US','Central')
-    print(centralLocal.get_regionTimeZone())
+    print(centralLocal.get_regionTimeZone_tzinfo())
 
     mountainLocal = localtime(2016,12,31,23,59,59,'US','Mountain')
-    print(mountainLocal.get_regionTimeZone())
+    print(mountainLocal.get_regionTimeZone_tzinfo())
 
     westLocal = localtime(2016,12,31,23,59,59,'US','Pacific')
-    print(westLocal.get_regionTimeZone())
+    print(westLocal.get_regionTimeZone_tzinfo())
 
     londonLocal = localtime(2016,12,31,23,59,59,'Europe','London')
-    print(londonLocal.get_regionTimeZone())
+    print(londonLocal.get_regionTimeZone_tzinfo())
     
     moscowLocal = localtime(2016,12,31,23,59,59,'Europe','Moscow')
-    print(moscowLocal.get_regionTimeZone())
+    print(moscowLocal.get_regionTimeZone_tzinfo())
 
     hawaiiLocal = localtime(2016,12,31,23,59,59,'US','Hawaii')
-    print(hawaiiLocal.get_regionTimeZone())
+    print(hawaiiLocal.get_regionTimeZone_tzinfo())
     
-    print(moscowLocal.get_local())
-    print(eastLocal.get_local())
-    print(centralLocal.get_local())
-    print(westLocal.get_local())
-    print(londonLocal.get_local())
-    print(londonLocal.alt_timezone())
-    print(hawaiiLocal.get_local())
-    print(hawaiiLocal.alt_timezone())
+    print(moscowLocal.display_local_timezone())
+    print(eastLocal.display_local_timezone())
+    print(centralLocal.display_local_timezone())
+    print(westLocal.display_local_timezone())
+    print(londonLocal.display_local_timezone())
+    print(londonLocal.display_local_timezone1())
+    print(hawaiiLocal.display_local_timezone())
+    print('alt1: ',hawaiiLocal.display_local_timezone1())
+    print('alt2: ',hawaiiLocal.display_local_timezone2())
