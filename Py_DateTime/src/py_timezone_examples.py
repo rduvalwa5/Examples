@@ -1,7 +1,13 @@
 '''
 Created on Sep 25, 2016
+http://www.saltycrane.com/blog/2009/05/converting-time-zones-datetime-objects-python/
+https://docs.python.org/3/library/datetime.html?highlight=timezone#datetime.timezone
+https://docs.python.org/2.4/lib/tzinfo-examples.txt
 
 
+https://docs.python.org/3/library/datetime.html
+
+http://pytz.sourceforge.net   <----------
 '''
 
 from datetime import datetime, timedelta

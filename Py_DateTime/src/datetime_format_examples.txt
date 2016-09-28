@@ -21,6 +21,22 @@ C1246895-osx:bin rduvalwa2$
 
 
 https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior
+Created on Sep 22, 2016
+These classes explain date time formating
+https://docs.python.org/3/search.html?q=date+time&check_keywords=yes&area=default
+https://docs.python.org/3/library/datetime.html
+https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior
+
+http://www.saltycrane.com/blog/2009/05/converting-time-zones-datetime-objects-python/
+https://docs.python.org/3/library/datetime.html?highlight=timezone#datetime.timezone
+https://docs.python.org/2.4/lib/tzinfo-examples.txt
+
+https://docs.python.org/3/library/datetime.html
+
+http://pytz.sourceforge.net
+
+
+
 
 C1246895-osx:src rduvalwa2$ python3.5
 Python 3.5.0 (v3.5.0:374f501f4567, Sep 12 2015, 11:00:19) 
