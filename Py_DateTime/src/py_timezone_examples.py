@@ -1,14 +1,7 @@
 '''
 Created on Sep 25, 2016
 
-utc = pytz.utc
->>> utc.zone
-'UTC'
->>> eastern = timezone('US/Eastern')
->>> eastern.zone
-'US/Eastern'
->>> amsterdam = timezone('Europe/Amsterdam')
->>> fmt = '%Y-%m-%d %H:%M:%S %Z%z'
+
 '''
 
 from datetime import datetime, timedelta
@@ -36,6 +29,7 @@ class localtime(object):
         self.hour = h
         self.min = m
         self.sec =s
+        self.this_tzinfo = timezone(self.region)
         
     def set_utc(self):
         self.utc = pytz.utc
@@ -47,16 +41,15 @@ class localtime(object):
     def get_utc_zone(self):
         return  self.utc.zone
     
-    def create_tzinfo(self):
-        self.this_tzinfo = timezone(self.region)
-#        return  self.this_tzinfo.zone
+    def get_tzinfo(self):
         return  self.this_tzinfo
+       
         
     def get_regionTimeZone_tzinfo(self):
-        return self.create_tzinfo()
+        return  self.this_tzinfo
     
     def display_local_timezone(self):
-        local_datetime = self.create_tzinfo().localize(datetime(self.year,self.month,self.day,self.hour,self.min,self.sec))
+        local_datetime = self.this_tzinfo.localize(datetime(self.year,self.month,self.day,self.hour,self.min,self.sec))
 #        print(local_datetime.strftime(self.fmt))
         return local_datetime.strftime(self.fmt)
         
@@ -67,7 +60,7 @@ class localtime(object):
         return  res.strftime(self.fmt)
     
     def display_local_timezone2(self):
-        return datetime(self.year,self.month,self.day,self.hour,self.min,self.sec, tzinfo = self.create_tzinfo() ).strftime(self.fmt)
+        return datetime(self.year,self.month,self.day,self.hour,self.min,self.sec, tzinfo = self.this_tzinfo ).strftime(self.fmt)
     
 if __name__ == '__main__':
     eastLocal = localtime(2016,12,31,23,59,59,'US','Eastern')
