@@ -14,7 +14,7 @@ from datetime import datetime, timedelta
 from pytz import timezone
 import pytz
 
-class localtime(object):
+class localtime_tzinfo(object):
     '''
     Localized times and date arithmetic
     https://pypi.python.org/pypi/pytz?
@@ -69,26 +69,26 @@ class localtime(object):
         return datetime(self.year,self.month,self.day,self.hour,self.min,self.sec, tzinfo = self.this_tzinfo ).strftime(self.fmt)
     
 if __name__ == '__main__':
-    eastLocal = localtime(2016,12,31,23,59,59,'US','Eastern')
+    eastLocal = localtime_tzinfo(2016,12,31,23,59,59,'US','Eastern')
     print(eastLocal.get_utc())
     print(eastLocal.get_regionTimeZone_tzinfo())
 
-    centralLocal = localtime(2016,12,31,23,59,59,'US','Central')
+    centralLocal = localtime_tzinfo(2016,12,31,23,59,59,'US','Central')
     print(centralLocal.get_regionTimeZone_tzinfo())
 
-    mountainLocal = localtime(2016,12,31,23,59,59,'US','Mountain')
+    mountainLocal = localtime_tzinfo(2016,12,31,23,59,59,'US','Mountain')
     print(mountainLocal.get_regionTimeZone_tzinfo())
 
-    westLocal = localtime(2016,12,31,23,59,59,'US','Pacific')
+    westLocal = localtime_tzinfo(2016,12,31,23,59,59,'US','Pacific')
     print(westLocal.get_regionTimeZone_tzinfo())
 
-    londonLocal = localtime(2016,12,31,23,59,59,'Europe','London')
+    londonLocal = localtime_tzinfo(2016,12,31,23,59,59,'Europe','London')
     print(londonLocal.get_regionTimeZone_tzinfo())
     
-    moscowLocal = localtime(2016,12,31,23,59,59,'Europe','Moscow')
+    moscowLocal = localtime_tzinfo(2016,12,31,23,59,59,'Europe','Moscow')
     print(moscowLocal.get_regionTimeZone_tzinfo())
 
-    hawaiiLocal = localtime(2016,12,31,23,59,59,'US','Hawaii')
+    hawaiiLocal = localtime_tzinfo(2016,12,31,23,59,59,'US','Hawaii')
     print(hawaiiLocal.get_regionTimeZone_tzinfo())
     
     print(moscowLocal.display_local_timezone())
