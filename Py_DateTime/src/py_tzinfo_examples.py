@@ -82,7 +82,7 @@ class localtime_tzinfo(object):
         return loc_dt.strftime(self.fmt)
         
         
-    def date_arithmetic(self):
+    def get_new_date(self,delta):
         '''
         This library also allows you to do date arithmetic using local times, although it is more complicated than 
         working in UTC as you need to use the normalize() method to handle daylight saving time and other timezone transitions. 
@@ -95,7 +95,16 @@ class localtime_tzinfo(object):
         >>> after = eastern.normalize(before + timedelta(minutes=20))
         >>> after.strftime(fmt)
         '2002-10-27 01:10:00 EST-0500'
+        
+        - takes away 
+        
         '''
+        name = timezone(self.region)
+        n = (name.localize(datetime(self.year,self.month,self.day,self.hour,self.min,self.sec)))
+        newdate = n + timedelta(minutes=delta)
+        return newdate.strftime(self.fmt)
+        
+#        return (self.this_tzinfo(timedelta(minutes=delta)).strftime(self.fmt))
     
 if __name__ == '__main__':
     eastLocal = localtime_tzinfo(2016,12,31,23,59,59,'US','Eastern')
@@ -130,3 +139,8 @@ if __name__ == '__main__':
     print(hawaiiLocal.display_local_timezone())
     print('alt1: ',hawaiiLocal.display_local_timezone1())
     print('alt2: ',hawaiiLocal.display_local_timezone2())
+    
+    # diff =  hawaiiLocal.get_new_date(60)
+    print(hawaiiLocal.get_new_date(-60))
+    print(hawaiiLocal.get_new_date(24 * 60))
+    print(hawaiiLocal.get_new_date(24 * 60 * -1))
