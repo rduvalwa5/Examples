@@ -14,6 +14,10 @@ class SimpleDateTime:
  #       '''
  #       Constructor
  #       '''
+    def get_system_time(self):
+         current_time = datetime.datetime.now().time() 
+         return current_time
+    
     def getNowDateTime(self):
             return datetime.datetime.now().strftime("%m-%d-%Y %H:%M:%S")
 

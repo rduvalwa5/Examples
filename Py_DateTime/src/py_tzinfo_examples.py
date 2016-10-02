@@ -10,8 +10,8 @@ https://docs.python.org/3/library/datetime.html
 http://pytz.sourceforge.net   <----------
 '''
 
-from datetime import datetime, timedelta
-from pytz import timezone
+from datetime import datetime, timedelta, time
+from pytz import timezone, reference
 import pytz
 
 class localtime_tzinfo(object):
@@ -103,8 +103,20 @@ class localtime_tzinfo(object):
         n = (name.localize(datetime(self.year,self.month,self.day,self.hour,self.min,self.sec)))
         newdate = n + timedelta(minutes=delta)
         return newdate.strftime(self.fmt)
+
+    def get_system_time(self):
+        current_time = datetime.now().time() 
+        return current_time
+    
+    def get_system_timezone(self,yr=0,mon=0,day=0,hr=0,min=0,sec=0):
+        if yr == 0:
+            today = datetime.now()
+        else:
+            today = datetime(yr,mon,day,hr,min,sec)
+        localtime = reference.LocalTimezone()
+        local_tz = localtime.tzname(today)
+        return today.strftime(self.fmt) + local_tz
         
-#        return (self.this_tzinfo(timedelta(minutes=delta)).strftime(self.fmt))
     
 if __name__ == '__main__':
     eastLocal = localtime_tzinfo(2016,12,31,23,59,59,'US','Eastern')
@@ -144,3 +156,8 @@ if __name__ == '__main__':
     print(hawaiiLocal.get_new_date(-60))
     print(hawaiiLocal.get_new_date(24 * 60))
     print(hawaiiLocal.get_new_date(24 * 60 * -1))
+#    print(hawaiiLocal.subtract_new())
+    print(hawaiiLocal.get_system_time())
+    print(hawaiiLocal.get_system_timezone())
+    print(hawaiiLocal.get_system_timezone(2016,11,6,1,55,10))
+    print(hawaiiLocal.get_system_timezone(2016,11,6,2,0,0))
