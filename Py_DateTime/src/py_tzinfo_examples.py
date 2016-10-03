@@ -27,7 +27,6 @@ class localtime_tzinfo(object):
         Constructor
         '''
         self.region = country + '/' + region
-#        print(self.region)
         self.fmt = '%Y-%m-%d %H:%M:%S %Z%z'
         self.year = yr
         self.month = mon
@@ -38,6 +37,7 @@ class localtime_tzinfo(object):
         self.utc = pytz.utc
         self.this_tzinfo = timezone(self.region)
         self.utc_dt = datetime(self.year,self.month,self.day,self.hour,self.min,self.sec, tzinfo=self.utc)
+        self.local_datetime = self.this_tzinfo.localize(datetime(self.year,self.month,self.day,self.hour,self.min,self.sec))
         
     def get_utc(self):
         return self.utc_dt
@@ -47,15 +47,12 @@ class localtime_tzinfo(object):
     
     def get_tzinfo(self):
         return  self.this_tzinfo
-       
-        
+             
     def get_regionTimeZone_tzinfo(self):
         return  self.this_tzinfo
     
     def display_local_timezone(self):
-        local_datetime = self.this_tzinfo.localize(datetime(self.year,self.month,self.day,self.hour,self.min,self.sec))
-#        print(local_datetime.strftime(self.fmt))
-        return local_datetime.strftime(self.fmt)
+        return  self.local_datetime.strftime(self.fmt)
         
     def display_local_timezone1(self):
         name = timezone(self.region)
