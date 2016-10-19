@@ -1,0 +1,60 @@
+    def total_int(self,arrayIn):
+        arTotal = 0
+        for dig in arrayIn:
+            arTotal = arTotal + dig
+        print(arTotal)
+        return arTotal
+    
+    def create_array_of_combined_numbers(self):
+        comb_array = []
+        
+        for i in range(len(self.integers)):
+            try:
+                com = str(self.integers[i]) + str(self.integers[i+1])
+                #print(com)
+                comb_array.append(int(com))
+            except IndexError as e:
+                print('Index error here', e)
+        return comb_array
+    
+    def create_desired_array(self,baseArray):
+        comNumberArray = self.create_array_of_combined_numbers()
+        print('combine numbers',comNumberArray)
+            
+    def create_arrays(self):
+        ar1 = self.create_array_of_combined_numbers()
+        ar2 = self.integers
+        theseArrays = []
+        print('len self.goodIntArrays',len(self.goodIntArrays))
+        while len(self.goodIntArrays) < 3:
+            self.goodIntArrays.append(self.integers)
+            print('len self.goodIntArrays',len(self.goodIntArrays))
+        print('self.goodIntArrays',self.goodIntArrays)
+        
+        
+        
+ ---------------
+ 
+         '''       
+        good = True
+        for arry in possible:
+            for i in self.integers:
+                if str(i) not in str(arry):
+ #                   print(str(arry) ,str(i))
+                    good = False
+#                    print(i , good)
+            if good:
+                total = 0
+                for i in arry:
+                    total = total + i
+                    print(arry, total)
+                    result_tuple.append((total,arry))
+            good = True
+        
+        for item in result_tuple:            
+            if item[0] == 100:                
+#                print(item)
+                goodArrays.append(item[1])
+        return goodArrays
+    '''               
+        
