@@ -15,7 +15,7 @@ http://pytz.sourceforge.net
 
 '''
 import datetime
-from pytz import tzinfo
+# from pytz import tzinfo
 
 # import timezone
 
@@ -92,7 +92,7 @@ if __name__ == '__main__':
     
     print(myClass.getDateObject())
     print(myClass.getObjectMonth())
-    print(myClass.tzinfo())
+#    print(myClass.tzinfo())
 #    print(myClassTime)
 
 #    myTz =  TimeZoneExamples()

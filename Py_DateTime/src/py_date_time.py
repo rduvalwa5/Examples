@@ -57,10 +57,11 @@ if __name__ == '__main__':
     day = 12
     print(month, day, year)
     simple = SimpleDateTime()
-    print(simple.getNowDateTime())
-    print(simple.getNowTime())
-    print(simple.getNowDay())
-    print(simple.getToday())
-    print(simple.getWeekday(year, month, day))
+    print("System Time: ", simple.get_system_time())
+    print("System Date and Time: ",simple.getNowDateTime())
+    print("System time: ",simple.getNowTime())
+    print("System day of the month: ",simple.getNowDay())
+    print("System Today: ",simple.getToday())
+    print("Day of the week for ", year,  month, day, " : ", simple.getWeekday(year, month, day))
     print(simple.getIsoWeekday(year, month, day))
     
