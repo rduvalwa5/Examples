@@ -3,7 +3,7 @@ https://www.w3resource.com/python-exercises/python-basic-exercise-107.php
 '''
 import glob
 import os
-from numpy import size
+#from numpy import size
 import time
 
 class filesAttributes:
@@ -41,7 +41,7 @@ class filesAttributes:
         return fileStats
         
 if __name__ == '__main__':
-    pathFiles = '/Users/rduvalwa2/Music/War/'
+    pathFiles = '/Users/rduvalwa2/Music/iTunes/iTunes Media/Music/Alvin Lee/In Tennessee'
     extension = ".mp3"
     fileObj = filesAttributes()
     results = fileObj.fileTypeCounter(pathFiles)
