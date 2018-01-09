@@ -1,7 +1,11 @@
 '''
+Created on Dec 28, 2017
+https://docs.python.org/3/library/pickle.html
 https://docs.python.org/3/library/os.path.html
 https://www.w3resource.com/python-exercises/python-basic-exercise-107.php
 '''
+import serial_objects
+
 import glob
 import os
 import time
@@ -104,4 +108,4 @@ if __name__ == '__main__':
         print(stat)
     print(len(fileStats))
  
-    
+ 
