@@ -5,5 +5,7 @@
 <pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">
 <path>/${PROJECT_DIR_NAME}/Py_DateTime/src</path>
 <path>/${PROJECT_DIR_NAME}/FilePathManuipulations</path>
+<path>/${PROJECT_DIR_NAME}/serializing_objects</path>
+<path>/${PROJECT_DIR_NAME}/Mac_Sound_Play</path>
 </pydev_pathproperty>
 </pydev_project>

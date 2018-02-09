@@ -1,0 +1,83 @@
+https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/afplay.1.html
+
+
+This manual page is for Mac OS X version 10.9
+
+If you are running a different version of Mac OS X, view the documentation locally:
+
+In Terminal, using the man(1) command
+Reading manual pages
+
+Manual pages are intended as a quick reference for people who already understand a technology.
+
+To learn how the manual is organized or to learn about command syntax, read the manual page for manpages(5).
+For more information about this technology, look for other documentation in the Apple Developer Library.
+For general information about writing shell scripts, read Shell Scripting Primer.
+
+
+AFPLAY(1)                 BSD General Commands Manual                AFPLAY(1)
+
+NAME
+     afplay -- Audio File Play
+
+SYNOPSIS
+     afplay [-h] audiofile
+
+DESCRIPTION
+     Audio File Play plays an audio file to the default audio output
+
+OPTIONS
+     -h       print help text
+
+Darwin                         February 13, 2007                        Darwin
+
+
+
+
+
+*******************************************
+
+OSXAir:The Billie Holiday Story Volume II rduvalwa2$ audacity
+-bash: audacity: command not found
+OSXAir:The Billie Holiday Story Volume II rduvalwa2$ afplay
+
+    Audio File Play
+    Version: 2.0
+    Copyright 2003-2013, Apple Inc. All Rights Reserved.
+    Specify -h (-help) for command options
+
+Usage:
+afplay [option...] audio_file
+
+Options: (may appear before or after arguments)
+  {-v | --volume} VOLUME
+    set the volume for playback of the file
+  {-h | --help}
+    print help
+  { --leaks}
+    run leaks analysis
+  {-t | --time} TIME
+    play for TIME seconds
+  {-r | --rate} RATE
+    play at playback rate
+  {-q | --rQuality} QUALITY
+    set the quality used for rate-scaled playback (default is 0 - low quality, 1 - high quality)
+  {-d | --debug}
+    debug print output
+OSXAir:The Billie Holiday Story Volume II rduvalwa2$ ls
+01 The Other Spring.mp3				12 God Bless The Child.mp3			23 One Never Knows Does One_.mp3
+02 The Man I Love.mp3				13 Am I Blue_.mp3				24 I've Got My Love To Keep Me Warm.mp3
+03 Ghost Of Yesterday.mp3			14 I Cover The Waterfront.mp3			25 My Last Affair.mp3
+04 Body And Soul.mp3				15 Love Me Or Leave Me.mp3			26 You Showed Me The Way.mp3
+05 I'm Pulling Through.mp3			16 Gloomy Sunday.mp3				27 Sentimental And Melancholy.mp3
+06 Tell Me More.mp3				17 A Sunbonnet Blue.mp3				28 Let's Call The Whole Thing Off.mp3
+07 Laughing At Life.mp3				18 I'm Painting The Town Red.mp3		29 Moanin' Low.mp3
+08 Time One My Hands.mp3			19 What A Night, What A Moon, What A Girl.mp3	30 Carelessly.mp3
+09 Georgia On My Mind.mp3			20 You Let Me Down.mp3				31 Where Is The Sun_.mp3
+10 Romance In The Dark.mp3			21 It's Too Hot For Words.mp3			32 How Could You.mp3
+11 All Of Me.mp3				22 It's Like Reaching For The Moon.mp3
+OSXAir:The Billie Holiday Story Volume II rduvalwa2$ afplay "01 The Other Spring.mp3"
+^C
+OSXAir:The Billie Holiday Story Volume II rduvalwa2$ afplay -t 5 "01 The Other Spring.mp3"
+OSXAir:The Billie Holiday Story Volume II rduvalwa2$ afplay -t 15 "01 The Other Spring.mp3"
+OSXAir:The Billie Holiday Story Volume II rduvalwa2$ 
