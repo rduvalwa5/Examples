@@ -7,5 +7,6 @@
 <path>/${PROJECT_DIR_NAME}/FilePathManuipulations</path>
 <path>/${PROJECT_DIR_NAME}/serializing_objects</path>
 <path>/${PROJECT_DIR_NAME}/Mac_Sound_Play</path>
+<path>/${PROJECT_DIR_NAME}/PopupWindows</path>
 </pydev_pathproperty>
 </pydev_project>
