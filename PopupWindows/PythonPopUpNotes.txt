@@ -1,5 +1,4 @@
 Objective 1:
 	Create a popup window that will play and stop a song selected from a list of songs
 Links:
-	https://pythonprogramming.net/tkinter-popup-message-window/
-	https://stackoverflow.com/questions/10020885/creating-a-popup-message-box-with-an-entry-field
+	https://www.tutorialspoint.com/python/tk_messagebox.htm
