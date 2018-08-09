@@ -4,6 +4,8 @@ Created on Aug 6, 2018
 @author: RDuval
 '''
 '''
+https://stackoverflow.com/questions/27196143/get-file-attributes-hidden-readonly-system-archive-in-python
+
 https://docs.python.org/3/library/os.path.html
 https://www.w3resource.com/python-exercises/python-basic-exercise-107.php
 '''

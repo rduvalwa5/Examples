@@ -12,6 +12,13 @@ class filesAttributes:
         self.artist = []
         self.albums = []
         self.fileStats = []
+        
+    def getFileStats(self,path = "./"):
+        files = glob.glob(os.path.join(path, "*")) # get all files in path
+        for file in files:
+            if os.path.isfile(file):
+                fileStats = os.stat(file)
+                print("Stats " ,file,fileStats)
 
     def fileTypeCounter(self,path="./"):
         counts =   {}  
@@ -79,10 +86,12 @@ class filesAttributes:
         return self.fileStats
  
 if __name__ == '__main__':
-    pathFiles = '/Users/rduvalwa2/Music/iTunes/iTunes Music/Music/' #Alvin Lee/In Tennessee'
+#    pathFiles = '/Users/rduvalwa2/Music/iTunes/iTunes Music/Music/' #Alvin Lee/In Tennessee'
+    pathFiles = '/Users/rduvalwa2/Music/iTunes/iTunes Music/Music/Alvin Lee/In Tennessee'
     extension = ".mp3"
     fileObj = filesAttributes()
-    results = fileObj.fileTypeCounter(pathFiles)
+#    results = 
+    fileObj.getFileStats(pathFiles)
 #    print(results)
     
 #    for file in fileObj.get_File(pathFiles):
@@ -99,9 +108,9 @@ if __name__ == '__main__':
  #   allAlbums = fileObj.get_albums()
  #   for album in allAlbums:
  #       print(album)
-    fileStats = fileObj.get_songs()
-    for stat in fileStats:
-        print(stat)
-    print(len(fileStats))
+ #   fileStats = fileObj.get_songs()
+ #   for stat in fileStats:
+ #       print(stat)
+ #   print(len(fileStats))
  
     
