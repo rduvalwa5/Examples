@@ -13,7 +13,7 @@ import glob
 import os
 import time
 
-class filesAttributes:
+class fileTypes:
     def __init__(self):
         self.basePath = 'E:\Music\Amazon MP3\Joe Henderson\The Elements'
         self.artist = []
@@ -93,28 +93,15 @@ class filesAttributes:
         return self.fileStats
  
 if __name__ == '__main__':
-#    pathFiles = 'E:\Music\Amazon MP3\Joe Henderson\The Elements'
-    pathFiles = 'E:\Music'
-    extension = ".mp3"
-    fileObj = filesAttributes()
+    pathFiles = 'E:\Music\Amazon MP3\Joe Henderson\The Elements'
+
+    fileObj = fileTypes()
     results = fileObj.fileTypeCounter(pathFiles)
-#    print(results)
-    fileObj.getFileStats(pathFiles)
-#    for file in fileObj.get_File(pathFiles):
-#        print(file,os.path.getsize(file), time.ctime(os.path.getmtime(file)))
-    
-#    for file in fileObj.get_File(pathFiles):
-#        print(file, os.stat(file))
+    print(results)
+    for file in fileObj.get_File(pathFiles):
+        print("File is ", file,os.path.getsize(file), time.ctime(os.path.getmtime(file)))
         
-  #  fileStats =  fileObj.get_File_stats(pathFiles) 
-  #  for stat in fileStats:
-  #      print(stat)
-    
-  #  fileObj.get_File_Split(pathFiles)
- #   allAlbums = fileObj.get_albums()
- #   for album in allAlbums:
- #       print(album)
-    fileStats = fileObj.get_songs()
-    for stat in fileStats:
-        print(stat)
-    print(len(fileStats))
+    fileObj.get_File_Split(pathFiles)
+    allAlbums = fileObj.get_albums()
+    for album in allAlbums:
+         print("albums", album)
