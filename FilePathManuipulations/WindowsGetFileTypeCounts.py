@@ -44,7 +44,24 @@ class getFileTypes:
 #                print(i,":", counts[i])
         return counts
 
-
+    def fileTypeCounter2(self,path='E:\Music\Amazon MP3\Joe Henderson\The Elements'):
+        counts =   {}  
+        files = glob.glob(os.path.join(path, "*")) # get all files in path
+        for file in files:
+#            if os.path.isfile(file):
+                print("X file is ", file)
+                path_ext = os.path.splitext(file)
+                print("path extension is ", path_ext)
+                if path_ext[1] in counts:
+                    counts[path_ext[1]] += 1
+                else:
+                    counts[path_ext[1]] = 1
+        print("Path: ",os.path.abspath(path))         
+#        for i in counts:
+#                print(i,":", counts[i])
+        return counts
+    
+    
 #    def get_File_Split(self,path="."):
 #        fileSplits=[]
 #        for file in glob.glob(os.path.join(path,"*")):
@@ -65,6 +82,10 @@ if __name__ == '__main__':
     print(dicItems)
     print(result.keys())
     print(result.values())
+
 #    for key, value in result:
 #        print(key, value)
 #        print(itm[0],itm[1])
+
+    counts = fileObj.fileTypeCounter2(pathFiles)
+    print("counts", counts)

@@ -27,7 +27,7 @@ class fileTypes:
                 fileStats = os.stat(file)
                 print("Stats " ,file,fileStats)
 
-    def fileTypeCounter(self,path='E:\Music\Amazon MP3\Joe Henderson\The Elements'):
+    def fileTypeCounter2(self,path='E:\Music\Amazon MP3\Joe Henderson\The Elements'):
         counts =   {}  
         files = glob.glob(os.path.join(path, "*")) # get all files in path
         for file in files:
