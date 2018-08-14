@@ -13,11 +13,14 @@ import os
 import time
 
 class getFile:
-    def __init__(self, path = "."):
-        self.path = '.'
+    def __init__(self, path = ".", typ = "py"):
+        self.path = path
         self.fileStats = []
         self.foundFiles = []
         self.fileSplits=[]
+        self.directories = []
+        self.ListFiles = []
+        self.fileType = typ
         
     def get_File(self,path="."):
         allFiles = glob.glob(os.path.join(self.path,"*"))
@@ -59,11 +62,35 @@ class getFile:
         else:   
                 return listByType
 
+    def file_Split(self):
+        for file in glob.glob(os.path.join(self.path,"*")):
+                print(os.path.split(file))
+
+    def walk_directory(self):
+        '''
+        https://www.tutorialspoint.com/python/os_walk.htm
+        '''
+        # listMusicDirecories
+        print('Start walk!')
+        for root, dirs, files in os.walk(self.path, topdown=True):
+            for name in dirs:
+#                print(os.path.join(root, name))
+                if os.path.isdir(os.path.join(root, name)):
+                        self.directories.append(name)
+            for name in files:
+                if os.path.isfile(os.path.join(root, name)):
+                    if self.fileType in name:
+                        self.ListFiles.append(name)
+        print("Directories",self.directories)
+        print("files ",self.ListFiles)
+                                              
+
+
  
 if __name__ == '__main__':
     
     filwTypeFailed = "txt"
-    getFileObj = getFile()
+    getFileObj = getFile("/Users/rduvalwa2/Desktop","sql")
     getFileResult = getFileObj.get_File()
     print("getFileResult", getFileResult)
     
@@ -87,3 +114,7 @@ if __name__ == '__main__':
     fileType = "Windows"
     WinFindType = getFileObj.get_file_by_type(fileType)
     print(WinFindType)
+    
+    getFileObj.file_Split()
+    
+    getFileObj.walk_directory()
