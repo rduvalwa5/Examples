@@ -23,10 +23,15 @@ class getFile:
         self.fileType = typ
         
     def get_File(self,path="."):
+        print("path ", self.path)
         allFiles = glob.glob(os.path.join(self.path,"*"))
+        print(allFiles)
         for file in allFiles:
             if os.path.isfile(file):
-                self.foundFiles.append(file)
+                try:
+                    self.foundFiles.append(file)
+                except IOError:
+                    print(file, " file not found")
         return self.foundFiles
 
     def get_File_stats(self):
@@ -66,13 +71,13 @@ class getFile:
         for file in glob.glob(os.path.join(self.path,"*")):
                 print(os.path.split(file))
 
-    def walk_directory(self):
+    def walk_directory(self,path):
         '''
         https://www.tutorialspoint.com/python/os_walk.htm
         '''
         # listMusicDirecories
         print('Start walk!')
-        for root, dirs, files in os.walk(self.path, topdown=True):
+        for root, dirs, files in os.walk(path, topdown=True):
             for name in dirs:
 #                print(os.path.join(root, name))
                 if os.path.isdir(os.path.join(root, name)):
@@ -88,9 +93,15 @@ class getFile:
 
  
 if __name__ == '__main__':
+    import platform
     
+    print("Node :", platform.uname().node)
+    if (platform.uname().node == 'C1246895-XPS'):
+            getFileObj = getFile("C:\\Users\\RDuval.C1246895-XPS\\git\PyExamples\\FilePathManuipulations\\","txt")
+    else:
+            getFileObj = getFile("/Users/rduvalwa2/Desktop","sql")
+        
     filwTypeFailed = "txt"
-    getFileObj = getFile("/Users/rduvalwa2/Desktop","sql")
     getFileResult = getFileObj.get_File()
     print("getFileResult", getFileResult)
     
@@ -117,4 +128,8 @@ if __name__ == '__main__':
     
     getFileObj.file_Split()
     
-    getFileObj.walk_directory()
+    if (platform.uname().node == 'C1246895-XPS'):
+            path = "C:\\Users\\RDuval.C1246895-XPS\\git\PyExamples"
+    else:
+            path = "/Users/rduvalwa2/Desktop"
+    getFileObj.walk_directory(path)
