@@ -87,9 +87,26 @@ class getFile:
                     if self.fileType in name:
                         self.ListFiles.append(name)
         print("Directories",self.directories)
+        print("Total Directories",self.directories.__len__())       
         print("files ",self.ListFiles)
-                                              
-
+        print("Total files ",self.ListFiles.__len__())
+                                               
+    def find_file(self,fil,path):
+        '''
+        https://www.tutorialspoint.com/python/os_walk.htm
+        '''
+        # listMusicDirecories
+        print('find ', fil)
+        for root, dirs, files in os.walk(path, topdown=True):
+#            print(files.__len__())
+            for f in files:
+                if os.path.isfile(os.path.join(root, f)):
+#                    print(root)
+                    if f == fil:
+                        self.ListFiles.append(root + "/" + f)     
+#        print("files ",self.ListFiles)
+#        print("Total files ",self.ListFiles.__len__())
+        return self.ListFiles
 
  
 if __name__ == '__main__':
@@ -128,8 +145,12 @@ if __name__ == '__main__':
     
     getFileObj.file_Split()
     
-    if (platform.uname().node == 'C1246895-XPS'):
-            path = "C:\\Users\\RDuval.C1246895-XPS\\git\PyExamples"
-    else:
-            path = "/Users/rduvalwa2/Desktop"
-    getFileObj.walk_directory(path)
+    getFileObj.find_file("hosts", "/")
+    
+#    if (platform.uname().node == 'C1246895-XPS'):
+#            path = "C:\\Users\\RDuval.C1246895-XPS\\git\PyExamples"
+#    else:
+#            path =  "/Library"  # "/Users/rduvalwa2/Desktop"
+#    getFileObj.walk_directory(path)
+    
+    
