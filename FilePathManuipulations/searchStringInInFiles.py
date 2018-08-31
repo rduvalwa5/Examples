@@ -4,14 +4,12 @@ import glob
 import os
 import sys
 
-
-
 def find_dir_files(dir,path, sTxt):
         listDirs = []
         print(dir,  path)
         ListFiles = []
         ListOfSearchSuccess = []
-        print('find ', (path + "/" + dir))
+        print('find ', sTxt , (path + "/" + dir))
         for root, dirs, files in os.walk(path, topdown=False):
                 for name in dirs:
                         if os.path.isdir(os.path.join(root, name)):
@@ -38,9 +36,5 @@ def find_dir_files(dir,path, sTxt):
  
 if __name__ == "__main__":
 
-#    find_dir_files(sys.argv[1],sys.argv[2])
+#    print(find_dir_files(sys.argv[1],sys.argv[2], sys.argv[3]))
     print(find_dir_files("Python_Utilities","/Users/rduvalwa2","os.walk"))
-  
-# OSXAir:~ rduvalwa2$ ls -l | grep '^d' | wc
-#      40     370    2684
-    

@@ -4,8 +4,6 @@ import glob
 import os
 import sys
 
-
-
 def find_dir_files(dir,path):
         listDirs = []
         print(dir,  path)
@@ -22,14 +20,11 @@ def find_dir_files(dir,path):
                 for f in files:
                     if os.path.isfile(os.path.join(root, f)):
                         ListFiles.append(root + "/" + f)     
-        print("files ",ListFiles)
-        
+#        print("files ",ListFiles) 
+        return  ListFiles    
  
 if __name__ == "__main__":
 
-#    find_dir_files(sys.argv[1],sys.argv[2])
-    find_dir_files("Python_Utilities","/Users/rduvalwa2")
-  
-# OSXAir:~ rduvalwa2$ ls -l | grep '^d' | wc
-#      40     370    2684
-    
+#    uncomment below and comment out the next line to make a command line run script
+#    print(find_dir_files(sys.argv[1],sys.argv[2]))
+    print(find_dir_files("Python_Utilities","/Users/rduvalwa2"))
