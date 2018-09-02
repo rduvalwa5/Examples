@@ -30,7 +30,7 @@ if __name__ == "__main__":
     elif platform.uname().node == 'C1246895-osx.home':
         print(find_file("findFile.py","/Users/rduvalwa2/python_workspace2017/Examples"))
     elif platform.uname().node ==  'C1246895-XPS':    
-        print(find_file("findFile.py","/Users/rduvalwa2/python_workspace2017/Examples"))
+        print(find_file("findFile.py","C:\\Users\\RDuval.C1246895-XPS\\git\\PyExamples"))
     else: 
         print(find_file("findFile.py","/Users/rduvalwa2/eOxigen-workspace/Examples"))
     
