@@ -1,6 +1,3 @@
-'''
-findFile locates a file within a path and returns a list of locations and the number of files examined to find it.
-'''
 #!/usr/local/bin/python
 
 import glob
@@ -23,18 +20,16 @@ def find_file(fil,path):
  
 if __name__ == "__main__":
     import platform
-#    print(find_file(sys.argv[1],sys.argv[2]))
+    print(find_file(sys.argv[1],sys.argv[2]))
+#    print(find_file("hosts.txt","/Users/rduvalwa2/"))
 
-    if platform.uname().node == 'OSXAir.home.home':
-        print(find_file("findFile.py","/Users/rduvalwa2/eOxigen-workspace/Examples"))
-    elif platform.uname().node == 'C1246895-osx.home':
-        print(find_file("findFile.py","/Users/rduvalwa2/python_workspace2017/Examples"))
-    elif platform.uname().node ==  'C1246895-XPS':    
-        print(find_file("findFile.py","C:\\Users\\RDuval.C1246895-XPS\\git\\PyExamples"))
-    else: 
-        print(find_file("findFile.py","/Users/rduvalwa2/eOxigen-workspace/Examples"))
-    
-    '''
-    (['/Users/rduvalwa2/python_workspace2017/Examples/FilePathManuipulations/findFile.py', 332], 441)
 
+'''
+findFile locates a file within a path and returns a list of locations and the number of files examined 
+to find it.
+
+OSXAir:Python_Utilities rduvalwa2$ ./findFile.py "hosts.txt" "/Users/rduvalwa2/"
+('find ', 'hosts.txt', ' in ', '/Users/rduvalwa2/')
+(['/Users/rduvalwa2//hosts.txt', 23, '/Users/rduvalwa2/Workspace/hosts.txt', 135461, '/Users/rduvalwa2/Public/hosts.txt', 225931, '/Users/rduvalwa2/Public/Magic/hosts.txt', 225944], 345277)
+OSXAir:Python_Utilities rduvalwa2$ 
     '''
