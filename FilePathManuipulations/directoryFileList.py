@@ -26,5 +26,16 @@ def find_dir_files(dir,path):
 if __name__ == "__main__":
 
 #    uncomment below and comment out the next line to make a command line run script
-#    print(find_dir_files(sys.argv[1],sys.argv[2]))
-    print(find_dir_files("Python_Utilities","/Users/rduvalwa2"))
+    for f in find_dir_files(sys.argv[1],sys.argv[2]):
+        print(f)
+#    for f in find_dir_files("Python_Utilities","/Users/rduvalwa2"):
+#        print(f)
+
+'''
+    OSXAir:Python_Utilities rduvalwa2$ ./directoryFileList.py Python_Utilities "/Users/rduvalwa2/" 
+    ('Python_Utilities', '/Users/rduvalwa2/')
+    ('find ', '/Users/rduvalwa2//Python_Utilities')
+    ('found ', 'Python_Utilities')
+    /Users/rduvalwa2/Python_Utilities/directoryFileList.py
+    /Users/rduvalwa2/Python_Utilities/findFile.py     
+'''
