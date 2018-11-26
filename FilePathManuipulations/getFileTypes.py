@@ -46,10 +46,11 @@ class get_file_type():
         for file in self.spec_dirs:
             if os.path.isfile(self.path + '/' + file):
                 if ".DS_Store" in file or ".com.apple" in file:
-                    continue
+                    continue 
                 else:
-#                    print(file)
+#                    print(self.fileType, file)
                     if self.fileType in file:
+#                        print(file)
                         returnedFilesTypes.append(file)
         return returnedFilesTypes 
         
@@ -73,7 +74,7 @@ if __name__ == '__main__':
     pathWithFilesOnly = '/Users/rduvalwa2/Desktop/SafeItems'
     pth = '/Users/rduvalwa2/Desktop'
     print('input path: ',pth)
-    t = 'jpg'
+    t = 'pdf'
     
     
     fDir = get_file_type(pth,t)
@@ -86,8 +87,9 @@ if __name__ == '__main__':
         
     for ff in fDir.get_onlyFilesInDirecotry():
         print(ff)
-    
-    print('\n Only files types')    
+ 
+    print('\n Only files types', t)   
+#    print(fDir.get_onlyFilesTypesInDirecotry()) 
     for ft in fDir.get_onlyFilesTypesInDirecotry():
         print(ft)
 '''
