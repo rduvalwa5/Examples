@@ -52,8 +52,8 @@ given as parameters (which all default to '').
 print("Java ",platform.java_ver(release='', vendor='', vminfo=('', '', ''), osinfo=('', '', '')))
 print("Windos 32 ",platform.win32_ver(release='', version='', csd='', ptype=''))
 print("Mac OSX ",platform.mac_ver(release='', versioninfo=('', '', ''), machine=''))
-print("Unix  ", platform.dist(distname='', version='', id='', supported_dists=('SuSE', 'debian', 'redhat', 'mandrake', ...)))
-print("Linux ", platform.linux_distribution(distname='', version='', id='', supported_dists=('SuSE', 'debian', 'redhat', 'mandrake', ...), full_distribution_name=1))
+print("Unix  ", platform.dist(distname='', version='', id='', supported_dists=('SuSE', 'debian', 'redhat', 'mandrake')))
+print("Linux ", platform.linux_distribution(distname='', version='', id='', supported_dists=('SuSE', 'debian', 'redhat', 'mandrake'), full_distribution_name=1))
 
 """
 Tries to determine the libc version against which the file executable (defaults to the Python interpreter) is linked. 
