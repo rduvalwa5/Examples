@@ -45,16 +45,16 @@ if __name__ == "__main__":
     var = 'JAVA'
     val = '/usr/bin/java'
     put_env_var_shell()
-    print(os.name)
+#    print(os.name)
     
-    print(get_os_env())
-    print(get_env_item('HOME')) 
-    theseTags = get_all_tags()
-    envTagValues = listEnvVar()
-    for item in envTagValues:
-        print(item)    
-    for item in envTagValues:
-        if item[0] == "HOME":
-            print("Home is ", item[1])
+#    print(get_os_env())
+#    print(get_env_item('HOME')) 
+#    theseTags = get_all_tags()
+#    envTagValues = listEnvVar()
+#    for item in envTagValues:
+#        print(item)    
+#    for item in envTagValues:
+ #       if item[0] == "HOME":
+ #           print("Home is ", item[1])
  
-    put_env_var_shell()
+#    put_env_var_shell()

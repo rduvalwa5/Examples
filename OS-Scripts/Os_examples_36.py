@@ -61,7 +61,7 @@ if __name__ == "__main__":
     print(thisOs.getcwd())
 #    print(thisEnv['_'])
     print(thisEnv['HOME'])
-    print(thisEnv['JAVA_HOME'])
+#    print(thisEnv['JAVAHOME'])
     print(thisEnv['LOGNAME']) 
     print("Should be posix ", get_os_name())
     print("CPU count ", get_cpu_count())

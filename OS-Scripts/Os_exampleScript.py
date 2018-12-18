@@ -64,5 +64,3 @@ os.chown(path, uid, gid, *, dir_fd=None, follow_symlinks=True)
 """
 os.chroot(path)
 """
-
-"""
