@@ -41,9 +41,24 @@ print(os.getgid())
 os.getgrouplist(user, group)
 Return list of group ids that user belongs to. If group is not in the list, it is included; typically, group is specified 
 as the group ID field from the password record for user.
-'''
-print(os.getgrouplist('rduvalwa2',1))
+os.getgrouplist OSError
+[20, 401, 12, 61, 79, 80, 81, 98, 398, 101, 704, 701, 702, 33, 100, 204, 250, 395, 703]
 
+OSXAir:Examples rduvalwa2$ groups rduvalwa2
+staff com.apple.access_remote_ae everyone localaccounts _appserverusr admin _appserveradm _lpadmin com.apple.access_screensharing com.apple.access_ssh-disabled com.apple.sharepoint.group.4 com.apple.sharepoint.group.1 com.apple.sharepoint.group.2 _appstore _lpoperator _developer _analyticsusers com.apple.access_ftp com.apple.sharepoint.group.3
+OSXAir:Examples rduvalwa2$ groups
+staff com.apple.access_remote_ae everyone localaccounts _appserverusr admin _appserveradm _lpadmin com.apple.access_screensharing com.apple.access_ssh-disabled com.apple.sharepoint.group.4 com.apple.sharepoint.group.1 com.apple.sharepoint.group.2 _appstore _lpoperator _developer _analyticsusers com.apple.access_ftp com.apple.sharepoint.group.3
+OSXAir:Examples rduvalwa2$ id
+uid=503(rduvalwa2) gid=20(staff) groups=20(staff),401(com.apple.access_remote_ae),12(everyone),61(localaccounts),79(_appserverusr),80(admin),81(_appserveradm),98(_lpadmin),398(com.apple.access_screensharing),101(com.apple.access_ssh-disabled),704(com.apple.sharepoint.group.4),701(com.apple.sharepoint.group.1),702(com.apple.sharepoint.group.2),33(_appstore),100(_lpoperator),204(_developer),250(_analyticsusers),395(com.apple.access_ftp),703(com.apple.sharepoint.group.3)
+OSXAir:Examples rduvalwa2$ 
+'''
+try:
+    print(os.getgrouplist('rduvalwa2', 20))
+except OSError:
+    print("os.getgrouplist OSError")
+except TypeError:
+    print("os.getgrouplist TypeError: getgrouplist() takes exactly 2 arguments (1 given)")
+    
 '''
 os.getgroups()
 Return list of supplemental group ids associated with the current process.
