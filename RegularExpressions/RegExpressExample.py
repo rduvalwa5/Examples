@@ -10,3 +10,17 @@ print(m.group(0))
 m = re.search(r'(?<=-)\w+', 'spam-egg')
 print(m.group(0))
 # 'egg'
+
+m = re.match(r"(\w+) (\w+)", "Isaac Newton, physicist")
+print(m.group(0))       # The entire match
+# 'Isaac Newton'
+print(m.group(1))       # The first parenthesized subgroup.
+#'Isaac'
+print(m.group(2))       # The second parenthesized subgroup.
+#'Newton'
+print(m.group(1, 2))    # Multiple arguments give us a tuple.
+#('Isaac', 'Newton')
+try:
+    print(m.group(3)) 
+except IndexError as noSuchGroup:
+    print(noSuchGroup)
