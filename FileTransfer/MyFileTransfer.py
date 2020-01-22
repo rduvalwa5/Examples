@@ -8,9 +8,9 @@ https://stackoverflow.com/questions/12909334/how-to-transfer-files-from-client-t
 import paramiko
 import os
 
-sourceDir = r'/Users/rduvalwa2/TestDir/'
+sourceDir = r'/Users/rduvalwa2/SharedFromData/'
 #sourceDir2 = r'/Users/rduvalwa2/TestDirCopy/' cannot send directory
-destDir = r'/Users/rduvalwa2/TestDir/'
+destDir = r'/Users/rduvalwa2/SharedToData/'
 #destDir2 = r'/Users/rduvalwa2/TestDirCopy/' cannot send directory
 
 hostname = 'RandalluvalsMBP'  # RandalluvalsMBP  C1246895-OSX
@@ -21,7 +21,7 @@ port = 22 # default port for SSH
 username = 'rduvalwa2'
 password = 'blu4jazz'
 
-theseHosts = ["RandalluvalsMBP", "C1246895-OSX"]
+theseHosts = ["RandalluvalsMBP", "C1246895-OSX","OsxAir"]
 
 for fil in fileList:
     if fil != ".DS_Store":
