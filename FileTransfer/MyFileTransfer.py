@@ -8,12 +8,10 @@ https://stackoverflow.com/questions/12909334/how-to-transfer-files-from-client-t
 import paramiko
 import os
 
-sourceDir = r'/Users/rduvalwa2/SharedFromData/'
+sourceDir = r'/Users/rduvalwa2/SharedSourceData/'
 #sourceDir2 = r'/Users/rduvalwa2/TestDirCopy/' cannot send directory
-destDir = r'/Users/rduvalwa2/SharedToData/'
+destDir = r'/Users/rduvalwa2/SharedDestData/'
 #destDir2 = r'/Users/rduvalwa2/TestDirCopy/' cannot send directory
-
-hostname = 'RandalluvalsMBP'  # RandalluvalsMBP  C1246895-OSX
 
 fileList = os.listdir(sourceDir)
 
@@ -22,23 +20,28 @@ username = 'rduvalwa2'
 password = 'blu4jazz'
 
 theseHosts = ["RandalluvalsMBP", "C1246895-OSX","OsxAir"]
-
-for fil in fileList:
-    if fil != ".DS_Store":
-        sourceFile = sourceDir + fil
-        destFile = destDir + fil
-        print(sourceFile + " and " + destFile)
+print(len(fileList))
+if len(fileList) > 1:
+    for fil in fileList:
         for hostname in theseHosts:
-            try:
-                t = paramiko.Transport((hostname,port))
-                t.connect(username=username, password=password)
-                sftp = paramiko.SFTPClient.from_transport(t)
-                sftp.put(sourceFile, destFile)
-            except paramiko.ssh_exception.AuthenticationException as e:
-                print("connection error " ,e)
-            except FileNotFoundError as e:
-                print("Found not found " ,e)
-            except Exception as e:
-                print("Exception e: ", e)
-            finally:
-                t.close()  
+            for fil in fileList:
+                if fil != ".DS_Store":
+                    sourceFile = sourceDir + fil
+                    destFile = destDir + fil
+                    print(hostname + ": " + sourceFile + " and " + destFile)
+                    try:
+                        t = paramiko.Transport((hostname,port))
+                        t.connect(username=username, password=password)
+                        sftp = paramiko.SFTPClient.from_transport(t)
+                        sftp.put(sourceFile, destFile)
+                    except paramiko.ssh_exception.AuthenticationException as e:
+                            print("connection error " ,e)
+                    except FileNotFoundError as e:
+                            print("Found not found " ,e)
+                    except Exception as e:
+                        print("Exception e: ", e)
+                    finally:
+                        t.close()  
+else:
+    print('the list is empty')
+    exit                
