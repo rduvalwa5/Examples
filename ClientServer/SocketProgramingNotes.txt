@@ -1,0 +1,95 @@
+https://realpython.com/python-sockets/
+
+Socket API Overview
+Python’s socket module provides an interface to the Berkeley sockets API. 
+This is the module that we’ll use and discuss in this tutorial.
+
+The primary socket API functions and methods in this module are:
+
+socket()
+bind()
+listen()
+accept()
+connect()
+connect_ex()
+send()
+recv()
+close()
+
+Python provides a convenient and consistent API that maps directly to these system calls, 
+their C counterparts. We’ll look at how these are used together in the next section.
+
+As part of its standard library, Python also has classes that make using these 
+low-level socket functions easier. 
+Although it’s not covered in this tutorial, see the socketserver module,
+
+https://docs.python.org/3/library/socketserver.html 
+
+a framework for network servers. 
+
+There are also many modules available that implement higher-level Internet protocols 
+like HTTP and SMTP. For an overview, see Internet Protocols and Support.
+https://docs.python.org/3/library/internet.html
+
+TCP Sockets
+As you’ll see shortly, we’ll create a socket object using socket.socket() and specify the socket type 
+as socket.SOCK_STREAM. When you do that, the default protocol that’s used is the Transmission Control 
+Protocol (TCP). This is a good default and probably what you want.
+
+Why should you use TCP? The Transmission Control Protocol (TCP):
+
+Is reliable: packets dropped in the network are detected and retransmitted by the sender.
+Has in-order data delivery: data is read by your application in the order it was written by the 
+sender.
+In contrast, User Datagram Protocol (UDP) sockets created with socket.SOCK_DGRAM aren’t reliable, 
+and data read by the receiver can be out-of-order from the sender’s writes.
+
+Why is this important? Networks are a best-effort delivery system. 
+There’s no guarantee that your data will reach its destination or that you’ll receive what’s 
+been sent to you.
+
+Network devices (for example, routers and switches), have finite bandwidth available and their 
+own inherent system limitations. They have CPUs, memory, buses, and interface packet buffers, just 
+like our clients and servers. TCP relieves you from having to worry about packet loss, data arriving 
+out-of-order, and many other things that invariably happen when you’re communicating across a network.
+
+In the diagram below, let’s look at the sequence of socket API calls and data flow for TCP:
+
+https://files.realpython.com/media/sockets-tcp-flow.1da426797e37.jpg
+
+Here’s the server, echo-server.py:
+
+#!/usr/bin/env python3
+
+import socket
+
+HOST = '127.0.0.1'  # Standard loopback interface address (localhost)
+PORT = 65432        # Port to listen on (non-privileged ports are > 1023)
+
+with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+    s.bind((HOST, PORT))
+    s.listen()
+    conn, addr = s.accept()
+    with conn:
+        print('Connected by', addr)
+        while True:
+            data = conn.recv(1024)
+            if not data:
+                break
+            conn.sendall(data)
+
+Now let’s look at the client, echo-client.py:
+
+#!/usr/bin/env python3
+
+import socket
+
+HOST = '127.0.0.1'  # The server's hostname or IP address
+PORT = 65432        # The port used by the server
+
+with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+    s.connect((HOST, PORT))
+    s.sendall(b'Hello, world')
+    data = s.recv(1024)
+
+print('Received', repr(data))
