@@ -19,7 +19,7 @@ port = 22 # default port for SSH
 username = 'rduvalwa2'
 password = 'blu4jazz'
 
-theseHosts = ["RandalluvalsMBP", "C1246895-OSX","OsxAir"]
+theseHosts = ["BriaMBP", "MaxBookPro17OSX","OsxAir"]
 print(len(fileList))
 if len(fileList) > 1:
     for fil in fileList:
