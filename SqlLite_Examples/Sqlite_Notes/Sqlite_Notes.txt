@@ -1,0 +1,264 @@
+https://sqlite.org/quickstart.html
+
+  405  /Users/rduvalwa2/Downloads/sqlite-tools-osx-x86-3340100/sqlite3 ; exit;
+  406  sqlite3 test.db
+  407  sqlite3 Music.db
+  408  pwd
+  409  sqllite3 Music.db < Music_2021-01-13.sql
+  410  sqlite3 Music.db < Music_2021-01-13.sql
+  411  sqlite3 Music.db < createAlbumCover.sql
+  412  sqlite3 Music.db < createAlbumCover.sql
+  413  sqlite3 Music.db < createAlbumCover.sql
+  414  sqlite3
+  415  sqlite3
+  416  sqlite3
+  417  history
+  
+OsxAir:~ rduvalwa2$ sqlite3
+SQLite version 3.28.0 2019-04-15 14:49:49
+Enter ".help" for usage hints.
+Connected to a transient in-memory database.
+Use ".open FILENAME" to reopen on a persistent database.
+sqlite> .open Music.db
+sqlite> .tables
+COMPANY
+sqlite> .tables COMPANY
+COMPANY
+sqlite> select * from COMPANY
+   ...> ;
+sqlite> drop table COMPANY
+   ...> ;
+sqlite> .quit
+  
+
+# sqlite3 company.db
+sqlite> create table employee(empid integer,name varchar(20),title varchar(10));
+sqlite> create table department(deptid integer,name varchar(20),location varchar(10));
+sqlite> .quit
+
+***** Create Table ******
+
+MySQL -------
+CREATE TABLE `album_covers` (
+  `cover_idx` int(11) unsigned NOT NULL,
+  `album_cover` varchar(100) NOT NULL,
+  `album` varchar(200) NOT NULL,
+  `description` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`cover_idx`),
+  UNIQUE KEY `cover_idx_UNIQUE` (`cover_idx`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+Sqlite ------
+
+CREATE TABLE t(x INTEGER, y, z, PRIMARY KEY(x ASC));
+
+OsxAir:~ rduvalwa2$ sqlite3
+SQLite version 3.28.0 2019-04-15 14:49:49
+Enter ".help" for usage hints.
+Connected to a transient in-memory database.
+Use ".open FILENAME" to reopen on a persistent database.
+
+sqlite> .open Music.db
+
+sqlite> CREATE TABLE album_covers(cover_idx INTEGER, album_cover TEXT, album TEXT, description TEXT, PRIMARY KEY(cover_idx ASC)); 
+
+
+MySQL -------
+CREATE TABLE `album2songs` (
+  `index` bigint(5) NOT NULL,
+  `server` varchar(50) DEFAULT NULL,
+  `path` varchar(100) NOT NULL,
+  `artist` varchar(100) NOT NULL,
+  `album` varchar(200) NOT NULL,
+  `song` varchar(200) NOT NULL,
+  `genre` varchar(50) DEFAULT NULL,
+  `type` varchar(20) DEFAULT NULL,
+  `genre_idx` bigint(5) unsigned DEFAULT '1',
+  PRIMARY KEY (`index`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+Sqlite ------
+
+sqlite> CREATE TABLE album2songs(song_idx INTEGER, server TEXT, path TEXT,artist TEXT,album TEXT, song TEXT,genre TEXT,type TEXT,PRIMARY KEY(song_idx ASC));
+sqlite> .tables
+album2songs   album_covers
+
+
+MySQL -------
+CREATE TABLE `artist` (
+  `index` bigint(5) NOT NULL,
+  `artist` varchar(100) NOT NULL,
+  `genre` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`index`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+Sqlite ------
+
+sqlite> CREATE TABLE artist(art_idx INTEGER, artist TEXT, genre TEXT,PRIMARY KEY(art_idx ASC));
+sqlite> .tables
+album2songs   album_covers  artist  
+
+
+MySQL -------
+CREATE TABLE `artist_albums` (
+  `index` bigint(5) NOT NULL,
+  `artist` varchar(100) NOT NULL,
+  `album` varchar(200) NOT NULL,
+  `genre` varchar(20) DEFAULT NULL,
+  `type` varchar(20) DEFAULT NULL,
+  `cover_name` varchar(100) DEFAULT NULL,
+  `cover_idx` int(11) DEFAULT NULL,
+  PRIMARY KEY (`index`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+Sqlite ------
+
+sqlite>  CREATE TABLE artist_albums(album_idx INTEGER, artist TEXT,album TEXT, genre TEXT,type TEXT,cover_name TEXT,cover_idx INTEGER,PRIMARY KEY(album_idx ASC));
+sqlite> .tables
+album2songs    album_covers   artist         artist_albums
+
+
+MySQL -------
+CREATE TABLE `genre` (
+  `genre` varchar(20) NOT NULL,
+  `g_idx` bigint(5) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`g_idx`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+Sqlite ------
+
+sqlite> CREATE TABLE genre(g_idx INTEGER, genre TEXT,PRIMARY KEY(g_idx ASC));
+sqlite> .tables
+album2songs    album_covers   artist         artist_albums  genre 
+
+
+MySQL -------
+CREATE TABLE `type` (
+  `type` varchar(20) NOT NULL,
+  `type_idx` bigint(5) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`type_idx`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+Sqlite ------
+
+ssqlite> CREATE TABLE type(type_idx INTEGER, type TEXT,PRIMARY KEY(type_idx ASC));
+sqlite> .tables
+album2songs    artist         genre        
+album_covers   artist_albums  type    
+
+
+************ INSERT ********************************
+
+MySQL -------
+INSERT INTO `type` (`type`, `type_idx`)
+VALUES
+	('TestType',1),
+	('Download',2),
+	('Vinyl',3),
+	('CD',4),
+	('Tape',5),
+	('TestType',6);
+
+-- Values stored as TEXT, INTEGER, INTEGER, REAL, TEXT.
+
+sqlite> INSERT INTO type VALUES(1,'TestTYpe');
+
+sqlite> select * from type;
+1|TestTYpe
+
+
+3.1.1. Affinity Name Examples
+
+CREATE TABLE album_covers(cover_idx INTEGER, album_cover TEXT, album TEXT, description TEXT, PRIMARY KEY(cover_idx ASC)); 
+
+    t  TEXT,     -- text affinity by rule 2
+    nu NUMERIC,  -- numeric affinity by rule 5
+    i  INTEGER,  -- integer affinity by rule 1
+    r  REAL,     -- real affinity by rule 4
+    no BLOB      -- no affinity by rule 3
+    
+sqlite> INSERT INTO type VALUES('TestTYpe', '1');
+Error: datatype mismatch
+sqlite> INSERT INTO type VALUES(1,'TestTYpe');
+sqlite> select * from type;
+1|TestTYpe
+sqlite> select * from type where type = TestType;
+Error: no such column: TestType
+sqlite> select * from type where type = 'TestType';
+sqlite> select * from type where type  'TestType';
+Error: near "'TestType'": syntax error
+sqlite> select * from type where type like  'TestType';
+1|TestTYpe
+sqlite> select type from type where type like  'TestType';
+TestTYpe
+sqlite> select type_idx from type where type like  'TestType';
+1
+
+sqlite> INSERT INTO type VALUES(1,'TestTYpe');
+Error: UNIQUE constraint failed: type.type_idx
+sqlite> INSERT INTO type VALUES(2,'Download');
+sqlite> INSERT INTO type VALUES(3,'Vinyl');
+sqlite> INSERT INTO type VALUES(4,'CD');
+sqlite> INSERT INTO type VALUES(5,'Tape');
+sqlite> INSERT INTO type VALUES(6,'TestTYpe');  
+sqlite> select * from type;
+1|TestTYpe
+2|Download
+3|Vinyl
+4|CD
+5|Tape
+6|TestTYpe
+sqlite> 
+
+    
+    
+    
+    
+    
+    
+    
+);
+
+
+The following table shows how many common datatype names from more traditional SQL implementations are converted into affinities by the five rules of the previous section. This table shows only a small subset of the datatype names that SQLite will accept. Note that numeric arguments in parentheses that following the type name (ex: "VARCHAR(255)") are ignored by SQLite - SQLite does not impose any length restrictions (other than the large global SQLITE_MAX_LENGTH limit) on the length of strings, BLOBs or numeric values.
+
+Example Typenames From The
+CREATE TABLE Statement
+or CAST Expression	 |   Resulting Affinity	|   Rule Used To Determine Affinity
+	INT
+	INTEGER			 |	INTEGER				|	1
+	TINYINT
+	SMALLINT
+	MEDIUMINT
+	BIGINT
+	UNSIGNED BIG INT
+	INT2
+	INT8			 |						|
+-------------------------------------------------------------------------------------	
+	
+CHARACTER(20)		  |	Text				|	2
+VARCHAR(255)
+VARYING CHARACTER(255)
+NCHAR(55)
+NATIVE CHARACTER(70)
+NVARCHAR(100)
+TEXT
+CLOB	
+-------------------------------------------------------------------------------------
+BLOB				  |	BLOB				|	3
+no datatype specified
+-------------------------------------------------------------------------------------	
+REAL				  |	REAL				|	4
+DOUBLE
+DOUBLE PRECISION
+FLOAT	
+-------------------------------------------------------------------------------------
+NUMERIC				  |  NUMERIC			|	5
+DECIMAL(10,5)
+BOOLEAN
+DATE
+DATETIME	
+-------------------------------------------------------------------------------------
+Note that a declared type of "FLOATING POINT" would give INTEGER affinity, not REAL affinity, due to the "INT" at the end of "POINT". And the declared type of "STRING" has an affinity of NUMERIC, not TEXT.
+
+  
