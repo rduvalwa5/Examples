@@ -10,6 +10,7 @@ from sqlite3 import Error
 
 filename = '/Users/rduvalwa2/git/Examples/SqlLite_Examples/Sqlite_Notes/artist_albums.csv'
 database = r"/Users/rduvalwa2/Music.db"
+#database = r"/Users/rduvalwa2/git/Examples/SqlLite_Examples/Music.db"
 
 
 conn = None
