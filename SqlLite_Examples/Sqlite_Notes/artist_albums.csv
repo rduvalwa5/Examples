@@ -1,0 +1,1244 @@
+index,"artist","album","genre","type","cover_name",cover_idx
+0,"White Lion","The Best Of White Lion","Rock","Download","The Best Of White Lion.jpg",745
+1,"Dave Dee, Dozy, Beaky, Mick & Tich","Hold Tight! - Single","Rock","Download","Hold Tight! - Single.jpg",1935
+2,"Willie Nelson and Leon Russel","Willie Nelson and Leon Russel","Country","Vinyl","WillieNelsonAndLeonRussell.jpg",1936
+3,"Dolly Parton, Linda Ronstadt & Emmylou Harris","My Dear Companion Selection","Country","Download","My Dear Companion Selection.jpg",1151
+4,"Blue Swede","Hooked On a Feeling - Single","Rock","Download","BlueSwede Hooked On a Feeling - Single.jpg",1872
+5,"Polecat","Fire On The Hill","Country","Download","Polecat.jpeg",1937
+6,"Ringo Starr","Photograph_ The Digital Greatest Hits","Rock","Download","Ringo_Photograph_ The Digital Greatest Hits.jpg",1603
+7,"Ringo Starr","Photograph_ The Very Best Of Ringo Starr","Rock","download","Ringo_Photograph-TheVeryBestOfRingoStarr_cover_art.jpg",1605
+8,"Ringo Starr","Postcards From Paradise","Rock","CD","Ringo_PostCards.jpg",1602
+9,"Traffic","Traffic","Rock","CD","Traffic_album.jpg",1456
+10,"Traffic","John Barleycorn Must Die","Rock","CD","Traffic John_Barleycorn_Must_Die.jpg",1459
+11,"Traffic","When The Eagle Flies","Rock","Vinyl","Traffic_When The Eagle Flies.jpeg",1457
+12,"Traffic","Welcome To The Canteen [Live]","Rock","download","Traffic-Welcome_to_the_Canteen.jpg",1458
+13,"North Mississippi Allstars","51 Phantom","Blues","Download","NorthMissAllstars 51 Phantom.jpg",1849
+14,"North Mississippi Allstars","Shake Hands With Shorty","Blues","Download","NorthMissAllstars Shake Hands With Shorty.jpg",1850
+15,"Tony Burgos & His Swing Shift Orchestra","Swing Now_ East Coast","Jazz","Download","Swing Now_ East Coast.jpg",2017
+16,"Cold War Kids","Mine Is Yours (Deluxe Version)","Pop","Download","Mine Is Yours (Deluxe Version).jpg",1383
+17,"Golden Earring","Moontan","Rock","Download","Moontan.jpg",1938
+18,"Johnny Cash","Classic Country Hits of the 1960s with Songs","Country","Download","Classic Country Hits of the 1960s with Songs.jpg",1818
+19,"Johnny Cash","Sunday Morning Coming Down","Country","Vinyl","JohnnyCash_SundayMorning.jpg",1817
+20,"Les McCann","Live At Montreux","Jazz","Download","Live At Montreux.png",1930
+21,"Andy Narell","Stickman","Jazz","Vinyl","Stickman.jpeg",1939
+22,"Little Eva","The Loco-Motion","R&B","Download","The_Loco-Motion_by_Little_Eva_1962.jpg",1940
+23,"Blackfoot","Strikes","Rock","Download","Strikes.jpg",1941
+24,"Uncle Earl","She Waits for Night","BlueGrass","CD","UncleEarl_she waits for the night.jpg",1942
+25,"Uncle Earl","Waterloo, Tennessee","BlueGrass","CD","uncleEarl_waterloo.jpg",1943
+26,"Alison Krauss","Windy City","Country","CD","Krauss_WindyCity.jpg",1550
+27,"Alison Krauss","Forget About It","Country","CD","Forget About It.jpg",1551
+28,"Alison Krauss","A Hundred Miles or More - A Collection","Country","Download","Krauss A Hundred Miles or More - A Collection.jpg",1552
+29,"Bee Gees","Number Ones","Folk","Download","BeeGees Number Ones.jpg",1414
+30,"Bee Gees","Main Course","Folk","Vinyl","Bee Gees Main Course.jpg",1415
+31,"Bee Gees","Best Of The BeeGees","Folk","Vinyl","Best Of The BeeGees.jpg",1417
+32,"Bee Gees","Mr. Natural","Folk","Vinyl","Bee Gees Mr Natural.jpeg",1416
+33,"Pat Metheny Group","American Garage","Jazz","Vinyl","PatMethany_American Garage.jpg",1533
+34,"The Kingston Trio","Absolutely The Best","Folk","CD","Absolutely The Best.jpg",1944
+35,"Waylon Jennings & The Waylors","Early Years","Country","Download","Waylon Jennings Early Years.jpg",1359
+36,"Jerry Jeff Walker","20th Century Masters - The Millennium Collection_ The Best of Jerry Jeff Walker","Country","Download","20th Century Masters - The Millennium Collection_ The Best of Jerry Jeff Walker.jpg",1945
+37,"AC_DC","Rock Or Bust","Rock","CD","Rock Or Bust.jpg",1946
+38,"Elton John & Leon Russell","The Union","Pop","CD","EltonJohn_LeanRussel_The Union.jpg",1181
+39,"Janos Sebestyen","Bach_ Inventions & Sinfonias, BWV 772-801","rock","download","JsBach_InventionsAndSinfonias.jpg",1625
+40,"Bill Perry","Fire It Up","Rock","Download","Bill Perry Fire It Up.jpg",1882
+41,"Old Crow Medicine Show","Tennessee Pusher","Country","CD","OldCrow Tennessee Pusher 1.jpg",1711
+42,"Old Crow Medicine Show","OCMS","Country","CD","OldCrow OCMS 1.jpg",1710
+43,"Alvin Lee _ Mylon LeFevre","On The Road To Freedom Alvin Lee & Mylon LeFevre","rock","Vinyl","On The Road To Freedom Alvin Lee & Mylon LeFevre.jpg",1470
+44,"Alligator Stew","Alligator Stew","Folk","CD","Alligator Stew.jpg",1947
+45,"Fats Waller","Fats Waller_ Very Best of Fats Waller","Jazz","CD","FatsWaller_TheVeryBest.jpg",1922
+46,"Mark Knopfler","The Ragpicker's Dream","Rock","Download","MarkKnopfler The Ragpicker's Dream.jpg",1274
+47,"Mark Knopfler","Tracker","Rock","CD","MarkKnopfler_Tracker.jpg",1272
+48,"Mark Knopfler","Sailing To Philadelphia","Rock","Download","MarkKnopfler_sailingotPhili.jpg",1273
+49,"Mark Knopfler","Golden Heart","Rock","Download","MarkKnopfler Golden Heart.jpg",1275
+50,"Mark Knopfler","Get Lucky","Rock","CD","MarkKnopfler_Get Lucky.jpg",1271
+51,"Zac Brown Band","Keep Me In Mind - Single","Country","Download","ZacBrown Keep Me In Mind - Single.jpg",1300
+52,"Zac Brown Band","JEKYLL + HYDE","Country","Download","ZacBrown JEKYLL + HYDE.jpg",1298
+53,"Zac Brown Band","Greatest Hits So Far","Country","Download","ZacBrown Greatest Hits So Far.jpg",1299
+54,"Zac Brown Band","Pass The Jar_ Zac Brown Band And Friends Live From The Fabulous Fox Theatre In Atlanta [Disc 1]","Country","download","ZacBrown_Pass_the_jar.jpg",1296
+55,"Zac Brown Band","Pass The Jar_ Zac Brown Band And Friends Live From The Fabulous Fox Theatre In Atlanta [Disc 2]","Country","download","ZacBrown_Pass_the_jar.jpg",1297
+56,"Mark Knopfler_Emmylou Harris","All the Road Running","Rock","Download","EmmylouHarris_All The Road Running.jpg",1153
+57,"George Harrison","Let It Roll - Songs of George Harrison (Remastered)","Rock","Download","Let It Roll - Songs of George Harrison (Remastered).jpg",1616
+58,"The Byrds","Super Hits The Byrds","Rock","Download","byrds_superhits.jpg",1873
+59,"Black Rebel Motorcycle Club","B.R.M.C","Alternative","download","BRMC.jpg",1948
+60,"Gladys Knight & The Pips","Gold [Disc 2]","R&B","CD","Supremes_Gold.jpg",1722
+61,"Gladys Knight & The Pips","Gold [Disc 1]","R&B","CD","Supremes_Gold.jpg",1721
+62,"Julio Iglesias","Tango","Classical","Download","Tango.jpg",1949
+63,"k.d. lang and the Siss Boom Bang","A Sleep With No Dreaming - Single","Pop","Download","A Sleep With No Dreaming - Single.jpg",1921
+64,"Wye Oak","We Were Wealth","Pop","Download","We Were Wealth.jpg",1950
+65,"Darius Brubeck","Chaplin's back","Jazz","Vinyl","ChaplinsBack.jpeg",1951
+66,"John Coltrane","Blue Train [Expanded Edition]","Jazz","CD","JohnColtrane_Blue_Train.jpg",958
+67,"John Coltrane","Newport '63 [Live]","Jazz","CD","JohnColtrane_Newport_63.jpg",959
+68,"John Coltrane","Ballads (Deluxe Edition) [Disc 1]","Jazz","CD","JohnColtrane_Ballads.jpg",962
+69,"John Coltrane","Ballads (Deluxe Edition) [Disc 2]","Jazz","CD","JohnColtrane_Ballads.jpg",963
+70,"John Coltrane","Coltrane Live At the Village Vangard Again!","Jazz","Vinyl","JohnColtrane_-_Live_at_the_Village_Vanguard_Again.jpg",964
+71,"John Coltrane","Coltrane_Prestige 7105","Jazz","Vinyl","JohnColtrane_prestige_7105.jpg",965
+72,"John Coltrane","John Coltrane His Greatest Years","Jazz","Vinyl","JohnColtrane His Greatest Years.jpg",967
+73,"John Coltrane","Stardust","Jazz","CD","JohnColtrane_StarDust.jpg",966
+74,"John Coltrane","Live In Seattle [Disc 2]","Jazz","CD","JohnColtrane_Live_in_Seattle.jpg",961
+75,"John Coltrane","Giant Steps","Jazz","Vinyl","Coltrane Giant Steps.jpg",968
+76,"John Coltrane","My Favorite Things","Jazz","Vinyl","Coltrane_Favorite_Things.jpg",969
+77,"John Coltrane","Live in Seattle [Disc 1]","Jazz","CD","JohnColtrane_Live_in_Seattle.jpg",960
+78,"John Coltrane","Impressions","Jazz","CD","Coltrane_Impressions.jpg",970
+79,"John Coltrane","Jazz Manifesto","Jazz","Vinyl","JohnColtrane_JazzManifesto.jpg",973
+80,"Sarah Jarosz","Follow Me Down","BlueGrass","Download","SarahJarosz_followMe.jpg",1952
+81,"Sarah Jarosz","Song Up In Her Head","BlueGrass","Download","SarahJarosz_Song_Up_in_Her_Head.jpg",1953
+82,"Kenny Burrell & John Coltrane","Kenny Burrell & John Coltrane","Jazz","CD","Kenny Burrell & John Coltrane.jpg",974
+83,"Yo La Tengo","And Then Nothing Turned Itself Inside-Out","Indie Rock","download","YoLaTengo And Then Nothing Turned Itself Inside-Out.jpg",1703
+84,"Yo La Tengo","Stuff Like That There","Indie Rock","CD","YoLaTengo Stuff Like That There.jpg",1702
+85,"Dave Matthews Band","Live At Red Rocks 8.15.95 [Disc 1]","Rock","CD","DaveMatthews_Live At Red Rocks 8.15.95.jpg",1596
+86,"Dave Matthews Band","Live At Red Rocks 8.15.95 [Disc 2]","Rock","CD","DaveMatthews_Live At Red Rocks 8.15.95.jpg",1597
+87,"Dave Matthews Band","Everyday","Rock","CD","DaveMatthewsBandEveryday.jpg",1598
+89,"Pat Benatar","Pat Benatar Greatest Hits","Country","Download","Pat Benatar Greatest Hits.jpg",1801
+90,"Otis Redding","The Dock Of The Bay","R&B","CD","OtisReddig_DockBay.jpg",1633
+91,"Della Mae","This World Oft Can Be","Country","Download","DellaMae This World Oft Can Be.jpg",1891
+92,"Weather Report","Sweetnighter","Jazz","Download","WeatherReport_sweetnighter.jpg",891
+93,"Weather Report","8_30 (Live)","Jazz","Download","8_30 (Live).jpg",892
+94,"Weather Report","Weather Report","Jazz","Download","weatherReport_weatherReport.jpg",894
+95,"Weather Report","Tale Spinnin'","Jazz","Download","Tale Spinnin'.jpg",893
+96,"Weather Report","Night Passage","Jazz","Vinyl","WeatherReport_Night Passage.jpg",890
+97,"Weather Report","Mr. Gone","Jazz","Download","weather_mr_gone.jpg",886
+98,"Weather Report","Heavy Weather","Jazz","Vinyl","Weather_Report-Heavy_Weather.jpg",887
+99,"Weather Report","Black Market","Jazz","Vinyl","Weather_Report_Black_Market.jpg",888
+100,"Olivia Newton-John","Olivia Newton-John","Country","Download","Olivia Newton John.jpg",1954
+101,"Ravel","Ravel_ Bolero","Classical","Download","Bolero.jpeg",1955
+102,"Bachman","Heavy Blues","rock","download","Heavy Blues.jpg",1956
+103,"Mark O'Connor","Midnight on the Water","Jazz","CD","MarkOConnor Midnight on the Water.jpg",1282
+104,"Mark O'Connor","Heroes","Jazz","CD","MarkOConnor Heroes.jpg",1281
+105,"Mark O'Connor","The New Nashville Cats","Jazz","CD","MarkOConnor The New Nashville Cats.jpg",1285
+106,"Mark O'Connor","Retrospective","Jazz","CD","MarkOConnor Retrospective.jpg",1283
+107,"Mark O'Connor","Liberty","Jazz","CD","MarkOConnor Liberty.jpg",1284
+108,"Ben E. King","The Very Best of Ben E. King","R&B","Download","The Very Best of Ben E. King.jpg",1957
+109,"Creedence Clearwater Revival","Creedence Gold","Rock","Download","creedence gold.jpg",1446
+110,"Creedence Clearwater Revival","Chronicle_ 20 Greatest Hits (24-Karat Gold Disc)","Rock","Vinyl","Creedence Chronicle_ 20 Greatest Hits (24-Karat Gold Disc).jpg",1448
+111,"Creedence Clearwater Revival","Green River","Rock","CD","Creedence Green River.jpg",1447
+112,"Creedence Clearwater Revival","Creedence Clearwarer Revival Chronicle","Rock","download","Creedence_Clearwater_Revival_Chronicle.jpg",1450
+113,"Leonard Cohen","Can't Forget_ A Souvenir of the Grand Tour","Folk","CD","LeonardCohen_Can't Forget_ A Souvenir of the Grand Tour.jpg",1089
+114,"Leonard Cohen","Songs From The Road","Folk","CD","LeonardCohen_Songs From The Road.jpg",1090
+115,"Leonard Cohen","You Want It Darker","Folk","CD","LeonardCohen_You Want It Darker.jpg",1091
+116,"Leonard Cohen","Dear Heather","Folk","CD","LeonardCohen_Dear Heather.jpg",1092
+117,"Leonard Cohen","Old Ideas","Folk","CD","LeonardCohen_Old Ideas.jpg",1093
+118,"Leonard Cohen","Popular Problems","Folk","CD","LeonardCohen_Popular Problems.jpg",1094
+119,"Leonard Cohen","Songs From A Room","Folk","CD","LenardCohen_Songs_from_a_room.jpg",1095
+120,"Leonard Cohen","Ten New Songs","Folk","CD","LeonardCohen_Ten New Songs.jpg",1096
+121,"Stan Getz","Captain Marvel","rock","download","StanGetz_CaptainMarvel.jpg",1886
+122,"Rodriguez","Cold Fact (Bonus Track Version)","Rock","Download","Rodriguez Cold Fact (Bonus Track Version).jpg",1712
+123,"Rodriguez","Coming from Reality (Bonus Track Version)","Rock","Download","Rodriguez Coming from Reality (Bonus Track Version).jpg",1713
+124,"Paul Simon","The Afterlife - Single","Pop","Download","PaulSimon The Afterlife - Single.jpg",1766
+125,"Paul Simon","Graceland_ The Remixes","Pop","download","PaulSimon_Graceland.jpg",1765
+126,"Emmylou Harris & Rodney Crowell","The Traveling Kind","rock","download","The Traveling Kind.jpg",1152
+127,"Emmylou Harris & Rodney Crowell","Old Yellow Moon","rock","CD","EmmylouHarris_Old Yellow Moon.jpg",1154
+128,"J.J. Cale & Eric Clapton","The Road To Escondido","Rock","CD","JJCale_The_Road_to_Escondido.jpg",1017
+129,"John Mellencamp","Nothing Like I Planned Greatst Hits Vol. 3","Rock","CD","JohnMellencamp_NothingLikeIPlanned.jpg",1900
+130,"Small Faces","The Immediate Years (Disc Two)","Rock","Download","The Immediate Years (Disc Two).jpg",1958
+131,"Deep Purple","Live In Paris 1975 [Disc 2]","Rock","download","DeepPurple_Paris1975.jpg",1141
+132,"Deep Purple","Machine Head","Rock","Download","Machine Head.jpg",1142
+133,"Deep Purple","Live In Paris 1975 [Disc 1]","Rock","download","DeepPurple_Paris1975.jpg",1140
+134,"Deep Purple","Live In Copenhagen 1972 [Disc 2]","Rock","CD","DeepPurple_Copen1972.jpg",1138
+135,"Deep Purple","Deepest Purple (30th Anniversary Edition)","Rock","Download","Deepest Purple (30th Anniversary Edition).jpg",1143
+136,"Deep Purple","Copenhagen 1972 [Disc 1]","Rock","CD","DeepPurple_Copen1972.jpg",1137
+137,"Deep Purple","InFinite","Rock","CD","DeepPurple_Infinite.jpg",1139
+138,"The Moody Blues","Days Of Future Passed","rock","Vinyl","Moody_Blues_days of future passed.jpg",1496
+139,"The Moody Blues","To Our Children's Children's Children","rock","Vinyl","MoodyBlues_for the children.jpg",1498
+140,"The Moody Blues","On The Threshold Of A Dream","rock","CD","MoodyBlues_On The Threshold Of A Dream.jpg",1494
+141,"The Moody Blues","In Search Of the Lost Chord","rock","Vinyl","Moodyblues_In Search Lost Chord.jpg",1495
+142,"Loreena McKennitt","A Midwinter Night's Dream","Pop","CD","A Midwinter Night's Dream.jpg",2018
+143,"John Mayall & The Bluesbreakers","In the Palace of the King (A Tribute to Freddie King)","Blues","Download","JohnMayall_PalaceOfTheKing.jpg",1206
+144,"John Mayall & The Bluesbreakers","A Hard Road","Blues","CD","JohnMayall_A Hard Road.jpg",1208
+145,"John Mayall & The Bluesbreakers","Padlock On The Blues","Blues","Download","JohnMayall Padlock On The Blues.jpg",1209
+146,"Devo","Freedom Of Choice [Deluxe Remastered Edition]","Alternative","CD","Devo_FreedomOfChoice.jpg",1760
+147,"Devo","Q_ Are We Not Men_ A_ We Are Devo! [Deluxe Remastered Edition]","Alternative","CD","Q_ Are We Not Men_ A_ We Are Devo! [Deluxe Remastered Edition].jpg",1759
+148,"Asleep At the Wheel","Asleep At the Wheel (Live)","TexMex","Download","Asleep At the Wheel (Live).jpg",1636
+149,"Asleep At the Wheel","Asleep At the Wheel Remembers the Alamo","TexMex","Download","Asleep At the Wheel Remembers the Alamo.jpg",1637
+150,"Asleep At the Wheel","The Very Best of Asleep At the Wheel (Re-Recorded Versions)","TexMex","Download","The Very Best of Asleep At the Wheel (Re-Recorded Versions).jpg",1638
+151,"Thelonious Monk Quartet With John Coltrane","At Carnegie Hall","Jazz","CD","At Carnegie Hall.jpg",975
+152,"The Yardbirds","Over Under Sideways Down _ Roger the Engineer (Remastered)","Rock","Download","Yardbirds Over Under Sideways Down _ Roger the Engineer (Remastered).jpg",1570
+153,"The Yardbirds","The Ultimate Collection","Rock","Download","Yard birds The Ultimate Collection.jpg",955
+154,"The Yardbirds","The Yardbirds Story","Rock","Download","The Yardbirds Story.jpg",1569
+155,"ZZ Top","Eliminator","Rock","Tape","ZZTop Eliminator.png",1418
+156,"ZZ Top","Greatest Hits","Rock","Download","TomPetty Greatest Hits.jpg",1303
+157,"ZZ Top","Live Greatest Hits From Around The World","Rock","CD","ZZTop Live Greatest Hits From Around The World.jpg",1420
+158,"ZZ Top","Tres Hombres","Rock","Download","ZZTop Tres Hombres.jpg",1421
+159,"Kenny Rogers","You Can't Make Old Friends","Country","CD","KennyRogers_You Can't Make Old Friends.jpg",1959
+160,"Gregg Allman","Live Back To Macon GA Disc 2","Blues","download","Gregg_Allman_Back_to_Macon_GA.jpg",1490
+161,"Gregg Allman","Low Country Blues","Blues","CD","Gregg Allman Low Country Blues.jpg",1493
+162,"Gregg Allman","Just Another Rider","Blues","Download","Gregg Allman Just Another Rider.jpg",1492
+163,"Gregg Allman","Live Back To Macon GA Disc 1","Blues","download","Gregg_Allman_Back_to_Macon_GA.jpg",1491
+164,"Harry Belafonte","This Is Harry Belafonte","Pop","Vinyl","HarryBeleafont_ThisIs.jpg",1931
+165,"Eric Church","The Outsiders","Country","CD","EricChurch_The Outsiders.jpg",1960
+166,"Tom Petty & The Heartbreakers","Southern Accents","Rock","CD","TomPetty_southernaccents.jpg",1301
+167,"Tom Petty & The Heartbreakers","Tom Petty & The Heartbreakers","Rock","download","Tom Petty & The Heartbreakers.jpg",1304
+168,"Tom Petty & The Heartbreakers","Greatest Hits","Rock","Download","TomPetty Greatest Hits.jpg",1303
+169,"Tom Petty & The Heartbreakers","Hard Promises","Rock","CD","TomPetty Hard Promises.jpg",1302
+170,"Monsters Of Folk","Monsters Of Folk","Folk","CD","MonstersOfFolk.jpg",1961
+171,"Triumph","Greatest Hits Remixed","Rock","CD","Triumph Greatest Hits Remixed.jpg",1626
+172,"Santana","Santana IV","TexMex","CD","Santana_IV.jpg",1263
+173,"Santana","Supernatural","TexMex","CD","Santana-Supernatural.jpg",1262
+174,"Santana","Abraxas","TexMex","Vinyl","Santana Abraxas.jpg",1261
+175,"Santana","Corazon (Deluxe Version)","TexMex","Download","Santana Corazon (Deluxe Version).jpg",1260
+176,"Santana","All That I Am","TexMex","CD","Santana_AllThatIam.jpg",1264
+177,"Jewel","Sweet And Wild","Country","CD","Jewel_Sweet And Wild.jpg",1716
+178,"Jewel","Picking Up The Pieces","Country","download","Jewel_Picking Up The Pieces.jpg",1717
+179,"Lonestar","Life As We Know It","Country","CD","LoneStar_Life As We Know It.jpg",1962
+180,"Petula Clark","Ultimate Petula Clark","Pop","Download","Ultimate Petula Clark.jpg",1963
+181,"Gordon Lightfoot","Summertime Dream","Folk","Download","GordonLightfoot Summertime Dream.jpg",1664
+182,"Gordon Lightfoot","Gord's Gold, Vol. 2","Folk","CD","GordonLightfoot_GoldVol2.jpg",1665
+183,"Gordon Lightfoot","Gord's Gold","Folk","Vinyl","GordonLightfoot_GordsGold.jpg",1666
+184,"Aloe Blacc","Good Things","R&B","CD","Aloe Blacc Good Things.jpg",1693
+185,"Aloe Blacc","I Need a Dollar (How to Make It In America) - EP","R&B","Download","Aloe Blacc I Need a Dollar (How to Make It In America) - EP.jpg",1692
+186,"Ike and Tina Turner","What You Hear Is What You Get","Rock","Vinyl","TinaTurner_what you hear is what you get.jpg",1964
+187,"Ritchie Valens","La Bamba","Rock","Download","La Bamba.jpg",1965
+188,"Padraig MacMathuna","Hives Of Honeyed Sound (Blas Na Meala)","Pop","Download","Hives Of Honeyed Sound (Blas Na Meala).jpg",1619
+189,"John Prine","John Prine","Folk","CD","John_Prine.jpg",1365
+190,"John Prine","For Better, Or Worse","Folk","CD","JohnPrine_For Better, Or Worse.jpg",1366
+191,"John Prine","Lost Dogs and Mixed Blessings","Folk","CD","JohnPrine_Lost_Dogs_and_Mixed_Blessings.jpg",1367
+192,"John Prine","In Spite of Ourselves","Folk","CD","JohnPrine_In_Spite_of_Ourselves.jpg",1368
+193,"Nashville Teens","Love Is The Answer","Rock","Download","Love Is The Answer.jpg",1966
+194,"Jackson Browne","Standing In The Breach","Pop","CD","Standing In The Breach.jpg",1967
+195,"Jackson Browne","The Very Best Of Jackson Browne [Disc 2]","Pop","Download","The Very Best of Jackson Browne.jpg",1968
+196,"Jackson Browne","The Very Best of Jackson Browne [Disc 1]","Pop","Download","The Very Best of Jackson Browne.jpg",1969
+197,"John Fogerty","Wrote a Song for Everyone","Rock","Download","Wrote a Song for Everyone.jpg",1970
+198,"Miles Davis","Bitches Brew Disc 2","Jazz","Vinyl","MilesDavis_Bitches Brew.jpg",1164
+199,"Miles Davis","Kind Of Blue","Jazz","Vinyl","MilesDavis_Milestonescover.jpg",1166
+200,"Miles Davis","Classic Ballads","Jazz","Vinyl","Miles DavisClassic Ballads.jpg",1168
+201,"Miles Davis","Bitches Brew Disc 1","Jazz","Vinyl","MilesDavis_Bitches Brew.jpg",1165
+202,"Miles Davis","Birth of the Cool","Jazz","Vinyl","MilesDavisBirth_0f_Cool.jpg",1169
+203,"Miles Davis","Milestones","Jazz","Vinyl","MilesDavis_Milestonescover.jpg",1167
+204,"Miles Davis","Filles De Kilimanjaro","Jazz","Vinyl","MilesDavis_Filles De Kilimanjaro.jpg",1170
+205,"Eric Clapton & Steve Winwood","Live From Madison Square Garden [Disc 1]","Rock","CD","EricClapton_Live From Madison Square Garden [Disc 1].jpg",1014
+206,"Eric Clapton & Steve Winwood","Live From Madison Square Garden [Disc 2]","Rock","CD","EricClapton_Live From Madison Square Garden [Disc 1].jpg",1013
+207,"The Overton Berry Trio","Wheedle's Groove_ Seattle's Finest in Funk & Soul 1965-75","Jazz","Download","OvertonBerry_Wheedles.jpg",2145
+208,"The Overton Berry Trio","Live at Admiral","Jazz","Download","OvertonBerry_LiveAtadmiral.jpg",2146
+209,"The Cars","Move Like This","Rock","CD","TheCars_Move_Like_This_album_cover.jpg",1782
+210,"The Cars","Complete Greatest Hits","Rock","Download","TheCars Complete Greatest Hits.jpg",1783
+211,"Marvin Gaye","Marvin Gaye's Greatest Hits","R&B","Download","Marvin Gaye's Greatest Hist.jpg",1823
+212,"Marvin Gaye","Marvin Gaye_ Gold","R&B","Download","Marvin Gaye_ Gold.jpg",1824
+213,"Hot Tuna","Hot Tuna","Blues","Vinyl","HotTuna.jpg",1865
+214,"Alvin Lee & Company","Alvin Lee & Company","rock","download","Alvin Lee and Company.jpg",1469
+215,"J. J. Cale With Leon Russell","JJ. Cale Featuring Leon Russell - In Session At The Paradise Studios, L.A. 1979","Rock","CD","JJCale_FeaturingLeanRussel.jpeg",1971
+216,"Little Richard","The Georgia Peach","Rock","Download","The Georgia Peach.jpg",1972
+217,"The Electric Prunes","I Had Too Much to Dream","Rock","Download","ElectricPrunes I Had Too Much to Dream.jpg",1635
+218,"Desmond Dekker","Desmond Dekker_ Israelites - The Best of Desmond Dekker","Reggae","Download","Desmond Dekker.jpg",1894
+219,"Foy Willing & The Riders Of The Purple Sage","Tumbling Tumbleweeds (10 Timeless Western Songs)","Country","Download","Tumbling Tumbleweeds (10 Timeless Western Songs).jpg",1725
+220,"Foy Willing & The Riders Of The Purple Sage","Cool Cool Water","Country","Download","Cool Cool Water.jpg",1726
+221,"Earth, Wind & Fire","Earth, Wind & Fire_ Greatest Hits","Rock","download","EarthWind&Fire_GreatestHists.jpg",1973
+222,"The Marshall Tucker Band","The Marshall Tucker Band_ Live On Long Island - 4-18-80","Rock","Download","The Marshall Tucker Band_ Live On Long Island - 4-18-80.jpg",1248
+223,"The Marshall Tucker Band","Running With The Wind","Rock","Download","MarshallTucker Running With The Wind.jpg",1247
+224,"The Marshall Tucker Band","Long Hard Ride","Rock","Download","MarshallTucker Long Hard Ride.jpg",1246
+225,"The Marshall Tucker Band","A New Life","Rock","CD","MarshallTucker A New Life.jpg",1245
+226,"The Marshall Tucker Band","Carolina Dreams","Rock","CD","MarshalTucker_CarolinaDreams.jpg",1243
+227,"The Marshall Tucker Band","Where We All Belong","Rock","CD","MarshalTucker_whereWeAllBelong.jpg",1244
+228,"Elton John","The Big Picture","Pop","CD","EltonJohn_The Big Picture.jpg",1180
+229,"Elton John","The One","Pop","CD","The One.jpg",1182
+230,"Elton John","The Captain & The Kid","Pop","Download","EltonJohn_CaptainAndKid.jpg",1183
+231,"Elton John","Goodbye Yellow Brick Road","Pop","CD","EltonJohn_YellowBrickRoad.jpg",1185
+232,"Elton John","Elton John_ Greatest Hits","Pop","Download","Elton John_ The Greatest Hits 1970-2002.jpg",1184
+233,"Elton John","Elton John_ The Greatest Hits 1970-2002","Pop","Download","Elton John_ The Greatest Hits 1970-2002.jpg",1186
+234,"Elton John","Don't Shoot Me I'm Only the Piano Player","Pop","CD","EltonJohn_Don't Shoot Me I'm Only the Piano Player.jpg",1187
+235,"The Temptations","Number 1's","R&B","CD","Temptations_Number1s.jpeg",1974
+236,"Gary Burton, Steve Swallow, Roy Haynes, Tiger Okoshi","Times Square","Jazz","Download","Time Square.jpg",1975
+237,"Telekinesis","12 Desperate Straight Lines","Pop","Download","12 Desperate Straight Lines.jpg",1976
+238,"Styx","Equinox","Rock","CD","Styx_equinox.jpg",1327
+239,"Styx","Come Sail Away - The Styx Anthology","Rock","Download","Styx_Come Sail Away - The Styx Anthology.jpg",1331
+240,"Styx","Cornerstone","Rock","CD","Styx-Cornerstone.jpg",1328
+241,"Styx","Gold","Rock","Download","Styx_Gold.jpg",1330
+242,"Styx","Styx_ Greatest Hits","Rock","Download","Styx_ Greatest Hits.jpg",1329
+243,"Miguel Zeno'n","Típico","rock","download","Típico.jpg",1977
+244,"Robert Plant","Angel Dance - Single","Rock","Download","Angel Dance - Single.jpg",1978
+245,"Nat _King_ Cole","The Christmas Song","Pop","Download","The Christmas Song.jpg",1979
+246,"Tchaikovsky","Nutcracker Suite","Classical","Vinyl","Nutcracker Suite.jpg",1980
+247,"Herb Alpert & The Tijuana Brass","The Lonely Bull","rock","download","HerbAlbert_LonelyBull.jpg",1924
+248,"Eric Clapton & B.B. King","Riding With The King","Blues","CD","EricClapton_RidingWithTheKing.jpg",1012
+249,"Blondie","Eat To The Beat","Pop","CD","Blondie Eat The Beat.jpg",1590
+250,"Blondie","The Best Of Blondie","Pop","Download","Blondie The_Best_of_Blondie.png",1592
+251,"Blondie","The Complete Picture","Pop","Download","Blondie The Complete Picture.jpg",1591
+252,"Chris Robinson Brotherhood","Any Way You Love, We Know How You Feel","Rock","CD","ChrisRobinson Any Way You Love, We Know How You Feel.jpg",1796
+253,"Chris Robinson Brotherhood","If You Lived Here, You Would Be Home By Now [EP]","Rock","CD","ChrisRobinson If You Lived Here, You Would Be Home By Now [EP].jpg",1795
+254,"Motley Crue","Shout At The Devil [Bonus Tracks]","Metal","CD","MotleyCrue_ShoutattheDevil.jpg",1622
+255,"Little Dragon","Ritual Union","Rock","Download","LittleDragon Ritual Union.jpg",1877
+256,"Stanley Kubrick","2001 A Space Odyssey","Soundtrack","download","2001 A Space Odyssey (soundtrack).jpg",1981
+257,"Buffalo Springfield","Retrospective_ The Best of Buffalo Springfield","Rock","CD","Retrospective_ The Best of Buffalo Springfield.jpg",1982
+258,"Ten Years After","Stonedhenge (Re-Presents)","Blues","Download","Ten Years After Stonehenge.jpeg",1466
+259,"Ten Years After","Recorded Live","Blues","Download","Ten Years After Recorded Live.jpeg",1467
+260,"Ten Years After","Undead (Remastered) [Live]","Blues","Download","Ten Years After Undead.jpeg",1465
+261,"Ten Years After","A Space In Time","Blues","Download","Ten Years After A SpaceIn Time.jpg",1464
+262,"Pat Metheny Trio","Trio Live Disc 2","Jazz","CD","PatMetheny_TrioLive.jpg",1532
+263,"Pat Metheny Trio","Trio Live Disc 1","Jazz","CD","PatMetheny_TrioLive.jpg",1531
+264,"Oliver Kane","Shamrock Melodies","Classical","Download","Shamrock Melodies.jpg",1983
+265,"Stealers Wheel","Stuck In The Middle With You (Re-Recorded _ Remastered)","Rock","Download","Stuck In The Middle With You (Re-Recorded _ Remastered).jpg",1984
+305,"The Dickey Betts Band","Pattern Disruptive","rock","Download","Pattern Disruptive.jpg",1985
+306,"Cat Stevens","Cat Stevens_ Greatest Hits","Rock","Download","Cat Stevens_ Greatest Hits.jpg",1986
+307,"Keith Richards","Crosseyed Heart","Rock","CD","KeithRichards_Crosseyed Heart.jpg",1867
+308,"R.L. Burnside","Mississippi Hill Country Blues","Blues","Download","Mississippi Hill Country Blues.jpg",1987
+309,"Heart","Little Queen","Rock","download","Heart Little Queen.jpg",1307
+310,"Heart","Beautiful Broken","Rock","CD","Heart_Beautiful_Broken.jpg",1306
+311,"Heart","Heart_ Greatest Hits","Rock","Download","Heart-Greatest Hits.jpeg",1308
+312,"Heart","Heart","Rock","CD","Heart_Heart.jpg",1305
+313,"Heart","Greatest Hits","Rock","Download","TomPetty Greatest Hits.jpg",1303
+314,"Redbird","Redbird","Country","Download","RedBird.jpg",1988
+315,"Alabama","Alabama Greatest Hits","Country","Vinyl","Alabama.jpg",1508
+316,"Alabama","For The Record [Disc 2]","Country","CD","For The Record.jpg",1511
+317,"Alabama","For The Record [Disc 1]","Country","CD","For The Record.jpg",1510
+318,"Alabama","Southern Drawl","Country","CD","Southern Drawl.jpg",1509
+319,"Crosby, Stills, Nash & Young","4 Way Street (Live)","Rock","Download","Ohio 4 Dead.jpg",1559
+320,"Crosby, Stills, Nash & Young","Crosby, Stills & Nash","Rock","CD","Crosbystillsandnash.jpg",1560
+321,"Crosby, Stills, Nash & Young","Deja Vu","Rock","CD","CrosbyStillNashYoung_Deja Vu.jpg",1561
+322,"Wynton Marsalis & Eric Clapton","Wynton Marsalis & Eric Clapton Play the Blues (Live from Jazz At Lincoln Center)","Jazz","Download","Wynton Marsalis & Eric Clapton Play the Blues (Live from Jazz At Lincoln Center).jpg",1018
+323,"Dvorak","Dvorak's Greatest Hits","Classical","Vinyl","Dvorak's Greatest Hits.jpg",1989
+324,"Herman's Hermits","The Very Best Of Herman's Hermits","Rock","CD","HermansHermits_TheVeryBestOf.jpg",1990
+325,"Badfinger","The Very Best Of Badfinger","Rock","CD","BadFinger The Very Best Of.jpg",1345
+326,"Badfinger","Brit Rock","Rock","Download","Brit Rock.jpg",1350
+327,"Badfinger","No Matter What You Are (Re-Recorded Version)","Rock","Download","No Matter What You Are (Re-Recorded Version).jpg",1348
+328,"Badfinger","20 Best of Rockin' 70's (Original Artist Re-Recording)","Rock","Download","20 Best of Rockin' 70's (Original Artist Re-Recording).jpg",1347
+329,"Badfinger","Classic Soft Rock","Rock","Download","Classic Soft Rock.jpg",1349
+330,"Walt Weiskopf Nonet","Siren","Jazz","Download","Siren.jpg",1991
+331,"The Ventures","Walk Don't Run_ The Best of the Ventures","Rock","Download","Walk Don't Run_ The Best of the Ventures.jpg",1992
+332,"Mitch Ryder & The Detroit Wheels","The Best of Mitch Ryder & the Detroit Wheels","Rock","Download","The Best of Mitch Ryder & the Detroit Wheels.jpg",1993
+333,"Guns N' Roses","Appetite For Destruction","Rock","CD","GunsnRosesAppetiteforDestructionalbumcover.jpg",1841
+334,"Guns N' Roses","Greatest Hits Guns N' Roses","Rock","Download","GunsNRoses Greatest Hits Guns N' Roses.jpg",1842
+335,"Billie Holiday","The Best Of Billie Holiday","Blues","download","The Best Of Billie Holiday.jpg",2019
+336,"Billie Holiday","The Billie Holiday Story Volume II","Blues","Vinyl","The Billie Holiday Story Volume II.jpg",2020
+337,"Patti Smith","Easter","Rock","CD","PattiSmith_Easter.jpg",1127
+338,"Patti Smith","Gung Ho","Rock","CD","PattiSmith_Gung_Ho.jpg",1126
+339,"Patti Smith","Trampin'","Rock","Download","Trampin'.jpg",1125
+340,"Patti Smith","Radio Ethiopia","Rock","Vinyl","PattiSmith Radio Ethiopia.jpg",1124
+341,"Patti Smith","Outside Society","Rock","CD","PattiSmith_Outside_Society.jpg",1123
+342,"Patti Smith","Gone Again","Rock","CD","PattiSmith_Gone_Again.jpg",1122
+343,"Patti Smith","Twelve","Rock","CD","PattiSmith_Twelve.jpg",1121
+344,"The Airborne Toxic Event","Half Of Something Else - Single","Pop","Download","Half Of Something Else - Single 1.jpg",1994
+345,"Joni Mitchell","Hits","Folk","Download","Hits.jpg",1995
+346,"Bad Company","In Concert - Merchants of Cool","Rock","Download","Bad Company In Concert - Merchants of Cool.jpg",1346
+347,"John Scofield","A Go Go","Jazz","CD","A Go Go.jpg",1996
+348,"Los Bravos","Los Bravos Single","Rock","Vinyl","LosBravos_black is black.jpg",1997
+349,"The 5.6.7.8's","Bomb the Twist - EP","Rock","Download","Bomb the Twist - EP.jpg",1998
+350,"Carole King","Tapestry","Pop","CD","CaroleKingTapestry.jpg",1623
+351,"Stevie Ray Vaughan & Double Trouble","Texas Flood","Blues","Download","Texas Flood.png",1375
+352,"Stevie Ray Vaughan & Double Trouble","Stevie Ray Vaughan & Double Trouble_ Live At Carnegie Hall","Blues","Download","Stevie Ray Vaughan & Double Trouble_ Live At Carnegie Hall.png",1374
+353,"Stevie Ray Vaughan & Double Trouble","The Real Deal_ Greatest Hits, Vol #1","Blues","download","The Real Deal_ Greatest Hits, Vol. 1.jpg",1377
+354,"Stevie Ray Vaughan & Double Trouble","The Real Deal_ Greatest Hits, Vol. 1","Blues","Download","The Real Deal_ Greatest Hits, Vol. 1.jpg",1376
+355,"Los Lobos","Los Lobos_ Live at the Fillmore","TexMex","Download","Los Lobos_ Live at the Fillmore.jpg",1408
+356,"Los Lobos","Tin Can Trust","TexMex","CD","LosLobos_TinCanTrust.jpg",1405
+357,"Los Lobos","La Bamba (Original Motion Picture Soundtrack)","TexMex","Download","La Bamba (Original Motion Picture Soundtrack).jpg",1407
+358,"Los Lobos","Kiko Live","TexMex","CD","LosLobos_Kiko_Live.jpg",1406
+359,"Alvin Lee & Ten Years After","In Flight","rock","Download","Alvin Lee In Flight.jpg",1468
+360,"Bobby Darin","Mack the Knife","Rock","CD","Mack the Knife.jpg",1999
+361,"Amazula","Montego Bay","Reggae","Download","Amazulu Montego Bay.jpg",1915
+362,"Simon & Garfunkel","Greatest Hits Simon & Garfunkel","Rock","CD","SimonAndGarfunkle_Greatest Hits Simon & Garfunkel.jpg",1684
+363,"Simon & Garfunkel","Bridge Over Troubled Water","Rock","Vinyl","SimonAndGarfunkel_Bridge_over_Troubled_Water_(1970).png",1685
+364,"Cody Bryant and The Riders Of The Purple Sage","Best of the West","Country","CD","Best of the West.jpg",2001
+365,"Pearl Jam","Vs_","Rock","CD","PearlJam-Vs.jpg",1788
+366,"Pearl Jam","Yield","Rock","CD","PearlJam_Yield.jpg",1789
+367,"Chicago","The Very Best Of Chicago_ Only The Beginning [Disc 2]","Rock","download","Chicago_The_Very_Best_of_Chicago_Only_the_Beginning.jpg",1081
+368,"Chicago","Chicago Transit Authority (Remastered)","Rock","Download","Chicago Transit Authority (Remastered).jpg",1083
+369,"Chicago","The Very Best of Chicago_ Only the Beginning [Disc 1]","Rock","download","Chicago_The_Very_Best_of_Chicago_Only_the_Beginning.jpg",1082
+370,"Chicago","Chicago","Rock","Vinyl","Chicago.jpg",1084
+371,"Chicago","Chicago Live In Japan [Disc 2]","Rock","download","Chicago_LiveInJapan.jpg",1085
+372,"Chicago","Chicago Live In Japan [Disc 1]","Rock","download","Chicago_LiveInJapan.jpg",1086
+373,"Chicago","Chicago VIII [Bonus Tracks]","Rock","CD","chicago_VIII.jpg",1087
+374,"Chicago","Chicago V [Bonus Tracks]","Rock","download","Chicago_-_Chicago_V.jpg",1088
+375,"The Isley Brothers","The Essential Isley Brothers [Disc 1]","R&B","CD","The Essential Isley Brothers.jpg",1670
+376,"The Isley Brothers","The Essential Isley Brothers [Disc 2]","R&B","CD","The Essential Isley Brothers.jpg",1671
+377,"The Stooges","Fun House","Punk","CD","Fun House.jpg",1400
+378,"The Stooges","The Stooges","Punk","download","The Stooges.jpg",1402
+379,"The Stooges","Fun House [Disc 2]","Punk","CD","Fun House.jpg",1401
+380,"The Stooges","The Stooges [Disc 2]","Punk","download","The Stooges.jpg",1403
+381,"The Animals","The Best of Eric Burdon and the Animals (1966-1968)","Rock","Download","The Best of Eric Burdon and the Animals (1966-1968).jpg",1752
+382,"The Animals","The Animals Original Hits","Rock","CD","The Animals Original Hits.jpg",1751
+383,"Alvin Lee & Ten Years Later","Rocket Fuel","Blues","Vinyl","Rocket Fuel.jpeg",1471
+384,"Patsy Cline","Patsy Cline's Greatest Hits (Remastered)","Country","CD","Patsy Cline's Greatest Hits (Remastered).jpg",1914
+385,"David Bowie","Earthling","Rock","CD","DavidBowie Earthling.jpg",1097
+386,"David Bowie","Aladdin Sane","Rock","CD","DavisBowieAladdinSane.jpg",1098
+387,"David Bowie","Hunky Dory","Rock","CD","David_Bowie_Hunky_Dory.jpg",1099
+388,"David Bowie","Space Oddity","Rock","download","DavidBowie_SpaceOddity.jpg",1100
+389,"David Bowie","Best of Bowie","Rock","Download","Bowie.jpg",1101
+390,"David Bowie","_Heroes_","Rock","download","David_Bowie-Heroes.png",1102
+391,"David Bowie","The Best of David Bowie 1980_1987","Rock","Download","The Best of David Bowie 1980_1987.jpg",1103
+392,"Mavis Staples","Only For The Lonely","R&B","CD","MavisMaples_Only_For_Lonely.jpg",1730
+393,"Mavis Staples","You Are Not Alone - Single","R&B","Download","MavisStaples You Are Not Alone - Single.jpg",1731
+394,"Tom Jones","Spirit In The Room","Pop","CD","TomJones Spirit In The Room.jpg",1445
+395,"Tom Jones","Tom Jones_ Gold (1965-1975)","Pop","Download","TomJones_Gold.jpg",1442
+396,"Tom Jones","Long Lost Suitcase","Pop","CD","TomJones_LongLostSuitcase.jpg",1443
+397,"Tom Jones","Reloaded - Greatest Hits","Pop","Download","TomJones_Reloaded.jpg",1444
+398,"Richard Wagner","Wagner Through the Ages","Classical","Download","Wagner Through the Ages.jpg",1808
+399,"Beethoven","Beethoven Concerto In D Major OP 61","rock","download","Beethoven Concerto In D Major OP 61.jpg",2021
+400,"The Brothers Johnson","Strawberry Letter 23_ The Very Best of the Brothers Johnson","rock","Download","Strawberry Letter 23_ The Very Best of the Brothers Johnson.jpg",2000
+401,"Duran Duran","Greatest","Rock","CD","Duran Duran Greatest.jpg",957
+402,"Gerry Rafferty","City to City","Rock","Download","City to City.jpg",2002
+403,"Boz Scaggs","Silk Degrees","Rock","download","Bozz Scaggs Silk Degrees.jpg",1843
+404,"Boz Scaggs","Bozz Scaggs Hits","Rock","Vinyl","Bozz Scaggs Greatest Hits.jpg",1844
+405,"The Charlie Daniels Band","Charlie Daniels Band A Decade Of Hits","Country","Vinyl","Charlie Daniels A Decade.jpg",1266
+406,"The Charlie Daniels Band","The Essential Charlie Daniels Band","Country","Download","CharlieDaniels The Essential.jpg",1267
+407,"The Charlie Daniels Band","The Ultimate Charlie Daniels Band [Disc 1]","Country","CD","CharlieDaniels The Ultimate Charlie Daniels Band.jpg",1269
+408,"The Charlie Daniels Band","The Ultimate Charlie Daniels Band [Disc 2]","Country","CD","CharlieDaniels The Ultimate Charlie Daniels Band.jpg",1270
+409,"The Charlie Daniels Band","Nightrider","Country","Vinyl","CharlieDaniels_Nightrider.jpg",1265
+410,"Humble Pie","Town and Country (Bonus Track Version)","Rock","Download","HumblePie Town and Country (Bonus Track Version).jpg",1724
+411,"Humble Pie","Smokin'","Rock","CD","HumblePie_Smokin'.jpg",1723
+412,"Alex Hargreaves","Prelude","Pop","Download","Prelude.jpg",2006
+413,"Aerosmith","Get Your Wings","Rock","CD","Aeroshith Get Your Wings.jpg",1484
+414,"Aerosmith","Gold_ Aerosmith","Rock","Download","Gold: Aerosmith.jpg",1482
+415,"Aerosmith","Rocks","Rock","CD","Aerosmith Rocks.jpg",1483
+416,"Aerosmith","Get a Grip","Rock","Download","Aerosmith Get a Grip.jpg",1485
+417,"Grateful Dead","Two from the Vault Disc 2","Rock","CD","GratefulDead_Two from the Vault.jpg",983
+418,"Grateful Dead","Workingman's Dead","Rock","CD","Grateful_Dead_WorkmansDead.jpg",985
+419,"Grateful Dead","The Grateful Dead (Skull & Roses)","Rock","Download","The Grateful Dead (Skull & Roses).jpg",986
+420,"Grateful Dead","Wake Of The Flood [Expanded]","Rock","CD","GratefulDead_Wake Of The Flood [Expanded].jpg",987
+421,"Grateful Dead","In The Dark","Rock","CD","GratefulDead_In The Dark.jpg",988
+422,"Grateful Dead","Go To Heaven","Rock","CD","GratefulDead_Go To Heaven.jpg",989
+423,"Grateful Dead","American Beauty","Rock","CD","Grateful_Dead_-_American_Beauty.jpg",990
+424,"Grateful Dead","Two from the Vault Disc 1","Rock","CD","GratefulDead_Two from the Vault.jpg",982
+425,"Grateful Dead","Aoxomoxoa","Rock","download","Aoxomoxoa.jpg",981
+426,"Grateful Dead","What A Long Strange Trip","Rock","Download","Grateful_Dead_What_a_Long_Strange_Trip_Its_Been.jpg",980
+427,"Grateful Dead","The Best Of Fare Thee Well - Celebrating 50 Years Of Grateful Dead_ Soldier Field, Chicago, Illinois 7_3-5_15","Rock","download","GratefulDead_The Best Of Grateful Dead Fare Thee Well.jpg",979
+428,"Grateful Dead","Blues For Allah","Rock","CD","GratefulDead_Blues For Allah.jpg",978
+429,"Grateful Dead","Anthem Of The Sun","Rock","CD","Grateful_Dead_-_Anthem_of_the_Sun.jpg",977
+430,"Grateful Dead","The Grateful Dead [Bonus Tracks]","Rock","CD","Grateful_Dead_The_Grateful_Dead.jpg",976
+431,"Supertramp","Crime Of The Century","Rock","CD","Supertramp Crime Of The Century.jpg",1578
+432,"Supertramp","Even In The Quietest Moments","Rock","CD","Supertramp-EveninTheQuietestMoments.jpg",1577
+433,"Supertramp","Crisis_ What Crisis_","Rock","CD","Supertramp-Crisis.jpg",1576
+434,"Johann Strauss","Space Odessy Sound Track","rock","Download","2001 A Space Odyssey (soundtrack).jpg",2022
+435,"The Doobie Brothers","Cycles","Rock","Vinyl","DoobieBrothers_Cycles.jpg",991
+436,"The Doobie Brothers","Farewell Tour (Live) [Remastered]","Rock","Download","Farewell Tour (Live) [Remastered].jpg",992
+437,"The Doobie Brothers","Best Of Doobies","Rock","Vinyl","DoobieBrothers_Best Of The Doobies.jpg",993
+438,"The Doobie Brothers","World Gone Crazy","Rock","Vinyl","DoobieBrothers_World_Gone_Crazy.jpg",994
+439,"The Doobie Brothers","Stampede","Rock","Vinyl","DoobieBrothers_Stampede.jpg",995
+440,"The Doobie Brothers","The Captain And Me","Rock","Vinyl","DoobieBrothers_The Captain And Me.jpg",996
+441,"The Doobie Brothers","One Step Closer","Rock","Vinyl","DoobieBrothers_One Step Closer.jpg",997
+442,"The Doobie Brothers","Takin' It To The Streets","Rock","CD","DoobieBrothers_Takin_It_To_Streets.jpg",998
+443,"The Doobie Brothers","Toulouse Street","Rock","download","DoobieBrothers_Toulouse Street.jpg",999
+444,"The Doobie Brothers","What Were Vices Are Now Habits","Rock","Vinyl","DoobieBrothers_What_Were_Once_Vices_Are_Now_Habits.jpg",1000
+445,"America","The Warner Bros. Years 1971-1977","Pop","Download","America The Warner Bros. Years 1971-1977.jpg",1656
+446,"America","History_ America's Greatest Hits","Pop","Download","History_ America's Greatest Hits.jpg",1655
+447,"America","America_ The Complete Greatest Hits","Pop","Download","History_ America's Greatest Hits.jpg",1657
+448,"Average White Band","Person to Person (Live)","Rock","Download","AverageWhite Person to Person (Live).jpg",1880
+449,"Antonio Vivaldi","Antonio Vivaldi","Classical","Vinyl","Vivaldi.jpg",2003
+450,"Barry McGuire","Eve Of Destruction","Folk","CD","Barry McGuire Eve Of Destruction.jpg",2004
+451,"Buddy Holly","The Buddy Holly Collection","RockaBilly","Download","The Buddy Holly Collection.jpg",2005
+452,"Ram Jam","The Very Best of Ram Jam","Rock","Download","The Very Best of Ram Jam.jpg",1907
+453,"Brenda Lee","The Definitive Collection Brenda Lee","Country","CD","Brenda Lee.jpeg",1901
+454,"New Riders of the Purple Sage","Boston Music Hall - December 5, 1972","Rock","Download","Boston Music Hall - December 5, 1972.jpg",1423
+455,"New Riders of the Purple Sage","New Riders of the Purple Sage","Rock","Download","New Riders of the Purple Sage.jpg",1422
+456,"New Riders of the Purple Sage","The Best of New Riders of the Purple Sage","Rock","Download","The Best of New Riders of the Purple Sage.jpg",1424
+457,"New Riders of the Purple Sage","The Adventures of Panama Red","Rock","Download","The Adventures of Panama Red.jpg",1425
+458,"Kiss","Rock And Roll Over","Rock","CD","Kiss_Rock_and_roll_over_cover.jpg",2007
+459,"Drive-By Truckers","Live From Austin, TX","Rock","CD","DriveByTruckerAustinTx.jpg",1652
+460,"Drive-By Truckers","American Band","Rock","CD","DriverByTruckers American Band.jpg",1654
+461,"Drive-By Truckers","The Dirty South","Rock","Download","DriveByTruckers The Dirty South.jpg",1653
+462,"Prince","Purple Rain","Rock","Download","Prince_PurpleRain.jpg",1871
+463,"Toto","The Essential Toto","Rock","Download","Toto_Hold_the_Line.jpg",2008
+464,"Dave Edmunds","Rockpile","Rock","Download","Rockpile.jpg",2009
+465,"Wagner","A Wagner Concert","Classical","Download","A Wagner Concert.jpg",1806
+466,"Wagner","Bernstein Conducts Wagner","Classical","Download","Bernstein Conducts Wagner.jpeg",1807
+467,"Various Artists","The Swinging Sixties_ 15 Classic Tracks (Re-Recorded Versions)","rock","download",NULL,NULL
+468,"Kris Kristofferson","Silver Tongued Devil And I","Country","Vinyl","KristoffersonTheSilverTonguedDevilandI.jpg",1683
+469,"Kris Kristofferson","Kristofferson","Country","CD","KristoffersonAlbumCover.jpg",1682
+470,"J.J. Cale","Roll On","Rock","CD","JJCale_Role_On.jpg",1732
+471,"J.J. Cale","The Definitive Collection","Rock","CD","JJ_Cale.jpg",1733
+472,"Iron Butterfly","In-A-Gadda-Da-Vida","Rock","CD","IronButterfly_Inagaddadavida.jpeg",2010
+473,"Rush","The Spirit Of Radio_ Greatest Hits 1974-1987","Rock","CD","Rush_The Spirit Of Radio_ Greatest Hits 1974-1987.jpg",2011
+474,"Asko Ensemble, Riccardo Chailly, Royal Concertgebouw Orchestra & Various Artists","Varèse_ the Complete Works (2 CDs)","rock","download","Varèse_ the Complete Works (2 CDs).jpg",2023
+475,"Jim Croce","Photographs & Memories_ His Greatest Hits","Rock","CD","JimCroce_Photographsandmemories.jpg",2012
+476,"Richie Havens","Live At the Cellar Door and At the Santa Monica Civic Auditorium","Blues","Download","RichHavens_CellarDoor.jpg",1593
+477,"Richie Havens","Grace of the Sun","Blues","Download","Richie Haven Grace of the Sun.jpg",1595
+478,"Richie Havens","Nobody Left to Crown","Blues","Download","Richie Haven Nobody Left to Crown.jpg",1594
+479,"Bob Seger","Ride Out [Deluxe]","Rock","CD","Bob Seger Ride Out [Deluxe].jpg",1799
+480,"Bob Seger","Bob Seger Greatest Hits","Rock","CD","Bob Seger Greatest Hits.jpg",1800
+481,"Talking Heads","Little Creatures","Alternative","CD","TalkingHeads_LittleCreatures.jpg",1341
+482,"Talking Heads","Talking Heads_ 77","Alternative","CD","TalkingHeads_77.jpg",1343
+483,"Talking Heads","True Stories","Alternative","Vinyl","TalkingHeads_True Stories.jpg",1340
+484,"Talking Heads","Remain In Light","Alternative","CD","TalkingHeadsRemaininLight.jpg",1344
+485,"Talking Heads","The Best Of Talking Heads","Alternative","CD","TalkingHeads_BestOf.jpg",1342
+486,"Gustav Holst","The Planets - suite","rock","download","Gustav Hoist The Planets - suite.jpg",1893
+487,"Union Gap","Union Gap","Rock","Vinyl","Union_Gap.jpg",2013
+488,"Elvin Bishop","Throwback Tunes_ 70s","Rock","Download","Throwback Tunes_ 70s.jpg",2014
+489,"Cheap Trick","In Color [Bonus Tracks]","Rock","CD","Cheap_Trick_In_Color.jpg",1646
+490,"Cheap Trick","Bang, Zoom, Crazy... Hello","Rock","CD","CheapTrick_Bang, Zoom, Crazy... Hello.jpg",1647
+491,"Cheap Trick","We're All Alright!","Rock","CD","CheapTrick_We're All Alright!.jpg",1648
+492,"The Soundtrack Studio Stars","Sounds of Tarantino","Rock","Download","Sounds of Tarantino.jpg",1925
+493,"The Grass Roots","The Complete Original Dunhill_ABC Hit Singles","rock","CD","The Complete Original Dunhill_ABC Hit Singles.jpg",2015
+494,"Neil Diamond","The Neil Diamond Collection","Pop","CD","Neil Diamond Collection.jpg",1745
+495,"Neil Diamond","All-Time Greatest Hits","Pop","CD","The Neil Diamond The Collection.jpg",1746
+496,"Keith Urban","Keith Urban _ Fuse","Rock","download","Keith Urban _ Fuse.jpg",2016
+497,"Chet Atkins and Hank Snow","Reminiscing","Country","Vinyl","Reminiscing_Atkins_Snow.jpg",1624
+498,"The Monkees","The Monkees Greatest Hits","Rock","CD","TheMonkees_Hits.jpg",1890
+499,"Herbie Hancock","Future 2 Future","Jazz","CD","Future 2 Future.jpg",2024
+500,"Carl Perkins","Rock 'N' Roll Legend_ Carl Perkins","RockaBilly","Download","Rock 'N' Roll Legend_ Carl Perkins.jpg",2025
+501,"Jefferson Airplane","Surrealistic Pillow","Rock","Vinyl","JeffersonAirplane_Surrealistic Pillow.jpeg",1643
+502,"Jefferson Airplane","The Essential Jefferson Airplane [Disc 1]","Rock","download","The Essential Jefferson Airplane.jpg",1644
+503,"Jefferson Airplane","The Essential Jefferson Airplane [Disc 2]","Rock","download","The Essential Jefferson Airplane.jpg",1645
+504,"The Spinners","The Definitive Soul Collection Of The Spinners [Disc 2]","R&B","CD","TheSpinners_DefinitiveSoul.jpg",1858
+505,"The Spinners","The Definitive Soul Collection Of The Spinners [Disc 1]","R&B","CD","TheSpinners_DefinitiveSoul.jpg",1857
+506,"Boxcar Willie","The Definitive Collection of Boxcar Willie (Live)","Country","Download","The Definitive Collection of Boxcar Willie (Live).jpg",1902
+507,"Lou Reed","Transformer","Rock","Download","LouReed Transformer.jpg",1739
+508,"Lou Reed","New York","Rock","CD","LouReed_NewYork.jpg",1738
+509,"Pete Seeger & Arlo Guthrie","Pete Seeger & Arlo Guthrie - Together In Concert","Folk","Vinyl","PeteSeeger&ArloGuthrie .jpg",1756
+510,"Devin Duval, Vishal Nayak, Daniel Rio","Fordham Session","rock","CD",NULL,NULL
+511,"Fleet Foxes","Helplessness Blues","Indie Rock","Download","FleetFoxes Helplessness Blues.jpg",1672
+512,"Fleet Foxes","Fleet Foxes","Indie Rock","download","Fleet Foxes.jpg",1673
+513,"John Fahey","The Best of John Fahey 1959-1977 (Remastered)","Pop","Download","The Best of John Fahey 1959-1977 (Remastered).jpg",2026
+514,"Ian Anderson","Thick As A Brick 2","Rock","CD","IanAnderson_Thick As A Brick 2.jpg",2027
+515,"T. Rex","Electric Warrior","Rock","CD","Electric Warrior (Remastered).jpg",1639
+516,"T. Rex","The Slider","Rock","CD","T_Rex_The_Slider.jpg",1640
+517,"T. Rex","Electric Warrior (Remastered)","Rock","Download","Electric Warrior (Remastered).jpg",1642
+518,"Dierks Bentley","Up On the Ridge","Country","Download","DierksBentley Up On the Ridge.jpg",1920
+519,"Hank Williams","24 of Hank Williams' Greatest Hits","Country","Download","HankWilliams.jpg",1895
+520,"Sonny & Cher","The Beat Goes On_ The Best Of Sonny & Cher","Rock","CD","The Beat Goes On_ The Best Of Sonny & Cher.jpg",2031
+521,"The Bad Plus","Inevitable Western","rock","download","Bad Plus Inevitable Western.jpg",1351
+522,"Blue Oyster Cult","Imaginos","Rock","CD","BlueOysterCult_Imaginos.jpg",1822
+523,"Blue Oyster Cult","The Essential Blue Oyster Cult","Rock","CD","BlueOysterCult_The_Essential.jpg",1821
+524,"Jerry Garcia Band","GarciaLive, Vol. 8 [Disc 1]","Rock","CD","Garcia-Live-Volume-8.jpg",1360
+525,"Jerry Garcia Band","GarciaLive, Vol. 8 [Disc 2]","Rock","CD","Garcia-Live-Volume-8.jpg",1361
+526,"Jerry Garcia Band","GarciaLive, Vol. 5 [Disc 2]","Rock","CD","JerryGarciaBand_Vol_5.jpg",1362
+527,"Jerry Garcia Band","GarciaLive Volume Seven_ November 8th, 1976 Sophie's Palo Alto","Rock","download","GarciaLive Volume Seven_ November 8th, 1976 Sophie's Palo Alto.jpg",1364
+528,"Jerry Garcia Band","GarciaLive, Vol. 5 [Disc 1]","Rock","CD","JerryGarciaBand_Vol_5.jpg",1363
+529,"Thin Lizzy","Jailbreak","Rock","CD","Thin Lizzy Jailbreak.jpg",1580
+530,"Thin Lizzy","Bad Reputation","Rock","CD","ThinLizzy_BadRep.jpg",1579
+531,"Thin Lizzy","Jailbreak [Disc 2]","Rock","CD","Thin Lizzy Jailbreak.jpg",1581
+532,"The Shangri-Las","Golden Legends The Shangri-Las","Pop","CD","Golden Legends The Shangri-Las.jpg",2028
+533,"The Cal Tjader Quintet","Monterey Concerts","Jazz","CD","Monterey Concerts.jpg",2029
+534,"Lynyrd Skynyrd","Gimme Back My Bullets","Country","Vinyl","LynardSkynard_Gimme Back Bullets.jpg",1504
+535,"Lynyrd Skynyrd","One From The Road","Country","Vinyl","LynardSkynard_One More For The Road.jpg",1507
+536,"Lynyrd Skynyrd","Street Survivors","Country","CD","LynardSkynyrd_Street Survivors.jpg",1506
+537,"Lynyrd Skynyrd","Pronounced Leh-nerd Skin-nerd","Country","CD","The Voice Of The Sparrow_ Lynyrdskynyrd_Pronounced.jpg",1503
+538,"Tommy James & The Shondells","Rhino Hi-Five_ Tommy James & the Shondells - EP","Rock","download","Rhino Hi-Five_ Tommy James & the Shondells - EP.jpg",1892
+539,"Freddie Notes & The Rudies","Montego Bay","Reggae","Download","Amazulu Montego Bay.jpg",1915
+540,"Led Zeppelin","The Song Remains the Same Disc 2","Rock","CD","LedZepplin_Sound_Remains_Same.jpeg",1230
+541,"Led Zeppelin","Mothership (Remastered)","Rock","Download","LedZepplin Mothership (Remastered).jpg",1229
+542,"Led Zeppelin","The Song Remains the Same Disc 1","Rock","CD","LedZepplin_Song Remains Same.jpg",1228
+543,"Led Zeppelin","Physical Graffiti [Disc 2]","Rock","download","LedZeppelin_Physical Graffiti [Disc 1].jpg",1226
+544,"Led Zeppelin","Physical Graffiti (Remastered)","Rock","Download","LedZeppelin_Physical Graffiti [Disc 1].jpg",1227
+545,"Led Zeppelin","Physical Graffiti [Disc 1]","Rock","CD","LedZeppelin_Physical Graffiti [Disc 1].jpg",1225
+546,"Commander Cody & His Lost Planet Airmen","Commander Cody & His Lost Planet Airmen","Rock","Download","Commander Cody & His Lost Planet Airmen.jpg",1814
+547,"Commander Cody & His Lost Planet Airmen","Lost in the Ozone","Rock","Download","Cody and Lost Planet Lost in the Ozone.jpg",1813
+548,"Black Sabbath","Paranoid","Metal","CD","Black Sabbath Paranoid.jpg",1523
+549,"Black Sabbath","Black Sabbath","Metal","CD","Black Sabbath.jpg",1526
+550,"Black Sabbath","Sabbath Bloody Sabbath","Metal","CD","Sabbath Bloody Sabbath.jpg",1524
+551,"Black Sabbath","Technical Ecstasy","Metal","CD","Technical Ecstasy.jpg",1525
+552,"Mark Knopfler & Emmylou Harris","This Is Us","Rock","Download","This Is Us.jpg",1155
+553,"The Sweet","Desolation Boulevard","Rock","Download","Desolation Boulevard.jpg",2030
+554,"Leo Ferre","Zoo","French Pop","Vinyl","Zoo.jpg",2032
+555,"Muddy Waters","Authorized Bootleg - Fillmore Auditorium, San Francisco Nov. 4-6 1966","Blues","Download","muddy waters boot leg.jpg",1837
+556,"Muddy Waters","Hard Again","Blues","Download","MuddyWaters Hard Again.jpg",1838
+557,"The Fortunes","The Best of the Fortunes (Rerecorded Version)","rock","download","The Best of the Fortunes (Rerecorded Version).jpg",1883
+558,"Eric Clapton","I Still Do","Rock","CD","Clapton_I_Still_Do.jpg",1001
+559,"Eric Clapton","Complete Clapton [Disc 2]","Rock","download","EricClapton_The_Complete.jpg",1005
+560,"Eric Clapton","Live In San Diego With Special Guest JJ Cale Disc 2","Rock","CD","EricClapton_JJCale.jpg",1016
+561,"Eric Clapton","Complete Clapton [Disc 1]","Rock","download","EricClapton_The_Complete.jpg",1004
+562,"Eric Clapton","461 Ocean Boulevard","Rock","CD","EricClapton_461 Ocean Boulevard.jpg",1006
+563,"Eric Clapton","Unplugged","Rock","CD","Eric_Clapton_Unplugged.jpg",1007
+564,"Eric Clapton","Backless","Rock","CD","EricClapton_Backless.jpg",1008
+565,"Eric Clapton","Behind The Sun","Rock","CD","EricClapton_Behind The Sun.jpg",1009
+566,"Eric Clapton","No Reason To Cry","Rock","CD","eric_clapton_noreasontocry.jpg",1010
+567,"Eric Clapton","The Cream Of Clapton","Rock","CD","CreamOfClapton.jpg",1011
+568,"Eric Clapton","Live In San Diego With Special Guest JJ Cale Disc 1","Rock","CD","EricClapton_JJCale.jpg",1015
+569,"The Hollies","The Hollies' Greatest Hits","Rock","Download","The Hollies' Greatest Hits.jpg",1435
+570,"The Hollies","On a Carousel","Rock","CD","Hollies_On_A_Caraousel.jpg",1434
+571,"The Hollies","Greatest Hits [Disc 1]","Rock","CD","The Hollies' Greatest Hits.jpg",1436
+572,"The Hollies","Greatest Hits [Disc 2]","Rock","CD","The Hollies' Greatest Hits.jpg",1437
+573,"The Everly Brothers","Cadence Classics_ Their 20 Greatest Hits","Rock","Download","Cadence Classics_ Their 20 Greatest Hits.jpg",2033
+574,"Lester Young","Mean To Me","Jazz","Vinyl","Lester-Young-Mean-To-Me.jpg",1859
+575,"Lester Young","Pres","Jazz","Vinyl","LesterYoung_Pres.jpeg",1860
+576,"The Righteous Brothers","Anthology 1962-1974 [Disc 2]","Rock","CD","righteous brothers.jpg",1689
+577,"The Righteous Brothers","Anthology_ 1962-1974 [Disc 1]","Rock","CD","righteous brothers.jpg",1688
+578,"conductor Neil Warner","Man Of La Mancha","rock","Vinyl","manoflamancha.jpg",1382
+579,"Clarence Gatermouth Brown","Blackjack","Blues","Download","Blackjack.jpg",2034
+580,"The Chieftains","Down The Old Plank Road_ The Nashville Sessions","BlueGrass","CD","Cheiftains Down The Old Plank Road_ The Nashville Sessions.jpg",1831
+581,"The Chieftains","The Bells Of Dublin","BlueGrass","CD","Cheiftains Down The Old Plank Road_ The Nashville Sessions.jpg",1830
+582,"Lenny Kravitz","LENNY KRAVITZ GREATEST HITS","Rock","CD","lennyKravitz.jpg",1874
+583,"The Tremeloes","Here Comes My Baby _ Silence Is Golden (Re-Recorded Versions) - Single","Rock","Download","Here Comes My Baby _ Silence Is Golden (Re-Recorded Versions) - Single.jpg",2035
+584,"Arlo Guthrie","Alice's Restaurant","Folk","Vinyl","Alice's Restaurant.jpg",1757
+585,"Arlo Guthrie","Running Down The Road","Folk","Vinyl","Running Down The Road.jpg",1758
+586,"Andre Kostelanetz and his orchestra","Strauss Waltzes","Classical","Download","Strauss Waltzes.jpg",2047
+587,"Marsalis-Branford","Upward Spiral","Jazz","CD","Marsalis_UpwardSpiral.jpg",1916
+588,"Lesley Gore","It's My Party_ The Mercury Anthology","Pop","Download","It's My Party_ The Mercury Anthology.jpg",1896
+589,"Wilson Pickett","The Exciting Wilson Pickett","R&B","CD","The Exciting Wilson Pickett.jpg",2036
+590,"Dave Brubeck","New Wine","Jazz","CD","DaveBruebeck_NewWine.jpg",1780
+591,"Dave Brubeck","Dave Brubeck Octet","Jazz","download","DaveBrubeck Octet.jpg",1781
+592,"Blind Faith","Blind Faith","Rock","CD","BlindFaith Blind Faith.jpg",2037
+593,"The Who","The Who Greatest Hits","Rock","download","Who_Greatest_Hits.jpg",1254
+594,"The Who","Who's Next (Bonus Track Version)","Rock","download","Who's Next (Bonus Track Version).jpg",1251
+595,"The Who","The Who Sell Out","Rock","CD","The_who_sell_out.jpg",1252
+596,"The Who","Live At Leeds","Rock","CD","Who_LiveAtLeeds.jpg",1253
+597,"The Who","The Who_ The Ultimate Collection","Rock","Download","Who-ultimatecollectionUK.jpg",1250
+598,"The Who","Tommy","Rock","Vinyl","Who_Tommyalbumcover.jpg",1249
+599,"Brewer & Shipley","One Toke Over the Line","Rock","Download","One Toke Over the Line.jpg",2038
+600,"The Sonics","Here Are The Sonics!!!","Rock","CD","Sonics Here Are The Sonics!!!.jpg",1599
+601,"The Sonics","Boom","Rock","CD","Sonics_Boom.jpg",1600
+602,"The Sonics","This Is the Sonics","Rock","CD","Sonics Here Are The Sonics!!!.jpg",1601
+603,"Bruce Springsteen & The E Street Band","Hammersmith Odeon, London '75","Rock","download","BruceSpringsteen_Hammersmith_Odeon,_London_'75.jpg",1136
+604,"Bill Withers","Bill Withers' Greatest Hits","R&B","Download","Bill Withers Hits.jpg",1846
+605,"Bill Withers","Still Bill [Bonus Tracks]","R&B","CD","Bill Withers Still Bill.jpg",1845
+606,"Neil Young","Tonight's The Night","Rock","CD","NeilYoung_Tonights_The_Night.jpg",1556
+607,"Neil Young","Living With War","Rock","CD","NeilYoung_LivignWithWar.jpg",1557
+608,"Neil Young","Live On Air The Lost Tapes Vol. 2","Rock","download","NeilYoung_TheLostTapes_Young.jpg",1558
+609,"Sonny Rollins","Saxophone Colossus","Jazz","CD","SonnyRollins_Saxophone Colossus.jpg",1290
+610,"Sonny Rollins","Global Warming","Jazz","CD","Sonny_Rollins_Global_Warming.jpg",1289
+611,"Sonny Rollins","Mambo Bounce","Jazz","CD","SonnyRollins_Mambo_Bounce.jpeg",1288
+612,"Sonny Rollins","This Is What I Do","Jazz","CD","SonnyRollins This Is What I Do.jpg",1286
+613,"Sonny Rollins","Easy Living","Jazz","Vinyl","SonnyRollins_Easy_Living.jpg",1287
+614,"Keith Jarrett","Solo Concerts_ Lausanne [Disc 2]","Jazz","CD","Keith Jarrett Solo Concerts_ Lausanne",1440
+615,"Keith Jarrett","La Scala","Jazz","CD","Keith Jarrett La Scala.jpg",1438
+616,"Keith Jarrett","Solo Concerts_ Bremen [Live]","Jazz","CD","Keith Jarrett Solo Concerts_ Lausanne",1439
+617,"Keith Jarrett","Vienna Concert [Live]","Jazz","CD","Keith Jarrett Vienna Concert [Live].jpg",1441
+618,"Paul McCartney","Ram [Disc 2]","Pop","CD","PaulMcCartney Ram.jpg",1816
+619,"Paul McCartney","Ram","Pop","CD","PaulMcCartney Ram.jpg",1815
+620,"Wayne Fontana & The Mindbenders","Hit's of the 60s (New Stereo Recordings by the Original Artists)","Rock","download","Hit's of the 60s (New Stereo Recordings by the Original Artists).jpg",940
+621,"Wayne Fontana & The Mindbenders","20th Century Masters - The Millennium Collection_ Wayne Fontana & The Mindbenders","Rock","Download","20th Century Masters - The Millennium Collection_ Wayne Fontana & The Mindbenders.jpg",1864
+622,"Jacques Brel","Brel","French Pop","Vinyl","Brel.jpg",2039
+623,"Journey","Greatest Hits","Rock","Download","TomPetty Greatest Hits.jpg",1303
+624,"Bob Forrest","Modern Folk and Blues Wednesday","Blues","Download","Modern Folk and Blues Wednesday.jpg",2040
+625,"Rita Coolidge","Live At The Fillmore East_1970","Country","download","Rita Coolige.jpeg",2041
+626,"John Denver","The Best Of John Denver Live","Country","CD","JohnDenver_BestOfLive.jpeg",1887
+627,"Booker T. Jones","Just a Friend [feat. Biz Markie, Matt Berninger, and Sharon Jones] - Single","Rock","Download","Booker_T_Jones-The_Road_From_Memphis.jpg",2042
+628,"Joan Baez","Noel","Folk","Vinyl","Joan Baez Noel.jpeg",1219
+629,"Joan Baez","Gulf Winds(8_29_2004 1_30_11 PM)","Folk","Vinyl","JoanBaez Gulf Winds.jpg",1220
+630,"Joan Baez","1st 10 years","Folk","Vinyl","JoanBaez_10years.jpg",1221
+631,"Joan Baez","Blessed Are","Folk","Vinyl","JoanBaez Blessed_Are.jpg",1222
+632,"Joan Baez","Farewell, Angelina","Folk","Vinyl","JoanBaez_Farewell_Angeline.jpeg",1223
+633,"Joan Baez","Any Day  Now","Folk","Vinyl","JoanBaez_Any Day Now.jpg",1224
+634,"Freddie & The Dreamers","The Ultimate Collection","Pop","Download","Yard birds The Ultimate Collection.jpg",955
+635,"_ & The Mysterians","The Best Of _ & The Mysterians_ Cameo Parkway 1966-1967","Rock","download","Cameo Parkway: The Best of ? & the Mysterians, 1966-1967.jpeg",1862
+636,"_ & The Mysterians","Cameo Parkway_ The Best of _ & the Mysterians, 1966-1967","Rock","Download","Cameo Parkway: The Best of ? & the Mysterians, 1966-1967.jpeg",1863
+637,"Steely Dan","Everything Must Go","Rock","Download","Steeley Dan Everything Must Go.jpg",1690
+638,"Steely Dan","A Decade Of Steely Dan","Rock","download","Steeley Dan A Decade Of Steely Dan.jpg",1691
+639,"Van Morrison","Moondance","Rock","Download","Van_Morrison_MoonDance.jpg",1045
+640,"Van Morrison","Van Morrison - The Movie Hits","Rock","Download","VanMorrison_Movies.jpg",1046
+641,"Van Morrison","Pay the Devil","Rock","Download","VanMorrison_Paydevil.jpg",1047
+642,"Van Morrison","Born To Sing_ No Plan B","Rock","download","VanMorrison_Borntosingnoplanb.jpg",1048
+643,"Van Morrison","The Movie Hits","Rock","Download","VanMorrison_Movies.jpg",1049
+644,"Van Morrison","The Best of Van Morrison, Vol. 3","Rock","Download","VanMorrison_Best_of_van_morrison_3.jpg",1050
+645,"Van Morrison","Astral Weeks","Rock","CD","VanMorrison_AstralWeeks.jpg",1051
+646,"Van Morrison","Blowin' Your Mind!","Rock","Download","VanMorrison_Blowin.yourmind.jpg",1052
+647,"38 Special","The Very Best of the A&M Years (1977-1988)","Rock","Download","The Very Best of the A&M Years (1977-1988).jpg",2043
+648,"A Fielder Boston Pops","The Blue Danube","Classical","Download","Bonston Pops Blue Danube.jpg",1610
+649,"Pat Metheny","One Quiet Night","Jazz","CD","Methany_OneQuietNight.jpg",1535
+650,"Pat Metheny","80_81","Jazz","Vinyl","PatMethany_80-81.jpg",1534
+651,"Pat Metheny","Orchestrion","Jazz","CD","PatMetheney_Orchestrion.jpg",1536
+652,"Dropkick Murphys","The Gang's All Here","Rock","Download","Dropkick_GangsAllHere.jpg",1055
+653,"Dropkick Murphys","The Singles Collection, Vol. 2","Rock","Download","DropKick_singles.jpg",1056
+654,"Dropkick Murphys","Tessie - EP","Rock","Download","Dropkick_Tessie.jpg",1057
+655,"Dropkick Murphys","Blackout","Rock","Download","Dropkick_Blackout.jpg",1054
+656,"Dropkick Murphys","The Warrior's Code","Rock","Download","Dropkick_WarriorsCode.jpg",1053
+657,"Dropkick Murphys","Dropkick Murphys_ The Singles Collection, Vol. 1 - 1996-1997","Rock","Download","DropKick_singles.jpg",1058
+658,"Dropkick Murphys","Live On St.Patrick's Day","Rock","Download","DropkickMurphys-StPatricksDayLive.jpg",1059
+659,"Dropkick Murphys","Sing Loud, Sing Proud!","Rock","Download","Dropkick_SingLoud.jpg",1060
+660,"Dropkick Murphys","The Meanest of Times (Deluxe Edition)","Rock","Download","Dropkick meanest_of_times.jpg",1061
+661,"Dropkick Murphys","Dropkick Murphys _ the Business Split Release_ Mob Mentality","Rock","Download","Dropkick Mob.jpg",1062
+662,"Dropkick Murphys","Do or Die","Rock","Download","Dropkick_Do or Die.jpg",1063
+663,"Judy Collins","Whales & Nightingales","Folk","download","udyCollins Whales & Nightingales.jpg",1213
+664,"Judy Collins","Strangers Again","Folk","CD","JudyCollins_StrangersAgain.jpg",1212
+665,"Judy Collins","Both Sides Now_ The Very Best Of","Folk","CD","JudyCollins_Bothsides.jpg",1211
+666,"Judy Collins","Bohemian","Folk","CD","JudyCollins Bohemian.jpg",1216
+667,"Judy Collins","Judy Collins From Vinyl","Folk","download","JudyCollin_1970.jpg",1210
+668,"Judy Collins","Both Sides Now - The Very Best Of [Disc 2]","Folk","CD","JudyCollins_Bothsides.jpg",1218
+669,"Linda Ronstadt","Don't Cry Now","Country","CD","LindaRonstadt_Dont Cry Now.jpg",1237
+670,"Linda Ronstadt","Just One Look_ Classic Linda Ronstadt","Country","CD","LindaRonstadt_JustOneLookClassic.jpeg",1238
+671,"Linda Ronstadt","Simple Dreams","Country","CD","LindaRonstadt_Simple_Dreams_Album_Cover.jpg",1239
+672,"Linda Ronstadt","Duets","Country","CD","LindaRonstadt_Duets.jpg",1240
+673,"Linda Ronstadt","Silk Purse","Country","Download","LindaRonstadt Silk Purse.jpg",1241
+674,"Linda Ronstadt","Heart Like A Wheel","Country","Vinyl","LindaRonstadt_Heart Like A Wheel.jpg",1242
+675,"Prairie Flyer","Just an Old Dog","Country","Download","PrairieFlyer_oldDog.jpg",1634
+676,"The Chi-Lites","The Chi-Lites_ 20 Greatest Hits","R&B","Download","The Chi-Lites_ 20 Greatest Hits.jpg",1897
+677,"Stravinsky","The Firebird","Classical","Vinyl","Stravinsky_Firebirdd.jpeg",2044
+678,"Canned Heat","Blues Selects","Rock","CD","Blues Selects.jpg",942
+679,"Canned Heat","The Best of Canned Heat","Rock","Download","The Best of Canned Heat.jpg",1775
+680,"Big Brother & the Holding Company_Janis Joplin","Janis Joplin's Greatest Hits [10 Tracks]","Rock","CD","JanisJoplin_greatesthits.jpg",1825
+681,"The Pointer Sisters","Breakout","Rock","Vinyl","Pointer_Sisters_Breakout.jpg",1926
+682,"Don Cherry & John Coltrane","The Avant-Garde 6_28_60,7_8_60","rock","download","DonCherry_JohnColtrane_aventeGarde.jpg",972
+683,"Angele Dubeau & La Pieta","Infernal Violins","Classical","Download","Infernal Violins.jpg",2045
+684,"Waylon Jennings & Willie Nelson","Waylon & Willie (Remastered)","Country","Download","Waylon and Willie.jpeg",1352
+685,"Bobby Rydell","Rock Masters_ Bobby Rydell","Rock","Download","Bobbly Rydell.jpeg",1627
+686,"Ace Frehley","Ace Frehley","Rock","CD","Ace Frehley.jpg",2046
+687,"The Supremes","Gold [Disc 2]","R&B","CD","Supremes_Gold.jpg",1722
+688,"The Supremes","Gold [Disc 1]","R&B","CD","Supremes_Gold.jpg",1721
+689,"Lori McKenna","Bittertown","Country","Download","Bittertown.jpg",2049
+690,"Jerry Lee Lewis","I Am What I Am","RockaBilly","Download","JerryLeeLewisI Am What I Am.jpg",1812
+691,"Jerry Lee Lewis","Jerry Lee's Greatest","RockaBilly","Download","JerryLeeLewisI Jerry Lee's Greatest.jpg",1811
+692,"Jason Isbell & The 400 Unit","The Nashville Sound","Rock","CD","JasonIsbell_The Nashville Sound.jpg",1919
+693,"Grand Funk Railroad","Closer To Home [2002 Reissue]","Rock","CD","Grandfunk_Closer To Home [2002 Reissue].jpg",1694
+694,"Grand Funk Railroad","Grand Funk Railroad Greatest Hits","Rock","Download","GrandFunkRailroad_greatesthits.jpg",1695
+695,"The Belle Brigade","Where Not to Look for Freedom - Single","Rock","Download","Where Not to Look for Freedom - Single.jpg",2050
+696,"Joe Louis Walker","J.L.W_","Jazz","CD","J.L.W..jpg",2051
+697,"Bill Haley & His Comets","20th Century Masters - The Millennium Collection_ Best of Bill Haley & His Comets","RockaBilly","Download","20th Century Masters - The Millennium Collection_ Best of Bill Haley & His Comets.jpg",1621
+698,"Loggins And Messina","Loggins And Messina","Rock","Download","LogginsAndMessina.jpg",1876
+699,"The Wailin' Jennys","Bright Morning Stars","Folk","download","Wailin Jennys Bright Morning Stars.jpg",1585
+700,"The Wailin' Jennys","Firecracker","Folk","Download","Wailin Jennys Firecracker.jpg",1584
+701,"The Wailin' Jennys","40 Days","Folk","Download","Wailin Jennys 40 Days.jpg",1583
+702,"Leo Sayer","Leo Sayer","Pop","Vinyl","LeoSayer.jpeg",2052
+703,"Stephen King","Disc 4 The Dark Tower 7_ The Dark Tower 4 Of 24","Audio Book","download",NULL,NULL
+704,"Chuck Berry","The Anthology","Rock","Download","ChuckBerry The Anthology.jpg",1855
+705,"Chuck Berry","The Best of Chuck Berry","Rock","Vinyl","chuck_berry.jpg",1856
+706,"Max Reger","Le Chant Du Monde 1983","rock","Vinyl","Le Chant Du Monde 1983.jpg",935
+707,"Donovan","A Gift From A Flower To A Garden","Folk","Vinyl","Donovan_From_the_Garden.jpeg",1736
+708,"Donovan","Sunshine Superman","Folk","Download","Donovan Sunshine Superman.jpg",1737
+709,"Sting & The Police","The Very Best of Sting & The Police","Rock","Download","The Very Best of Sting & The Police.jpg",1630
+710,"Jan & Dean","The Best of Jan & Dean (Re-recorded Version)","Rock","Download","The Best of Jan & Dean (Re-recorded Version).jpg",2053
+711,"Savoy Brown","Hellbound Train","Blues","Download","SavoyBrown Hellbound Train.jpg",1193
+712,"Savoy Brown","Boogie Brothers","Blues","download","SavoyBrown Boogie Brothers.jpg",1192
+713,"Savoy Brown","A Step Further","Blues","Download","SavoyBrown A Step Further.jpg",1191
+714,"Savoy Brown","The Savoy Brown Collection - Featuring Kim Simmonds","Blues","Download","SavoyBrown The Savoy Brown Collection - Featuring Kim Simmonds.jpg",1188
+715,"Savoy Brown","Tell Mama (Live)","Blues","download","SavoyBrown Tell Mama (Live).jpg",1189
+716,"Savoy Brown","Looking In","Blues","Download","SavoyBrown Looking In.jpg",1190
+717,"Nirvana","Incesticide","Rock","CD","Incesticide.jpg",2054
+718,"Tony Bennett","Snowfall - The Tony Bennett Christmas Album","Pop","Download","TonyBennett XMas.jpg",2055
+719,"Stevie Ray Vaughan","Martin Scorsese Presents_ Stevie Ray Vaughan","Blues","Download","Martin Scorsese Presents_ Stevie Ray Vaughan.jpg",1373
+720,"Chad & Jeremy","60's Jukebox Hits - Vol. 3","Rock","Download","60's Jukebox Hits - Vol. 3.jpg",1847
+721,"Chad & Jeremy","The Sunshine Collection","Rock","Download","The Sunshine Collection.jpg",1848
+722,"Alison Krauss & Union Station","Paper Airplane","Country","CD","Paper Airplane.jpg",1553
+723,"Alison Krauss & Union Station","New Favorite","Country","Download","Krauss New Favorite.jpg",1554
+724,"Emerson, Lake & Palmer","Emerson, Lake & Palmer","Rock","CD","EmersonlakePalmer_cover.jpg",2056
+725,"The Lettermen","All-Time Greatest Hits","Pop","CD","The Neil Diamond The Collection.jpg",1746
+726,"Charles Dutoit, Kyung Wha Chung & Philharmonia Orchestra","Saint-Saens_ Danse Macabre","Classical","Download","Saint-Saens_ Danse Macabre.jpg",2057
+727,"Devin Duval","Fordham Session","Jazz","CD",NULL,NULL
+728,"Devin Duval","Senior Recital","Jazz","CD",NULL,NULL
+729,"Devin Duval","MTEC-111 Portfolio","Jazz","download",NULL,NULL
+730,"Devin Duval","Audition Tape","Jazz","CD",NULL,NULL
+731,"Devin Duval","Devin Duval Album (7_14_2008 9_22_53 PM)","Jazz","CD",NULL,NULL
+732,"Crooked Still","Shaken By A Low Sound","BlueGrass","CD","CrookedStill_Shaken By A Low Sound.jpg",1701
+733,"Crooked Still","Some Strange Country","BlueGrass","download","CrookedStill_Strange_Country.jpg",1700
+734,"The Quintet","V.S.O.P","Jazz","Download","V.S.O.P.jpg",2080
+735,"Boston","Boston_ Greatest Hits","Rock","Download","Boston Greatest_Hits.jpg",1611
+736,"Boston","Life, Love & Hope","Rock","CD","Boston Life, Love & Hope.jpg",1612
+737,"Boston","Boston","Rock","CD","Boston.jpg",1613
+738,"Spanky & Our Gang","The Best Of Spanky & Our Gang 20th Century Masters The Millennium Collection","Rock","CD","SpankAndOurGang_TheBestOf.jpg",1629
+739,"Sarah McLachlan","Wintersong","Pop","Download","Wintersong.jpg",2058
+740,"Branford Marsalis & Orpheus Chamber Orchestra","Creation","Classical","Download","BranfordMarsalis Creation.jpg",1518
+741,"Stray Birds","The Stray Birds","Country","CD","The Stray Birds.jpg",2059
+742,"Freddy Fender","Golden Legends_ Freddy Fender Live","TexMex","Download","Golden Legends_ Freddy Fender Live.jpg",2060
+743,"The Troggs","Wild Thing","Rock","Download","Troggs_Wild_Thing.png",1905
+744,"City and Colour","Fragile Bird - Single","Pop","Download","Fragile Bird - Single.jpg",1903
+745,"Strawberry Alarm Clock","Incense & Peppermints","Rock","Download","Incense & Peppermints.jpg",2061
+746,"Tina Turner","Private Dancer","Rock","Vinyl","Private Dancer.jpg",2062
+747,"U2","U218 Singles (Deluxe Version)","Rock","Download","U2 18 Singles (Deluxe Version).jpg",1834
+748,"U2","Songs of Innocence","Rock","Download","U2 Songs of Innocence.jpg",1833
+749,"Alvin Lee & Richard Newman","Still On the Road To Freedom","rock","Download","Still On the Road To Freedom.jpg",1476
+750,"Neil Warner","Man Of La Mancha","Sound Track","Vinyl","manoflamancha.jpg",1382
+751,"Texas Tornados","Zone of Our Own","TexMex","Download","TexasTornados_Zone of Our Own.jpg",1761
+752,"Texas Tornados","Live from Austin, TX_ Texas Tornados","TexMex","Download","Texas Tornados_Live from Austin, TX_.jpg",1762
+753,"Johnny Mathis","Merry Christmas","Pop","Download","Merry Christmas.jpg",2063
+754,"Steve Miller Band","Greatest Hits_ 1974-1978","Rock","Download","SteveMillerBand_Greatest_Hits-1974-78.jpg",1917
+755,"Queenryche","Take Cover","Rock","CD","Queenryche_Takecover.jpg",1339
+756,"Peter Bjorn and John","Eyes - Single","Pop","Download","Peter Bjorn and John Eyes.jpg",2064
+757,"The Pretenders","Break Up The Concrete","Alternative","CD","Pretenders_BreakUpcon.jpg",1787
+758,"The Pretenders","Alone","Alternative","CD","Pretenders_The_Pretenders_Alone.jpg",1786
+759,"Eagles","Their Greatest Hits","Rock","download","Eagles_Their_Greatest_Hits.jpg",1073
+760,"Eagles","One of These Nights","Rock","Download","Eagles_One Of These Nights.jpg",1074
+761,"Eagles","Hotel California","Rock","Download","Eagles_Hotel California.jpg",1075
+762,"Eagles","Eagles","Rock","Download","Eagles.jpg",1076
+763,"Eagles","On The Border","Rock","CD","Eagles_TheEagles-OntheBorder.jpg",1078
+764,"Eagles","Long Road Out Of Eden [Disc 2]","Rock","Download","eagles_long_road.jpg",1079
+765,"Eagles","Long Road Out Of Eden [Disc 1]","Rock","Download","eagles_long_road.jpg",1080
+766,"Eagles","Hell Freezes Over","Rock","CD","Eagles_Hell Freezes Over.jpg",1077
+767,"Michael Martin Murphey","Cowboy Songs 3","Country","CD","MichaelMurphey_CowBoysongs.jpg",1869
+768,"Iggy & The Stooges","Ready To Die","Punk","CD","Iggy and the Stooge Ready To Die.jpg",1404
+769,"REO Speedwagon","Hi Infidelity (30th Anniversary Edition)","Rock","CD","Hi Infidelity (30th Anniversary Edition).jpg",2065
+770,"The Honeycombs","Have I the Right - The Very Best of the Honeycombs","Pop","download","Have I the Right - The Very Best of the Honeycombs.jpg",2066
+771,"Madeleine Peyroux","The Blue Room","Jazz","Download","Madeleine Peyroux The Blue Room.jpg",1913
+772,"The Jazz Crusaders","Free As The Wind","Jazz","Vinyl","JazzCrusaders_Free As the Wind.jpg",1194
+773,"The Jazz Crusaders","The Best Of The Jazz Crusaders 1961 - 1965","Jazz","Download","JazzCrusaders_Jazz_Crusaders_1961-1965.jpg",1195
+774,"The Jazz Crusaders","Southern Comfort","Jazz","Vinyl","JazzCrusaders_Southern Comfort.jpg",1196
+775,"The Jazz Crusaders","Crusaders 1","Jazz","Vinyl","JazzCrusaders_Crusader 1.jpg",1197
+776,"The Jazz Crusaders","Live at the Lighthouse '66","Jazz","Download","JazzCrusaders Live at the Lighthouse '66.jpg",1199
+777,"The Jazz Crusaders","The Best of the Jazz Crusaders","Jazz","Download","JazzCrusaders_The Best Of The Jazz Crusaders.jpg",1198
+778,"Mountain Heart","Road That Never Ends_ The Live Album","BlueGrass","CD","MountainHeart Road That Never Ends_ The Live Album.jpg",1309
+779,"Harry Nilsson","Personal Best - The Harry Nilsson Anthology","Rock","Download","Harry Nilsson Personal Best.jpg",1776
+780,"Harry Nilsson","Nilsson Schmilsson (Remastered)","Rock","Download","Nilsson Schmilsson.png",1777
+781,"Roy Orbison","For the Lonely_ 18 Greatest Hits","Rock","Download","For the Lonely_ 18 Greatest Hits.png",2081
+782,"Armik","Serenata","Pop","Download","Serenata.jpg",1932
+783,"The Surfaris","The Sunshine Collection","Rock","Download","The Sunshine Collection.jpg",1848
+784,"The Ozark Mountain Daredevils","Greatest Hits (Re-Recorded Versions)","Rock","Download","Greatest Hits (Re-Recorded Versions).jpg",2082
+785,"Eilen Jewell","Letters from Sinners & Strangers","Country","Download","EilenJewell Letters from Sinners & Strangers.jpg",1720
+786,"Eilen Jewell","Sea Of Tears","Country","CD","EiienJewel_SeaOfTears.jpg",1718
+787,"Jimmy Buffet","Livign And Dying In Three Quarter Time","Country","Vinyl","Buffett_LivingAndDying.jpeg",1658
+788,"Jimmy Buffet","Son Of A Sailor","Country","Vinyl","Buffet_sonOfaSailure.jpg",1659
+789,"Jimmy Buffet","Changes In Latitudes-Havana Day Dreamin","Country","Vinyl","Buffet_changes in lattitude.jpg",1660
+790,"Wrabel","Sideways - Single","Pop","Download","Sideways - Single.jpg",2083
+791,"The Paul Butterfield Blues Band","The Butterfield Blues Band Live","Blues","Vinyl","Butterfield Blues Band Live.jpeg",1409
+792,"The Paul Butterfield Blues Band","Butterfield Blues Band Live","Blues","Vinyl","PaulButterfield 1965.jpg",1411
+793,"The Paul Butterfield Blues Band","East-West","Blues","Vinyl","PaulButterfield_East-West.jpg",1412
+794,"The Paul Butterfield Blues Band","The Paul Butterfield Blues Band","Blues","Vinyl","PaulButterfield Blues Band.jpg",1413
+795,"Compilations","IBMA Blue Grass Sample","Country","CD","IBMA Blue Grass Sample.jpg",919
+796,"Compilations","Marianne Faithfull_ Greatest Hits","Country","download","Marianne Faithfull_ Greatest Hits.jpg",920
+797,"Compilations","The Art Of McCartney [Disc 1]","Country","download","the Art Of McCartney.jpg",921
+798,"Compilations","Easy Rider (Soundtrack from the Motion Picture) [Deluxe Edition]","Country","Download","Easy Rider (Soundtrack from the Motion Picture) [Deluxe Edition].jpg",923
+799,"Compilations","20th Century Masters - The Millennium Collection_ The Best of Dusty Springfield","Country","Download","20th Century Masters - The Millennium Collection_ The Best of Dusty Springfield.jpg",924
+800,"Compilations","The Art Of McCartney [Disc 2]","Country","download","the Art Of McCartney.jpg",922
+801,"Compilations","Crispian St. Peters Greatest Hits","Country","Download","Crispian St. Peters Greatest Hits.jpg",925
+802,"Compilations","Crossroads Guitar Festival 2013 [Live] [Disc 2]","Country","CD","ericclapton_crossroad.jpg",926
+803,"Compilations","50's Rock","Country","Tape","50's Rock.jpg",928
+804,"Compilations","I'm Not There [Disc 1]","Country","CD","Im_Not_There_Soundtrack_Cover.jpg",930
+805,"Compilations","Gypsy Soul New Flamenco","Country","download","Gypsy Soul New Flamenco.jpg",932
+806,"Compilations","Crossroads Guitar Festival 2013 [Live] [Disc 1]","Country","CD","ericclapton_crossroad.jpg",927
+807,"Compilations","I'm Not There [Disc 2]","Country","CD","Im_Not_There_Soundtrack_Cover.jpg",931
+809,"Compilations","Back to the 60's, Vol. 1_ 18 Flashback Memories (Re-Recorded Versions)","Country","Download","Back to the 60's, Vol. 1_ 18 Flashback Memories (Re-Recorded Versions).jpg",933
+810,"Compilations","Delta Lady The Anthology","Country","download","Delta Lady_ The Rita Coolidge Anthology [Disc 2].jpg",934
+811,"Compilations","Le Chant Du Monde 1983","Country","Vinyl","Le Chant Du Monde 1983.jpg",935
+812,"Compilations","The 50 Greatest Pieces of Classical Music","Country","Download","The 50 Greatest Pieces of Classical Music.jpg",936
+813,"Compilations","Time Signatures_ A Retrospective (1)","Country","download","Time Signatures A Retrospective.jpg",937
+814,"Compilations","Dave Mason The Definitive Collection","Country","CD","DaveMason_DefintiveCollection.jpeg",938
+815,"Compilations","The Departed","Country","CD","The Departed.jpg",939
+816,"Compilations","Hit's of the 60s (New Stereo Recordings by the Original Artists)","Country","download","Hit's of the 60s (New Stereo Recordings by the Original Artists).jpg",940
+817,"Compilations","Blues Selects","Country","CD","Blues Selects.jpg",942
+818,"Compilations","20th Century Rocks_ 60's Rock Bands - Wild Thing (Re-Recorded Versions)","Country","download","20th Century Rocks_ 60's Rock Bands - Wild Thing (Re-Recorded Versions).jpg",943
+819,"Compilations","More Solid Gold 60s Volume 2","Country","Download","More Solid Gold 60s Volume 2.jpg",944
+820,"Compilations","Masked & Anonymous","Country","CD","Masked And Anonymous.jpg",945
+821,"Compilations","Iron Butterfly Hits","Country","Download","IronButterfly_Inagaddadavida.jpeg",946
+822,"Compilations","Rat Pack_ Members Edition [Live]","Country","CD","Rat Pack_ Members Edition [Live].jpg",947
+823,"Compilations","Mozart by Candlelight","Country","download","Mozart by Candlelight.jpg",948
+824,"Compilations","Delta Lady_ The Rita Coolidge Anthology [Disc 2]","Country","CD","Delta Lady_ The Rita Coolidge Anthology [Disc 2].jpg",949
+825,"Compilations","The Music Inside_ A Collaboration Dedicated To Waylon Jennings, Volume II","Country","CD","The Music Inside - A Collaboration Dedicated to Waylon Jennings, Vol. 1.jpg",950
+826,"Compilations","The Ultimate Collection","Country","Download","Yard birds The Ultimate Collection.jpg",955
+827,"Compilations","The Music Inside - A Collaboration Dedicated to Waylon Jennings, Vol. 1","Country","CD","The Music Inside - A Collaboration Dedicated to Waylon Jennings, Vol. 1.jpg",951
+828,"Compilations","Delta Lady _ The Anthology","Country","CD","Delta Lady_ The Rita Coolidge Anthology [Disc 2].jpg",952
+829,"Compilations","4 John Paul George Ringo - EP","Country","Download","4 John Paul George Ringo - EP.jpg",953
+830,"Compilations","Singin' With Emmylou Volume 1 (P) 2000","Country","CD","SingingWinthEmmylouHarris.jpg",954
+831,"Electric Light Orchestra","Out Of The Blue","Rock","CD","ELO_Out Of The Blue.jpg",1481
+832,"Electric Light Orchestra","Face The Music","Rock","Vinyl","ELO Face The Music.jpg",1478
+833,"Electric Light Orchestra","Discovery","Rock","Vinyl","ELO Discovery.jpg",1479
+834,"Electric Light Orchestra","Eldorado","Rock","Vinyl","ELO Eldorado.jpg",1480
+835,"The Youngbloods","Get Together_ The Essential Youngbloods","Rock","Download","Get Together_ The Essential Youngbloods.jpg",1908
+836,"Generationals","Trust - EP","Pop","Download","Trust - EP.jpg",2084
+837,"Pink Floyd","A Saucerful Of Secrets","Rock","CD","PinkFloyd_SaucersOfScrets.jpg",1064
+838,"Pink Floyd","Dark Side of the Moon","Rock","Download","PinkFloyd Dark_Side_of_the_Moon.png",1065
+839,"Pink Floyd","More_ Original Motion Picture Soundtrack","Rock","download","PinkFloyd_More.jpg",1068
+840,"Pink Floyd","Pulse [Disc 1]","Rock","CD","PinkFloyd_Pulse.jpg",1069
+841,"Pink Floyd","Pulse [Disc 2]","Rock","CD","PinkFloyd_Pulse.jpg",1070
+842,"Pink Floyd","The Final Cut","Rock","CD","PinkFloyd_Finalcut.jpg",1067
+843,"Pink Floyd","The Wall [Disc 1]","Rock","Download","PinkFloyd The Wall.jpg",1071
+844,"Pink Floyd","The Wall [Disc 2]","Rock","Download","PinkFloyd The Wall.jpg",1072
+845,"Ricketic","Steelers Wheel - Stuck in the Middle (Ricketic Edit) - Single","Rock","Download","Steelers Wheel - Stuck in the Middle (Ricketic Edit) - Single.jpg",2085
+846,"Percy Sledge","More Solid Gold 60s Volume 2","Pop","Download","More Solid Gold 60s Volume 2.jpg",944
+847,"Linkin Park","Recharged","Metal","CD","LinkinPark_Recharged.jpg",1884
+848,"Lovin Spoonful","Lovin Spoonful Anthology","Rock","CD","Lovin Spoonful Anthology.jpg",2069
+849,"Bachman-Turner Overdrive","Not Fragile","Rock","Vinyl","Not Fragile.jpg",1763
+850,"Bachman-Turner Overdrive","The Definitive Collection Bachman-Turner Overdrive","Rock","Download","The Definitive Collection Bachman-Turner Overdrive.jpg",1764
+851,"Edgar Winter","The Best of Edgar Winter","Rock","Download","The Best of Edgar Winter.jpg",2070
+852,"Iron & Wine","Kiss Each Other Clean","Indie Rock","CD","Iron&wine_Kiss_Each_Other_Clean.jpg",1661
+853,"Iron & Wine","Archive Series, Vol. No. 1","Indie Rock","CD","Iron&wine_ArchiveSeriesVolume1.jpg",1662
+854,"Iron & Wine","Tree By The River - Single","Indie Rock","Download","IronWine Tree By The River - Single.jpg",1663
+855,"War","The World Is A Ghetto","Rock","download","War The World Is A Ghetto.jpg",1385
+856,"War","Platinum Jazz","Rock","Vinyl","War.jpg",1384
+857,"War","Best of War","Rock","Download","Best of War.jpg",1390
+858,"War","The Very Best of War","Rock","Download","The Very Best of War.jpg",1389
+859,"The Black Keys","_Let's Rock_","rock","download","_Let's Rock_.jpg",2086
+860,"R.E.M_","Oh My Heart - Single","rock","Download","REM Oh My Heart - Single.jpg",1236
+861,"R.E.M_","Accelerate","rock","CD","REM Accelerate.jpg",1235
+862,"R.E.M_","In Time - The Best of R.E.M. 1988-2003","rock","Download","REM In Time - The Best of R.E.M. 1988-2003.jpg",1234
+863,"R.E.M_","Collapse Into Now","rock","CD","REM_Collapse Into Now.jpg",1232
+864,"R.E.M_","Murmur","rock","CD","REM_Mumur.jpg",1233
+865,"R.E.M_","Automatic For The People","rock","CD","REM_AutomaticForPeople.jpg",1231
+866,"Alvin Lee","Live at Rockpalast (Remastered)","Blues","Download","Live at Rockpalast (Remastered).jpg",1475
+867,"Alvin Lee","In Tennessee","Blues","Download","In Tennessee.jpg",1474
+868,"Alvin Lee","Keep on Rockin'","Blues","Download","Keep on Rockin'.jpg",1473
+869,"Alvin Lee","Live In Vienna","Blues","Download","Live In Vienna.jpg",1472
+870,"Eddie Vedder","Longing to Belong - Single","Rock","Download","EddirVedder Longing to Belong - Single.jpg",1870
+871,"Blue Cheer","Vincebus Eruptum","Rock","CD","Vincebus Eruptum.jpg",2071
+873,"Tom Waits","Bad As Me","Alternative","CD","Bad As Me.jpg",2072
+874,"Linda Ronstadt & Emmylou Harris","Western Wall_ The Tucson Sessions","Country","download","Western Wall_ The Tucson Sessions.jpg",1156
+875,"The Searchers","The Very Best of... The Searchers","Rock","Download","The Very Best of... The Searchers.jpg",1898
+876,"Dire Straits","Making Movies","Rock","Vinyl","DireStraits_Making Movies.jpg",1291
+877,"Dire Straits","Sultans of Swing - The Very Best of Dire Straits","Rock","Download","Sultans of Swing - The Very Best of Dire Straits.jpg",1293
+878,"Dire Straits","Live in Concert","Rock","download","DireStraits Live in Concert.jpg",1295
+879,"Dire Straits","Brothers in Arms","Rock","CD","Dire_Straights_Brothers in Arms.jpg",1292
+880,"Dire Straits","Communique","Rock","Download","DireStraits_Communique.jpg",1294
+881,"Miles Davis Quintet","Workin' With The Miles Davis Quintet","Jazz","Vinyl","MilesDavis_Workin With The Miles Davis Quintet.jpg",1171
+882,"Ben Harper","Rock 'N' Roll Is Free - Single","Pop","Download","Rock 'N' Roll Is Free - Single.jpg",2073
+883,"Waylon Jennings","Love Of The Common People","Country","Download","WaylonJennings Love Of The Common People.jpg",1357
+884,"Waylon Jennings","What Goes Around Comes Around","Country","Vinyl","WaylonJennings_What Goes Around Comes Around.jpeg",1353
+885,"Waylon Jennings","Right For The Time","Country","Download","WaylonJennings Right For The Time.jpg",1356
+886,"Waylon Jennings","The Essential Waylon Jennings","Country","Download","The Essential Waylon Jennings.jpg",1355
+887,"Waylon Jennings","Honky Tonk Heroes","Country","CD","Waylon and Willie.jpeg
+WaylonJenningsHonkyTonkHeroes.jpg",1354
+888,"Joe Walsh","Joe Walsh's Greatest Hits_ Little Did He Know.._","Pop","Download","Joe Walsh's Greatest Hits_ Little Did He Know....jpg",2087
+889,"Dirty Heads","Home Phantoms of Summer The Acoustic Sessions","Alternative","download","Home Phantoms of Summer The Acoustic Sessions.jpg",2097
+890,"Roberta Flack & Donny Hathaway","Roberta Flack & Donny Hathaway","R&B","Download","Roberta Flack & Donny Hathaway.jpg",2088
+891,"Sting","The Last Ship","Rock","CD","Sting The Last Ship.jpg",1631
+892,"Peter & Gordon","The Ultimate Peter and Gordon","Pop","Download","The Ultimate Peter and Gordon.jpg",1888
+893,"Motorhead","Bad Magic","Rock","CD","Motorhead_Bad_Magic.jpg",2074
+894,"Dave Matthews & Tim Reynolds","Live At Radio City [Disc 1]","rock","download","Mathews Reynolds Live At Radio City.jpg",1771
+895,"Dave Matthews & Tim Reynolds","Live At Radio City [Disc 2]","rock","download","Mathews Reynolds Live At Radio City.jpg",1772
+896,"Martha Reeves & The Vandellas","The Ultimate Collection_ Martha Reeves & The Vandellas","R&B","Download","The Ultimate Collection_ Martha Reeves & The Vandellas.jpg",2089
+897,"The Zombies","The Original Studio Recordings, Vol. 1","Rock","Download","Zombies The Original Studio Recordings, Vol. 1.jpg",1668
+898,"The Zombies","Odessey & Oracle [Bonus Tracks]","Rock","CD","Zombies Odessey & Oracle [Bonus Tracks].jpg",1669
+899,"The Zombies","Odessey and Oracle","Rock","Download","Zombies_OdesseyOracle.jpg",1667
+900,"The Four Tops","FourTops_50th.jpg","R&B","download","FourTops_50th.jpg",1687
+901,"The Four Tops","50th Anniversary Anthology [Disc 1]","R&B","CD","FourTops_50th.jpg",1686
+902,"The Dave Clark Five","The Dave Clark Five_ The Hits (Bonus Track Version)","Rock","Download","The Dave Clark Five_ The Hits (Bonus Track Version).jpg",2075
+903,"The Knack","Get The Knack","Rock","CD","Knack Get The Knack.jpg",1790
+904,"The Knack","My Sharona _ Good Girls Don't (Re-Recorded) - Single","Rock","Download","Knack My Sharona _ Good Girls Don't (Re-Recorded) - Single.jpg",1791
+905,"The Coasters","The Very Best Of The Coasters","Soul","CD","Coasters_The Very Best Of The Coasters.jpg",2076
+906,"Blood Sweat & Tears","No Sweat","Rock","Vinyl","BloodSweatTears_No Sweat.jpg",1540
+907,"Blood Sweat & Tears","New Blood","Rock","Vinyl","BloodSweatTears_New Blood.jpg",1541
+908,"Blood Sweat & Tears","Blood Sweat & Tears 3","Rock","Vinyl","Blood Sweat Tears 3.jpg",1542
+909,"Johnny Rivers","Greatest Hits Johnny Rivers","Rock","Download","JohnnyRivers_GreatestHits.jpg",1705
+910,"Johnny Rivers","Johnny Rivers_ Greatest Hits","Rock","Download","JohnnyRivers_GreatestHits.jpg",1704
+911,"The Rolling Stones","Aftermath","Rock","Download","RollingStones Aftermath.jpg",1314
+912,"The Rolling Stones","Singles Collection_ The London Years [Disc 3]","Rock","CD","rollingStones_LondonYears.jpg",1311
+913,"The Rolling Stones","Big Hits (High Tide And Green Grass)","Rock","download","Big Hits (High Tide And Green Grass).jpg",1310
+914,"The Rolling Stones","Singles Collection_ The London Years [Disc 1]","Rock","CD","rollingStones_LondonYears.jpg",1312
+915,"The Rolling Stones","Singles Collection_ The London Years [Disc 2]","Rock","CD","rollingStones_LondonYears.jpg",1313
+916,"The Young Rascals","Time Peace_ The Rascals' Greatest Hits","Rock","Download","Young Rascals Time Peace_ The Rascals' Greatest Hits.jpg",1462
+917,"The Young Rascals","Essentials_ The Rascals","Rock","Download","Young Rascals Essentials_ The Rascals.jpg",1463
+918,"The Young Rascals","The Young Rascals","Rock","Download","The Young Rascals.jpg",1460
+919,"The Young Rascals","Groovin'","Rock","Download","Young Rascals Groovin'.jpg",1461
+920,"Michael Brecker","Michael Brecker","Jazz","Vinyl","MichealBrecker_MichealBrecker.jpg",1851
+921,"Michael Brecker","CityScape","Jazz","Vinyl","Brecker_City Scape.jpg",1852
+922,"Jose Feliciano","Fireworks","Pop","Download","Fireworks.jpg",2090
+923,"Jose Feliciano","Feliz Navidad","Pop","Vinyl","Feliz Navidad.jpg",2091
+924,"BJ Thomas","B.J. Thomas_ Greatest Hits","Rock","CD","B.J. Thomas_ Greatest Hits.jpg",2092
+925,"Them","Them Featuring Van Morrison","Rock","Download","Them Featuring Van Morrison.jpg",2093
+926,"Elvis Presley","The Essential Elvis Presley (Remastered)","Rock","Download","The Essential Elvis Presley (Remastered).jpg",1820
+927,"Elvis Presley","Elvis's Christmas Album","Rock","Vinyl","Elvis's Christmas Album.jpg",1819
+928,"Jimi Hendrix","Blue Wild Angel_ Jimi Hendrix Live At The Isle Of Wight","Rock","CD","JimiHendrix_BlueWildAngel.jpg",1527
+929,"Jimi Hendrix","Are You Experienced_","Rock","CD","JimmiHendrix_Are_u_experienced.jpg",1528
+930,"Jimi Hendrix","South Saturn Delta","Rock","Vinyl","JimmiHendrix_south saturn.jpg",1529
+931,"Jimi Hendrix","Rainbow Bridge","Rock","Vinyl","JimmiHendrix_rainbow bridge.jpg",1530
+932,"Florida Georgia Line","Anything Goes","Country","CD","FloridaGeargiaLine_AnythingGoes.jpg",2077
+933,"Waylon and Willie","Waylon and Willie","Country","Vinyl","Waylon and Willie.jpeg",2078
+934,"Johnny Nash","Radio Hits of the '70s","Rock","Download","Radio Hits of the '70s.jpg",2094
+935,"George Baker","Hollands Glorie","Rock","Download","GeorgeBaker Hollands Glorie.jpg",1632
+936,"The Outlaws","Best of the Outlaws_ Green Grass and High Tides (Remastered)","Rock","Download","Best of the Outlaws_ Green Grass and High Tides (Remastered).jpg",1678
+937,"The Outlaws","The Outlaws","Rock","Download","The Outlaws.jpg",1679
+938,"The Beatles","Sgt Peppers Lonely Hearts Club Band","Rock","Vinyl","Sgt Peppers Lonely Hearts Club Band.jpg",903
+939,"The Beatles","Beatles For Sale","Rock","Vinyl","For Sale.jpg",904
+940,"The Beatles","Beatles IV","Rock","Vinyl","Beatles VI.jpg",898
+941,"The Beatles","Beatles'65","Rock","Vinyl","Beatles 65.jpg",901
+942,"The Beatles","The Beatles' Second Album","Rock","Vinyl","The Beatles' Second Album.jpg",905
+943,"The Beatles","Meet The Beatles","Rock","Vinyl","Meet the Beatles.jpg",895
+944,"The Beatles","Let It Be","Rock","Download","Let It Be.jpg",906
+945,"The Beatles","Revolver","Rock","CD","Revolver.jpg",907
+946,"The Beatles","Live At The Hollywood Bowl","Rock","download","Beatles Live At The Hollywood Bowl.jpg",908
+947,"The Beatles","Yesterday and Today","Rock","Vinyl","Beatles Butcher Cover.jpg",900
+948,"The Beatles","Hard Days Night","Rock","Vinyl","Hard Days Night.jpg",909
+949,"The Beatles","Rubber Soul (North American)","Rock","Vinyl","Rubber Soul.jpg",910
+950,"The Beatles","The Beatles Songs Pictures And Stories","Rock","Vinyl","Beatles songs pics stories.jpg",896
+951,"The Beatles","Something New","Rock","Vinyl","Beatles Something New.jpg",899
+952,"The Beatles","Let It Be... Naked [Disc 2]","Rock","download","Beatles Let It Be... Naked.jpg",912
+953,"The Beatles","Magical Mystery Tour","Rock","Vinyl","Magical Mystery Tour.jpg",914
+954,"The Beatles","Let It Be... Naked [Disc 1]","Rock","download","Beatles Let It Be... Naked.jpg",913
+955,"The Beatles","Beatles Again(Hey Jude)","Rock","Vinyl","Hey Jude.jpg",915
+956,"The Beatles","The Beatles 1962-1966 (The Red Album)","Rock","Download","Beatles 62-66.jpg",902
+957,"The Beatles","Rubber Soul","Rock","Vinyl","Rubber Soul.jpg",911
+958,"The Beatles","Abbey Road","Rock","CD","Abbey Road.jpg",917
+959,"The Beatles","Help","Rock","Vinyl","Help.jpeg",918
+960,"The Beatles","White Album","Rock","Vinyl","Beatles White Album.jpg",39
+961,"Steppenwolf","Best of Steppenwolf_ 20th Century Masters","Rock","Download","Best of Steppenwolf_ 20th Century Masters.jpg",2095
+962,"Bread","The Best Of Bread","Rock","CD","Bread_The_Best_of_Bread.jpg",2079
+963,"18 South","Soulful Southern Roots Music","Blues","Download","18South Soulful Southern Roots Music.jpg",1927
+964,"Huey Lewis & The News","Huey Lewis & The News Greatest Hits","Rock","CD","Huey Lewis_The News Greatest Hits.jpg",2096
+965,"Radiohead","Amnesiac","Rock","CD","Amnesiac.jpg",2098
+966,"Rod Stewart","Every Picture Tells a Story","Rock","download","RodStewart_Maggie_may.jpg",1323
+967,"Rod Stewart","Rod Stewarts Gold [Disc 1]","Rock","download","RodStewarts_Gold.jpg",1320
+968,"Rod Stewart","Rod Stewarts Gold [Disc 2]","Rock","download","RodStewarts_Gold.jpg",1321
+969,"Rod Stewart","Another Country","Rock","CD","RodStewart_AnotherCountry.jpg",1322
+970,"Rod Stewart","The Definitive Rod Stewart","Rock","Download","RodStewart_The Definitive Rod Stewart.jpg",1324
+971,"John Lee Hooker","Live at the Cafe au-Go-Go (and Soledad Prison)","Blues","Download","JohnLeeHooker Live at the Cafe au-Go-Go (and Soledad Prison).jpg",1835
+972,"John Lee Hooker","Urban Blues (Bonus Track Version)","Blues","Download","JohnLeeHooker Urban Blues (Bonus Track Version).jpg",1836
+973,"Leo Kottke","Leo Kottke-John Fahey-Peter Lang","Pop","Vinyl","John Fahey Leo Kottke Peter Lang.jpg",1885
+974,"Al Green","Call Me","R&B","CD","Call Me.jpg",2099
+975,"Parts & Labor","Constant Future","Pop","Download","Constant Future.jpg",2100
+976,"Gillian Welch","Hard Times","Rock","Download","Hard Times.jpg",2101
+977,"The Left Banke","There's Gonna Be a Storm - The Complete Recordings 1966-1969","Rock","Download","There's Gonna Be a Storm - The Complete Recordings 1966-1969.jpg",1909
+978,"Neil Young & Crazy Horse","Everybody Knows This Is Nowhere","Rock","CD","Neil Yound Everybody Knows This Is Nowhere.jpg",1394
+979,"Neil Young & Crazy Horse","Live Rust","Rock","CD","Neil_Young_&_Crazy_Horse-Live_Rust.jpg",1391
+980,"Neil Young & Crazy Horse","Psychedelic Pill [Disc 2]","Rock","CD","NeilYoung_Psychedelicpill.jpg",1392
+981,"Neil Young & Crazy Horse","Psychedelic Pill [Disc 1]","Rock","CD","NeilYoung_Psychedelicpill.jpg",1393
+982,"Celtic Christmas","Celtic Christmas","Pop","CD","Celtic Christmas.jpg",2102
+983,"Little Feat","The Best of Little Feat (Remastered)","Rock","Download","The Best of Little Feat (Remastered).jpg",2103
+984,"Paul McCartney & Wings","Band on the Run","Rock","CD","Wings Band on the Run.jpg",1617
+985,"Elvis Costello","My Aim Is True","Rock","CD","My Aim Is True.jpg",2104
+986,"Ivan Shekov","Ludwig Van Beethoven, Johannes Brahms und Frederic Chopin","rock","download",NULL,NULL
+987,"The Amazing Rhythm Aces","Stacked Deck (Remastered)","Pop","Download","Stacked Deck (Remastered).jpg",2105
+988,"Dr. John","Goin' Back To New Orleans","Rock","CD","Goin' Back To New Orleans.jpg",2106
+989,"Kenny Rogers & The First Edition","Anthology Kenny Rogers & The First Edition","Rock","Download","Anthology Kenny Rogers & The First Edition.jpg",1912
+990,"Cream","Wheels Of Fire [Disc 1]","Blues","CD","Cream_WheelsOfFire.jpg",1104
+991,"Cream","Wheels Of Fire [Disc 2]","Blues","CD","Cream_WheelsOfFire.jpg",1105
+992,"Cream","Fresh Cream","Blues","Vinyl","Cream_fresh_cream.jpg",1106
+993,"Cream","Goodbye","Blues","CD","Cream_Goodbye.jpg",1107
+994,"Cream","Cream","Blues","Download","CreamCream.jpg",1108
+995,"Cream","The Very Best of Cream","Blues","Download","Cream_The_Very_Best_of_Cream_(album)_cover_art.jpg",1109
+996,"Cream","Live Cream Vol 2","Blues","CD","Cream_Live_vol2.gif",1110
+997,"Junip","Fields","Pop","Download","Fields.jpg",2107
+998,"Red Hot Chili Peppers","Californication","Alternatives","CD","Californication.jpg",2108
+999,"Beady Eye","The Roller - Single","Pop","Download","The Roller - Single.jpg",2109
+1000,"The Centurions","Bullwinkle Part II","Rock","Download","Bullwinkle Part II.jpg",1933
+1001,"The Tokens","The Lion Sleeps Tonight","Pop","Download","The Lion Sleeps Tonight.jpg",2067
+1002,"Nitty Gritty Dirt Band","Dirt Siver Gold","Rock","Vinyl","Dirt Siver Gold.jpg",2110
+1003,"Oscar Peterson","Night Train","Jazz","Download","Night Train.jpg",2120
+1004,"The Allman Brothers Band","Fillmore East","Rock","Vinyl","Fillmore East.jpg",1028
+1005,"The Allman Brothers Band","Live From A&R Studios","Rock","CD","Live From A&R Studios.jpg",1029
+1006,"The Allman Brothers Band","An Evening with The Allman Brothers Band_ 2nd Set (Live)","Rock","Download","An Evening with The Allman Brothers Band_ 2nd Set (Live).jpg",1030
+1007,"The Allman Brothers Band","Hittin' the Note","Rock","Download","Hittin' the Note.jpg",1031
+1008,"The Allman Brothers Band","Eat A Peach","Rock","Vinyl","Eat A Peach.jpg",1032
+1009,"The Allman Brothers Band","Brothers And Sisters","Rock","Vinyl","Brothers And Sisters.jpg",1033
+1010,"The Allman Brothers Band","The Allman Brothers Band","Rock","Download","The Allman Brothers Band.jpg",1034
+1011,"The Allman Brothers Band","Where It All Begins","Rock","Download","Where It All Begins.jpg",1035
+1012,"The Allman Brothers Band","Beginnings","Rock","Vinyl","Beginnings.jpg",1036
+1013,"Bon Jovi","Slippery When Wet","Rock","Download","Slippery When Wet.jpg",2111
+1014,"Bon Jovi","Bon Jovi","Rock","CD","Bon Jovi.jpg",2112
+1015,"Jo Dee Messina","Unmistakable Drive","Country","Download","Unmistakable Drive.jpg",2121
+1016,"Booker T. & The MG's","The Best of Booker T & The MGs","R&B","Download","The Best of Booker T & The MGs.jpg",1773
+1017,"Booker T. & The MG's","Green Onions","R&B","CD","BookerT.&theMG'sGreenOnions.jpg",1774
+1018,"Joe Cocker","You Are So Beautiful","Rock","Vinyl","JoeCocker.jpg",1649
+1019,"Joe Cocker","Joe Cocker's Greatest Hits","Rock","Vinyl","JoeCocker Greatest Hits.jpg",1650
+1020,"Joe Cocker","I Can Stand A Little Rain","Rock","Vinyl","JoeCocker Little Rain.jpg",1651
+1021,"The Guess Who","American Woman","Rock","CD","GuessWho_American_Woman45.jpg",1255
+1022,"The Guess Who","Shakin' All Over","Rock","Download","GuessWho Shakin' All Over.jpg",1257
+1023,"The Guess Who","Live At The Paramount","Rock","CD","GuessWho Live At The Paramount.jpg",1258
+1024,"The Guess Who","Rockin Guess Who","Rock","Vinyl","GuessWho_Rockin.jpg",1256
+1025,"The Guess Who","The Guess Who_ Greatest Hits","Rock","Download","The Guess Who_ Greatest Hits.jpg",1259
+1026,"The Spencer Davis Group","The Best of the Spencer Davis Group","Rock","Download","The Best of the Spencer Davis Group.jpg",1698
+1027,"The Spencer Davis Group","Keep On Running","Rock","Download","SpencerDavisGroup Keep On Running.jpg",1699
+1028,"Mungo Jerry","The Sunshine Collection","Rock","Download","The Sunshine Collection.jpg",1848
+1029,"The Band","Greatest Hits [Remastered] [UK]","Rock","Download","TheBand_Last_Waltz.jpg",1455
+1030,"The Band","The Last Waltz [2003 Remaster] Disc 2","Rock","CD","TheBand_The Last Waltz.jpg",1453
+1031,"The Band","The Last Waltz [2003 Remaster] Disc 1","Rock","CD","TheBand_The Last Waltz.jpg",1452
+1032,"The Band","Music From Big Pink","Rock","CD","TheBand_MusicFromPink.jpg",1454
+1033,"Bing Crosby","All-Time Christmas Favorites, Vol. 1","Pop","Download","All-Time Christmas Favorites, Vol. 1.jpg",1562
+1034,"The 5th Dimension","The Essential Fifth Dimension","R&B","CD","The Essential Fifth Dimension.jpg",1674
+1035,"The 5th Dimension","The Essential Fifth Dimension [Disc 1]","R&B","CD","The Essential Fifth Dimension.jpg",1675
+1036,"The Drifters","Under the Boardwalk","Soul","Download","Drifters Under the Boardwalk.jpg",1714
+1037,"The Drifters","The Essentials_ The Drifters","Soul","Download","Drifters The Essentials_ The Drifters.jpg",1715
+1038,"Gerry & The Pacemakers","Gerry & The Pacemakers","rock","Download","Gerry & The Pacemakers.jpg",1767
+1039,"Gerry & The Pacemakers","The Best of Gerry & The Pacemakers","rock","Download","The Best of Gerry & The Pacemakers.jpg",1768
+1040,"John Fahey & His Orchestra","Of Rivers and Religion _ After the Ball","Pop","Download","Of Rivers and Religion _ After the Ball.jpg",2122
+1041,"Jeff Beck","Rock 'N' Roll Party_ Honoring Les Paul [Live]","Rock","CD","Jeff_Beck_Rock_n_Roll_Party.jpg",1172
+1042,"Jeff Beck","Loud Hailer","Rock","CD","JeffBeck_Loud Hailer.jpg",1178
+1043,"Jeff Beck","You Had It Coming","Rock","CD","JeffBeck_You Had It Coming.jpg",1173
+1044,"Jeff Beck","Best Of Beck","Rock","CD","JeffBeck_Best_of_Beck.jpg",1174
+1045,"Jeff Beck","Wired","Rock","Download","Wired.jpg",1175
+1046,"Jeff Beck","Blow By Blow","Rock","CD","JeffBeck_Blow By Blow.jpg",1176
+1047,"Jeff Beck","Live+","Rock","CD","JeffBeck_Live+.jpeg",1177
+1048,"Playing for Change","Redemption Song - Single","Pop","Download","Redemption Song - Single.jpg",1904
+1049,"Jimmy Witherspoon","Live At the 1972 Monterey Jazz Festival (feat. Robben Ford)","Jazz","Download","JimmyWitherspoon_LiveAt1972MontereyJazz Festival.jpg",1740
+1050,"Jimmy Witherspoon","The Best Of Jimmy Witherspoon","Jazz","Vinyl","Jimmy Whiterspoon.jpg",387
+1051,"Dale Hawkins","Suzie Q & Let's All Twist","RockaBilly","Download","Suzie Q & Let's All Twist.jpg",2123
+1052,"Arcade Fire","The Suburbs","Pop","Download","The Suburbs.jpg",1618
+1053,"The Mavericks","20th Century Masters - The Millennium Collection_ The Best of the Mavericks","TexMex","Download","20th Century Masters - The Millennium Collection_ The Best of the Mavericks.jpg",1544
+1054,"The Mavericks","Rancho Loco","TexMex","Download","Mavericks Ranco Loco.jpeg",1545
+1055,"The Mavericks","Mono","TexMex","CD","Mavericks_Mono.jpg",1543
+1056,"Jethro Tull","The Best Of Jethro Tull_ The Anniversary Collection [Disc 1]","Rock","CD","JethroTull_Anniverary.jpg",1706
+1057,"Jethro Tull","The Best Of Jethro Tull_ The Anniversary Collection [Disc 2]","Rock","CD","JethroTull_Anniverary.jpg",1707
+1058,"Kansas","The Prelude Implicit","Rock","CD","Kansas_The Prelude Implicit.jpg",1431
+1059,"Kansas","The Best of Kansas","Rock","Download","The Best of Kansas.jpg",1433
+1060,"Kansas","Point of Know Return","Rock","Download","Kansas Point of Know Return.jpg",1432
+1061,"Kansas","Vinyl Confessions","Rock","Download","Kansas_VinylConfessions.jpg",1430
+1062,"Men At Work","Business As Usual","Rock","CD","MenAtWork_BizAsUsual.png",2113
+1063,"Branford Marsalis","Random Abstract [Bonus Tracks]","Jazz","CD","Branford Marsailis.Random Abstract.jpg",1512
+1064,"Branford Marsalis","Renaissance","Jazz","Download","BranfordMarsalis Renaissance.jpg",1514
+1065,"Branford Marsalis","Romances For Saxophone","Jazz","Vinyl","Branford Marsailes Romances For Sax.jpg",1513
+1066,"Branford Marsalis","I Heard You Twice The First Time","Jazz","download","BranfordMarsalis I Heard You Twice The First Time.jpg",1515
+1067,"Yes","The Yes Album","Rock","CD","Yes_The Yes Album.jpg",1571
+1068,"Yes","The Very Best of Yes","Rock","CD","Yes_Best_of_Yes.jpg",1573
+1069,"Yes","Going For The One [Bonus Tracks]","Rock","CD","Yes_Going_for_the_One.jpg",1574
+1070,"The Seeds","The Seeds","Rock","Download","The Seeds.jpg",2124
+1071,"Bruce Springsteen","Greetings From Asbury Park, N.J_","Rock","CD","BruceSpringsteen_Greetings From Asbury Park, N.J..jpg",1135
+1072,"Bruce Springsteen","Magic","Rock","CD","Bruce_Springsteen_-_Magic.jpg",1134
+1073,"Bruce Springsteen","Working On A Dream","Rock","Download","Working On A Dream 1.jpg",1133
+1074,"Bruce Springsteen","Born To Run","Rock","Vinyl","BruceSpringsteen_Born_to_Run_(Front_Cover).jpg",1128
+1075,"Bruce Springsteen","Nebraska","Rock","CD","Bruce_Springsteen_-_Nebraska.jpg",1131
+1076,"Bruce Springsteen","High Hopes","Rock","CD","BruceSpringsteen_High Hopes.jpg",1130
+1077,"Bruce Springsteen","Born In The USA","Rock","Vinyl","Bruce_Springsteen_BornInUSA.jpg",1129
+1078,"Foghat","The Best Of Foghat","Rock","CD","Foghat_The_BestOf.jpg",1486
+1079,"Foghat","Fool for the City","Rock","Download","Fool for the City.jpg",1489
+1080,"Foghat","Drivin' Wheels_ Best Of 1972-1982 [Disc 1]","Rock","CD","Fog_Hat_Drivin.jpg",1487
+1081,"Foghat","Drivin' Wheels_ Best Of 1972-1982 [Disc 2]","Rock","CD","Fog_Hat_Drivin.jpg",1488
+1082,"Eldorado","Suitcase","TexMex","Download","Suitcase.jpg",1928
+1083,"The Doors","Waiting For The Sun [40th Anniversary Edition]","Rock","CD","Doors Waiting For The Sun [40th Anniversary Edition].jpg",1037
+1084,"The Doors","Morrison Hotel","Rock","CD","Morrison Hotel.jpg",1038
+1085,"The Doors","Best of the Doors","Rock","Vinyl","Doors_Best of the Doors.jpg",1039
+1086,"The Doors","The Soft Parade [40th Anniversary Edition]","Rock","CD","Doors The Soft Parade [40th Anniversary Edition].jpg",1040
+1087,"The Doors","The Future Starts Here_ The Essential Doors Hits","Rock","Download","Doors The Future Starts Here_ The Essential Doors Hits.jpg",1041
+1088,"The Doors","The Very Best of The Doors","Rock","Download","Doors_VeryBestOfDoors.jpg",1042
+1089,"The Doors","The Very Best of The Doors MPEG","Rock","download","Doors_VeryBestOfDoors.jpg",1043
+1090,"The Doors","The Doors","Rock","Download","Doors_TheDoors.jpg",1044
+1091,"David Bromberg Band","Midnight On the Water David Bromberg Band","Rock","Download","Midnight On the Water David Bromberg Band.jpg",2125
+1092,"The Georgia Satellites","Georgia Satellites","Rock","Download","Georgia Satellites.jpg",2126
+1093,"David Allan Coe","The Essential David Allan Coe","Rock","CD","DavidAllenCoe_TheEssential.jpg",1840
+1094,"David Allan Coe","20 All-Time Greatest Hits","Rock","Download","DavidAllanCoe 20 All-Time Greatest Hits.jpg",1839
+1095,"The Traveling Wilburys","Traveling Wilburys Collection [Disc 1]","Rock","CD","TravelingWilburys_BonusTracks.jpg",1548
+1096,"The Traveling Wilburys","The Traveling Wilburys, Vol. 1","Rock","CD","travelingWilburys_vol1.jpg",1547
+1097,"The Traveling Wilburys","Traveling Wilburys Collection [Disc 3]","Rock","CD","TravelingWilburys_BonusTracks.jpg",1549
+1098,"Neil Sedaka","Love Songs_ Neil Sedaka","Pop","Download","Love Songs_ Neil Sedaka.jpg",2127
+1099,"James Brown","The 50th Anniversary Collection [Disc 2]","R&B","CD","JameBrown_50thAnniverary.jpg",1770
+1100,"James Brown","The 50th Anniversary Collection [Disc 1]","R&B","CD","JameBrown_50thAnniverary.jpg",1769
+1101,"Robert Plant & Alison Krauss","Raising Sand","Country","Download","Robert_Plant_and_Alison_Krauss_Raising_Sand.png",1555
+1102,"Dave Mason","Split Coconut","Rock","Download","DaveMason_spilt-cocnut.jpg",1519
+1103,"Dave Mason","Dave Mason The Definitive Collection","Rock","CD","DaveMason_DefintiveCollection.jpeg",938
+1104,"Dave Mason","Alone Together","Rock","Tape","DaveMason_AloneTogether.jpg",1521
+1105,"Dave Mason","Long Lost Friend - The Best of Dave Mason","Rock","Download","Long Lost Friend - The Best of Dave Mason.jpg",1522
+1106,"John Lennon","Rock 'N' Roll","Rock","Vinyl","JohnLennon_RockNRoll.jpg",1276
+1107,"John Lennon","Mind Games","Rock","CD","JohnLennon_Mind Games.jpg",1279
+1108,"John Lennon","Working Class Hero The Definitive Lennon","Rock","Download","Working Class Hero The Definitive Lennon.jpg",1280
+1109,"John Lennon","Lennon Legend The Very Best of John Lennon","Rock","CD","JohnLennon_Legend of Lennon.jpg",1277
+1110,"John Lennon","Imagine","Rock","Vinyl","JohnLennon_Imagine_lennon.jpg",1278
+1111,"Marty Robbins","Marty Robbins' All-Time Greatest Hits","Country","Download","Marty Robbins' All-Time Greatest Hits.jpg",1426
+1112,"Marty Robbins","The Essential Marty Robbins (1951-1982)","Country","Download","The Essential Marty Robbins (1951-1982).jpg",1427
+1113,"Marty Robbins","Marty Robbins_ More Greatest Hits","Country","Download","Marty Robbins_ More Greatest Hits.jpg",1428
+1114,"Marty Robbins","Gunfighter Ballads And Trail Songs","Country","Download","Gunfighter Ballads And Trail Songs.jpg",1429
+1115,"James Gang","James Gang_ Greatest Hits","Rock","Download","JamesGangGreatestHits.jpg",1793
+1116,"James Gang","16 Greatest Hits","Rock","Vinyl","JamesGang_Funk300.jpg",1794
+1117,"Joe Henderson","The Elements","Jazz","Download","Joe Henderson The Elements.jpg",1620
+1118,"Billy Joel","52nd Street","Rock","Vinyl","Billy Joel 52nd Street.jpg",1875
+1119,"Woody Guthrie","Dust Bowl Ballads Sung by Woody Guthrie","rock","download","Dust Bowl Ballads Sung by Woody Guthrie.jpg",2114
+1120,"Pete Segear Arlo Guthrie","Together In Concert","Rock","download","PeteSeeger&ArloGuthrie .jpg",1755
+1121,"Johnny Winter","Roots","Blues","CD","JohnnyWinterRoots.jpg",1150
+1122,"Johnny Winter","Step Back","Blues","CD","JohnnyWinterStepBack.jpg",1149
+1123,"Johnny Winter","The Best of Johnny Winter","Blues","CD","JohnnyWinter_BestOfJohnnyWinter.jpg",1148
+1124,"Johnny Winter","Still Alive and Well","Blues","CD","Johnny_Winter_Still_Alive_and_Well_Coverart.jpg",1147
+1125,"Johnny Winter","I'm a Bluesman","Blues","CD","Johnny_Winter-Im_a_Bluesman.jpg",1146
+1126,"Johnny Winter","The Progressive Blues Experiment","Blues","CD","Johnnywinter_ProgressiveBluesExperiment.jpg",1145
+1127,"Johnny Winter","2nd Winter","Blues","Vinyl","JohnnyWinter_2nd Winter.jpg",1144
+1128,"The Shadows","The Platinum Collection","Rock","Download","Shadows The Platinum Collection.jpg",1853
+1129,"The Shadows","The Final Tour (Live)","Rock","Download","Shadows The Final Tour (Live).jpg",1854
+1130,"The Handsome Family","Down to the Promised Land - Five Years of Bloodshot Records","Country","Download","HandsomeFamily Down to the Promised Land - Five Years of Bloodshot Records.jpg",1378
+1131,"The Handsome Family","In the Air","Country","Download","HandsomeFamily In the Air.jpg",1379
+1132,"The Handsome Family","Scattered","Country","Download","HandsomeFamily Scattered.jpg",1380
+1133,"The Handsome Family","Singing Bones","Country","Download","HandsomeFamily Singing Bones.jpg",1381
+1134,"B.B. King","Live At The Regal","Blues","CD","BBKing_LiveAtRegal.jpg",1734
+1135,"B.B. King","Live In Cook County Jail","Blues","CD","BBKing Cook County Jail.jpg",1735
+1136,"Teddy Pendergrass","The Essential Teddy Pendergrass [Disc 1]","R&B","CD","The Essential Teddy Pendergrass.jpg",1784
+1137,"Teddy Pendergrass","The Essential Teddy Pendergrass [Disc 2]","R&B","CD","The Essential Teddy Pendergrass.jpg",1785
+1138,"Janis Joplin","Super Hits Janis Joplin","Rock","CD","JanisJoplin_supeHit_Joplin.jpg",1826
+1139,"Janis Joplin","Pearl","Rock","Download","JanisJoplin Pearl.jpg",1827
+1140,"Less McCann and Eddie Harris","Swiss Movement","Jazz","Vinyl","LesMcCannEddieHarris_Swiss Movement.jpg",1866
+1141,"Seals & Crofts","Greatest Hits","Rock","Download","TomPetty Greatest Hits.jpg",1303
+1142,"Charlie Rich","Every Time You Touch Me","Country","Vinyl","Charlie Rich.bmp",1749
+1143,"Charlie Rich","Best of Charlie Rich","Country","Vinyl","CharlieRich_Best Of Charlie Rich.bmp",1750
+1144,"The Police","The Police (Remastered)","Rock","Download","The Police (Remastered).jpg",1803
+1145,"The Police","Every Breath You Take_ The Classics","Rock","CD","ThePolice_TheClassics.jpg",1802
+1146,"Lulu","To Sir With Love","rock","download","Lulu To Sir With Love.jpg",1911
+1147,"The Kingsmen","The Best of the Kingsmen","Rock","Download","Kingsmen.jpg",1680
+1148,"The Kingsmen","Louie Louie_ The Very Best of The Kingsmen","Rock","Download","Kingsmen.jpg",1681
+1149,"Steve Goodman","Jessies Jig-Words We Can Dance To","Folk","Download","Steve Goodman Jessie.jpg",1729
+1150,"Steve Goodman","Steve Goodman","Folk","Download","Steve Goodman.jpg",1728
+1151,"Procol Harum","Greatest Hits Procol Harum","Rock","CD","procolHarum_Greatest_Hits.jpg",1606
+1152,"Procol Harum","Live At the Union Chapel","Rock","Download","Procol Harum Live At the Union Chapel.jpg",1609
+1153,"Procol Harum","Procol Harum Greatest Hits","Rock","Download","procolHarum_Greatest_Hits.jpg",1608
+1154,"Alfred Hause And His Vienna Waltz Country Ballroom Orchestra","The Blue Danube Waltz","Classical","Download","The Blue Danube Waltz.jpg",2128
+1155,"Branford Marsalis Trio","The Dark Keys","rock","download","BranfordMarsalisTrio The Dark Keys.jpg",1516
+1156,"John Mayall","Drivin' On_ The ABC Years (1975-1982) Disc 2","Blues","CD","Mayall_ABC_DrivinYears.jpg",1201
+1157,"John Mayall","Find A Way To Care","Blues","CD","JohnMayall_Find_A_Way_To_Care.jpeg",1202
+1158,"John Mayall","Back to the Roots Disc 2","Blues","CD","JohnMayall Back to the Roots.jpg",1203
+1159,"John Mayall","Drivin' On_ The ABC Years (1975-1982) Disc 1","Blues","CD","Mayall_ABC_DrivinYears.jpg",1200
+1160,"John Mayall","The Turning Point","Blues","download","JohnMayall The Turning Point.jpg",1205
+1161,"John Mayall","Back to the Roots Disc 1","Blues","CD","JohnMayall Back to the Roots.jpg",1204
+1162,"Billy J. Kramer","Back to the 60's, Vol. 1_ 18 Flashback Memories (Re-Recorded Versions)","Pop","Download","Back to the 60's, Vol. 1_ 18 Flashback Memories (Re-Recorded Versions).jpg",933
+1163,"Pete Townshend & Ronnie Lane","Rough Mix","Rock","Vinyl","PeteTownsend_Rough Mix.jpg",2129
+1164,"Charlie Parker","'Round Midnight","Jazz","CD","CharlieParker_Round_Midnight.jpg",1628
+1165,"Don McLean","Rearview Mirror","Rock","Download","DonMcLean Rearview Mirror.jpg",1676
+1166,"Don McLean","American Pie","Rock","Download","DonMcLean American Pie.jpg",1677
+1167,"Fleetwood Mac","Rumours","Rock","Vinyl","FleetwoodMac_Rumours.jpg",1111
+1168,"Fleetwood Mac","Fleetwood Mac's Greatest Hits","Rock","CD","Fleetwood_Mac_Greatest_Hits.jpg",1112
+1169,"Fleetwood Mac","Say You Will","Rock","CD","Fleetwood_Mac_Say_You_Will.jpg",1113
+1170,"Fleetwood Mac","Peter Green's Fleetwood Mac (Remastered)","Rock","Download","Peter Green's Fleetwood Mac (Remastered).jpg",1120
+1171,"Fleetwood Mac","Future Games","Rock","CD","Future Games.jpg",1116
+1172,"Fleetwood Mac","Fleetwood Mac Hits","Rock","Download","Fleetwood Mac's Greatest Hits.jpg",1115
+1173,"Fleetwood Mac","The Vaudeville Years of Fleetwood Mac - 1968-1970","Rock","Download","The Vaudeville Years of Fleetwood Mac - 1968-1970.jpg",1114
+1174,"Judy Collins & Ari Hest","Silver Skies Blue","rock","download","JudyCollins Silver Skies Blue.jpg",1217
+1175,"The Mamas & The Papas","The Mamas & The Papas Greatest Hits","Folk","Download","mamas and papas greatest hits.jpeg",2130
+1176,"Three Dog Night","Best Of Three Dog Night","Rock","Vinyl","ThreeDogNight_The_Bestof3DogNight.jpg",1906
+1177,"The Beach Boys","The Beach Boys 20 Golden Greats","Rock","Vinyl","Beach Boys 20 Greatest.jpg",1696
+1178,"The Beach Boys","The Beach Boys 15 Big Ones","Rock","CD","Beach Boys 15 Big Ones.jpg",1697
+1179,"Chick Corea","Light As a Feather","Jazz","download","ChickCorea Light As a Feather.jpg",1742
+1180,"Chick Corea","Expressions","Jazz","CD","Chick_Corea_Expressions.jpg",1741
+1181,"Mark Lanegan","Imitations","Folk","CD","MarkLanegan_Imatations.jpg",1797
+1182,"Mark Lanegan","More Oar_ A Tribute to the Skip Spence Album","Folk","Download","MarkLanegan More Oar_ A Tribute to the Skip Spence Album.jpg",1798
+1183,"Walela","Walela","Folk","CD","Walela.jpg",2131
+1184,"Frank Sinatra","The Reprise Collection [Disc 3]","Pop","CD","FrankSinatra_THE_REPRISE_COLLECTION.jpg",1371
+1185,"Frank Sinatra","Reprise Collection [Disc 4]","Pop","CD","FrankSinatra_THE_REPRISE_COLLECTION.jpg",1372
+1186,"Frank Sinatra","The Reprise Collection [Disc 1]","Pop","CD","FrankSinatra_THE_REPRISE_COLLECTION.jpg",1369
+1187,"Frank Sinatra","The Reprise Collection [Disc 2]","Pop","CD","FrankSinatra_THE_REPRISE_COLLECTION.jpg",1370
+1188,"The Box Tops","Tear Off!","Pop","Download","BoxTops Tear Off!.jpg",1708
+1189,"The Box Tops","The Letter _ Neon Rainbow","Pop","Download","BoxTops The Letter _ Neon Rainbow.jpg",1709
+1190,"Genesis","Genesis","Rock","CD","Genesis.jpg",2132
+1191,"Stray Cats","Built For Speed","Rock","CD","StrayCats_Built_For_Speed_cover.jpg",2115
+1192,"Lester Young With The Oscar Peterson Trio","Lester Young With The Oscar Peterson Trio","Jazz","download","LesterYoung_WithOscar.jpg",1861
+1193,"Ottmar Liebert_Luna Negra","Euphoria","New Age","CD","Euphoria.jpg",1565
+1194,"John Coltrane & Johnny Hartman","John Coltrane & Johnny Hartman","Jazz","Vinyl","John_Coltrane_and_Johnny_Hartman.jpg",971
+1195,"Little River Band","Rearranged","Rock","Download","Rearranged.jpg",2133
+1196,"Jaco Pastorius","The Birthday Concert","Jazz","Download","Jaco_BirthdayConcert.jpg",1828
+1197,"Jaco Pastorius","JACO Original Soundtrack","Jazz","Download","JACO Original Soundtrack.jpg",1829
+1198,"Isaac Hayes","Isaac Hayes Greatest Hit Singles","R&B","CD","IsaacHayes_greatest_singles.jpg",1575
+1199,"Tower of Power","The Very Best of Tower of Power_ The Warner Years","R&B","CD","TowerOfPower The Very Best of Tower of Power_ The Warner Years.jpg",1396
+1200,"Tower of Power","Back to Oakland","R&B","CD","TowerOfPower Back to Oakland.jpg",1397
+1201,"Tower of Power","Monster on a Leash","R&B","CD","TowerOfPower Monster on a Leash.jpg",1398
+1202,"Tower of Power","Great American Soulbook","R&B","CD","TowerOfPower_GreatAmericanSoulBook.jpg",1395
+1203,"Neko Case","Furnace Room Lullaby","Rock","CD","Furnace Room Lullaby.jpg",2134
+1204,"Neko Case","Middle Cyclone","Rock","CD","Middle Cyclone.jpg",2135
+1205,"Neko Case","Blacklisted","Rock","CD","Blacklisted.jpg",2136
+1206,"Alice Cooper","Alice Cooper's Greatest Hits","Rock","Download","Alice Cooper's Greatest Hits.jpg",1805
+1207,"Alice Cooper","The Last Temptation","Rock","CD","aliceCooper The Last Temptation.jpg",1804
+1208,"Hair","Hair","Rock","Vinyl","hair_music.jpg",1910
+1209,"Thelonious Monk","Criss Cross","Jazz","Vinyl","Monk_Criss Cross.jpg",1899
+1210,"Dixie Chicks","Taking The Long Way","Country","CD","DixieChicks_Taking The Long Way.jpg",2137
+1211,"Faces","Ooh La La","Rock","Download","Ooh La La.jpg",2068
+1212,"Aretha Franklin","Greatest Hits (1980-1994)","R&B","CD","Greatest Hits (1980-1994).jpg",2138
+1213,"Poco","Ultimate Collection","Rock","CD","Poco.jpg",1934
+1214,"Billy Lee Riley","Red Hot","RockaBilly","Download","Red Hot.jpg",2139
+1215,"Roberta Flack","Killing Me Softly","R&B","Download","RobertaFlack Killing Me Softly.jpg",1748
+1216,"Roberta Flack","First Take","R&B","download","RobertaFlack_FirstTake.jpg",1747
+1217,"Tim OBrien","Songs from the Mountain","rock","CD","Songs from the Mountain.jpg",2116
+1218,"Tim OBrien","Cornbread Nation","rock","CD","Cornbread Nation.jpg",2117
+1219,"Queen","Classic Queen","Rock","Download","Queen Classic Queen.jpg",1335
+1220,"Queen","News Of The World","Rock","CD","Queen_NewsOfWorld.jpg",1333
+1221,"Queen","Queen_ Greatest Hits","Rock","Download","Queen_ Greatest Hits.jpg",1336
+1222,"Queen","Live At Wembley Stadium [Disc 1]","Rock","download","Queen_At_Wimberly.jpg",1332
+1223,"Queen","Live At Wembley Stadium [Disc 2]","Rock","download","Queen_At_Wimberly.jpg",1337
+1224,"Bill Monroe","Live 1964","Country","CD","Bill Monroe1964.jpeg",1889
+1225,"Blues Image","Rhino Hi-Five_ Blues Image - EP","Rock","Download","Rhino Hi-Five_ Blues Image - EP.jpg",2140
+1226,"London Philharmonic Orchestra","Dvorak Symphony 9 E Minor","rock","download","Dvorak Symphony 9 E Minor.jpg",2118
+1227,"Emmylou Harris","Red Dirt Girl","Country","CD","EmmylouHarrisRedDirtGirl.jpg",1157
+1228,"Emmylou Harris","Light of the Stable","Country","CD","EmmylouHarrisLightoftheStable3.jpg",1158
+1229,"Emmylou Harris","Elite Hotel","Country","Vinyl","EmmylouHarris_Elite Hotel.gif",1159
+1230,"Emmylou Harris","All I Intended To Be","Country","CD","EmmylouHarris_All I Intended To Be.jpg",1161
+1231,"Emmylou Harris","Wrecking Ball","Country","CD","EmmylouHarris_WreckingBall.jpg",1162
+1232,"Emmylou Harris","Heartaches & Highways_ The Very Best of Emmylou Harris","Country","CD","EmmylouHarris_Heartaches & Highways The Very Best of Emmylou Harris.jpg",1160
+1233,"Emmylou Harris","Hard Bargain","Country","CD","Emmylou_Hard Bargain.jpg",1163
+1234,"Citizen Cope","Every Waking Moment","Rock","CD","CitizenCope_Every Waking Moment.jpg",1929
+1235,"Reflejo de Luna","The Tango Club Night, Vol. 2","Latino","Download","The Tango Club Night, Vol. 2.jpg",2141
+1236,"Dave Brubeck Quartet","Take Five","Jazz","Vinyl","DaveBrubeck_Take5.jpg",1743
+1237,"Dave Brubeck Quartet","Back Home","Jazz","Vinyl","Brubeck_back home.jpg",1744
+1238,"The Kinks","Lola Versus Powerman And The Moneygoround, Part One","Rock","Download","Kinks Lola Versus Powerman And The Moneygoround, Part One.jpg",1316
+1239,"The Kinks","Pirate Radio (Motion Picture Soundtrack) [Deluxe Version]","Rock","Download","Kinks Pirate Radio (Motion Picture Soundtrack) [Deluxe Version].jpg",1317
+1240,"The Kinks","The Anthology 1964 - 1971 (2014 Remastered Version)","Rock","Download","Kinks The Anthology 1964 - 1971 (2014 Remastered Version).jpg",1318
+1241,"The Kinks","Kinks-Size","Rock","Download","Kinks-size.jpg",1315
+1242,"The Kinks","Kinks","Rock","Vinyl","Kinks.jpg",1319
+1243,"Edith Piaf","Non, je ne regrette rien","French Pop","Vinyl","EdithPiath_Non_je_regrette.jp",1500
+1244,"Edith Piaf","But Not Forgotten Edith Piaf","French Pop","download","Edith Piaf.bmp",1499
+1245,"Edith Piaf","The Voice Of The Sparrow_ The Very Best Of Édith Piaf","French Pop","CD","The Voice Of The Sparrow_ The Very Best Of Édith Piaf.jpg",1502
+1246,"Edith Piaf","je ne regrette rien","French Pop","download","EdithPiath_Non_je_regrette.jp",1501
+1247,"The B-52's","Wild Planet","Rock","CD","Wild Planet.jpg",1878
+1248,"Infamous Stringdusters","Fork in the Road","BlueGrass","Download","Fork in the Road.jpg",2119
+1249,"Herb Albert","Going Places","rock","download","HerbAlpertGoingPlaces.jpg",2142
+1250,"The Turtles","Save The Turtles_ The Turtles Greatest Hits","Rock","CD","Save The Turtles_  The Turtles Greatest Hits.jpg",2143
+1251,"Bob Marley","Legend (Remastered)","Reggae","Download","BobMarley Legend (Remastered).jpg",1918
+1252,"Del Shannon","Little Town Flirt","Pop","Download","DelShannon Little Town Flirt.jpg",1879
+1253,"Manfred Mann","Groovin' with Manfred Mann - EP","Pop","Download","Groovin' with Manfred Mann - EP.jpg",2144
+1254,"Stanley Turrentine","Blue Note Stanley Turrentine Quintet_Sextet Studio Sessions","Jazz","Download","Blue Note Stanley Turrentine Quintet_Sextet Studio Sessions.jpg",2147
+1255,"Dick Dale & His Del-Tones","Surfers' Choice","Rock","Download","Surfers' Choice.jpg",2148
+1256,"Brecker Brothers","Back To Back","Jazz","Vinyl","Brecker Bros Back To Back.jpg",1537
+1257,"Brecker Brothers","The Brecker Brothers","Jazz","Vinyl","BreckerBrothers.jpg",1538
+1258,"Brecker Brothers","Dont Stop The Music","Jazz","Vinyl","BreckerBrothers_Dont Stop The Music.jpeg",1539
+1259,"Yo-Yo Ma","Songs of Joy & Peace","Pop","Download","Songs of Joy & Peace.jpg",2149
+1260,"Mason Williams","Music - 1968-1971","Rock","Download","Masonwilliams.jpg",2150
+1261,"The Diamonds","The Best of the Diamonds_ The Mercury Years","Rock","Download","The Best of the Diamonds_ The Mercury Years.jpg",2151
+1262,"Death Cab for Cutie","Underneath the Sycamore - Single","Pop","Download","Death_Cab_for_Cutie.jpg",2152
+1263,"Ottmar Liebert","Surrender 2 Love_ The Best of Ottmar Liebert, Vol. 2","New Age","CD","Surrender 2 Love_ The Best of Ottmar Liebert, Vol. 2.jpg",1563
+1264,"Ottmar Liebert","Leaning into the Night","New Age","CD","OttmarLiebert_Leaning into the Night.jpg",1566
+1265,"Ottmar Liebert","Solo Para Ti","New Age","CD","OttmarLiebert_Solo Para Ti.jpg",1564
+1266,"Sir Douglas Quintet","The Best Of Sir Douglas Quintet","TexMex","CD","The Best Of Sir Douglas Quintet.jpg",1589
+1267,"Sir Douglas Quintet","The Great Sir Douglas Quintet Live","TexMex","Download","The Great Sir Douglas Quintet Live.jpg",1588
+1268,"Sir Douglas Quintet","Mendocino","TexMex","download","Sir Douglas Mendocino.jpg",1587
+1269,"Peter, Paul & Mary","The Very Best of Peter, Paul and Mary","Folk","Download","The Very Best of Peter, Paul and Mary.jpg",1779
+1270,"Peter, Paul & Mary","See What Tomorrow Brings","Folk","Download","PeterPaulMary_See What Tomorrow Brings.jpg",1778
+1271,"Bob Dylan","Time They Are A-Changin","Folk","Vinyl","The Times Are A Changin.jpg",1025
+1272,"Bob Dylan","Slow Train Coming [Remastered]","Folk","CD","Slow Train Coming.jpg",1026
+1273,"Bob Dylan","Planet Waves","Folk","Vinyl","Planet Waves.jpg",1027
+1274,"Bob Dylan","Time Out Of Mind","Folk","CD","Time Out Of Mind.jpg",1024
+1275,"Bob Dylan","World Gone Wrong","Folk","CD","World Gone Wrong.jpg",1023
+1276,"Bob Dylan","Love And Theft","Folk","CD","Love and Theft.jpg",1022
+1277,"Bob Dylan","Nashville Skyline","Folk","Vinyl","Nashville Skyline.jpg",1021
+1278,"Bob Dylan","Modern Times","Folk","Download","Bob_Dylan Modern Times.jpg",1019
+1279,"Bob Dylan","Bob Dylan","Folk","Vinyl","BobDylan Bob Dylan.jpg",1020
+1280,"Miles Davis John Coltrane","Miles Davis & John Coltrane Final Tour","Jazz","Vinyl","Miles Davis & John Coltrane Final Tour.jpg",2153
+1281,"Led Zeppelin","Houses of the Holy","Rock","Vinyl","Led_Zeppelin Houses_of_the_Holy.jpg",1614
+1282,"Sir Douglas Quintet","Doug Sahm Live Austin TX","TexMex","Vinyl","Doug Sahm Live Austin TX.jpg",1615
+1283,"The Who","The Who At Filllmore East 1968","Rock","Vinyl","TheWho_at_FillmoreEast 1968.jpeg",2155
