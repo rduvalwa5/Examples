@@ -261,4 +261,16 @@ DATETIME
 -------------------------------------------------------------------------------------
 Note that a declared type of "FLOATING POINT" would give INTEGER affinity, not REAL affinity, due to the "INT" at the end of "POINT". And the declared type of "STRING" has an affinity of NUMERIC, not TEXT.
 
+
+**********************  Backup  **********************************
+.backup backup_file.sq3
+Instead of the interactive connection to the database, you can also do the backup and close the connection afterwards with
+
+sqlite3 my_database.sq3 ".backup 'backup_file.sq3'"
+
+
+**********************  Dump  **********************************
+
+https://www.sqlitetutorial.net/sqlite-dump/
+
   
