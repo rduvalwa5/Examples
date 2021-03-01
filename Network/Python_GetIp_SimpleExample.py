@@ -7,8 +7,8 @@ https://docs.python.org/3/library/socket.html
 
 '''
 import socket
-
-addr1 = socket.gethostbyname("WWW.google.com")
+hosts = ("www.google.com","www.comcast.net","osxair","www.verizon.net","www.github.com")
+for h in hosts:
+    addr1 = socket.gethostbyname(h)
 # socket.getaddrinfo(host, port, family, type, proto, flags)
-
-print(addr1)
+    print("address for " + h + " is " + addr1)
