@@ -1,0 +1,94 @@
+-------------------------------------------------------------------------------
+/Users/rduvalwa2/git/Examples/PythonMultipProcessing
+
+Unix Shell:
+
+https://www.linuxtopia.org/online_books/advanced_bash_scripting_guide/internal.html
+
+Chapter 11. Internal Commands and Builtins
+
+A builtin is a command contained within the Bash tool set, literally built in. 
+This is either for performance reasons 
+	-- builtins execute faster than external commands, which usually require forking off a separate process 
+	-- or because a particular builtin needs direct access to the shell internals.
+	
+When a command or the shell itself initiates (or spawns) a new subprocess to carry out a task, this is called forking. 
+This new process is the child, and the process that forked it off is the parent. While the child process is doing its work,
+the parent process is still executing.
+
+Note that while a parent process gets the process ID of the child process, and can thus pass arguments to it, 
+the reverse is not true. This can create problems that are subtle and hard to track down.
+
+MaxBookPro17OSX:~ rduvalwa2$ help let
+let: let arg [arg ...]
+    Each ARG is an arithmetic expression to be evaluated.  Evaluation
+    is done in fixed-width integers with no check for overflow, though
+    division by 0 is trapped and flagged as an error.  The following
+    list of operators is grouped into levels of equal-precedence operators.
+    The levels are listed in order of decreasing precedence.
+
+
+
+Example 11-1. A script that forks off multiple instances of itself
+
+#!/bin/bash
+# spawn.sh
+
+# use pgrep instead of pidof
+
+PIDS=$(pgrep sh $0)  # Process IDs of the various instances of this script.
+P_array=( $PIDS )    # Put them in an array (why?).
+echo $PIDS           # Show process IDs of parent and child processes.
+let "instances = ${#P_array[*]} - 1"  # Count elements, less 1.
+                                      # Why subtract 1?
+echo "$instances instance(s) of this script running."
+echo "[Hit Ctl-C to exit.]"; echo
+
+
+sleep 1              # Wait.
+sh $0                # Play it again, Sam.
+
+exit 0               # Not necessary; script will never get to here.
+                     # Why not?
+
+#  After exiting with a Ctl-C,
+#+ do all the spawned instances of the script die?
+#  If so, why?
+
+# Note:
+# ----
+# Be careful not to run this script too long.
+# It will eventually eat up too many system resources.
+
+#  Is having a script spawn multiple instances of itself
+#+ an advisable scripting technique.
+#  Why or why not?
+
+-----------------------------------
+Result:
+-----------------------------------
+
+MaxBookPro17OSX:~ rduvalwa2$ ./multP.sh 
+100 290 389 416 417 420 41772
+6 instance(s) of this script running.
+[Hit Ctl-C to exit.]
+
+100 290 389 416 417 420 41772
+6 instance(s) of this script running.
+[Hit Ctl-C to exit.]
+
+100 290 389 416 417 420 41772
+6 instance(s) of this script running.
+[Hit Ctl-C to exit.]
+
+100 290 389 416 417 420 41772
+6 instance(s) of this script running.
+[Hit Ctl-C to exit.]
+
+100 290 389 416 417 420 41772
+6 instance(s) of this script running.
+[Hit Ctl-C to exit.]
+
+^C
+
+
