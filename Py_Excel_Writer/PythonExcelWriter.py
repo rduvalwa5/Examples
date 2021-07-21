@@ -4,6 +4,8 @@ Created on Jun 3, 2021
 
 https://pypi.org/project/XlsxWriter/
 
+https://xlsxwriter.readthedocs.io
+
 MaxBookPro17OSX:~ rduvalwa2$ pip install XlsxWriter
 Collecting XlsxWriter
   Downloading https://files.pythonhosted.org/packages/2c/ce/74fd8d638a5b82ea0c6f08a5978f741c2655a38c3d6e82f73a0f084377e6/XlsxWriter-1.4.3-py2.py3-none-any.whl (149kB)
@@ -28,7 +30,7 @@ MaxBookPro17OSX:~ rduvalwa2$
 import xlsxwriter
 
 # Create an new Excel file and add a worksheet.
-workbook = xlsxwriter.Workbook('demo.xlsx')
+workbook = xlsxwriter.Workbook('demo2.xlsx')
 worksheet = workbook.add_worksheet()
 
 # Widen the first column to make the text clearer.
